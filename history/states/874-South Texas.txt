@@ -1,0 +1,16 @@
+state={
+	id=874
+	name="South Texas"
+	provinces={
+		1927 1954 2019 2042 4884 4955 5038 5061 6785 6798 6987 8064 10740 10894 12369 12728 12782 
+	}
+history={
+add_core_of = USA
+owner = USA
+
+}
+	manpower=4691291
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+        state_category = city
+}

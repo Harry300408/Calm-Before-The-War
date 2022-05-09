@@ -1,0 +1,17 @@
+state={
+	id=855
+	name="Lenkivtsi"
+	provinces={
+		3430 
+	}
+history={
+add_core_of = UKR
+add_core_of = SOV
+owner = UKR
+
+}
+	manpower=35195
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+        state_category = rural
+}

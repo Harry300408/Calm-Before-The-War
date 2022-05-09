@@ -1,0 +1,17 @@
+state={
+	id=840
+	name="Szeged"
+	provinces={
+		6670 6700 11625 
+	}
+history={
+add_core_of = HUN
+add_core_of = AUH
+owner = AUH
+
+}
+	manpower=421607
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+        state_category = city
+}

@@ -1,0 +1,16 @@
+state={
+	id=893
+	name="Northern Cyprus"
+	provinces={
+		11984 
+	}
+history={
+add_core_of = CYP
+owner = ENG
+
+}
+	manpower=724821
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+        state_category = rural
+}

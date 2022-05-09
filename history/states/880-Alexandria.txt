@@ -1,0 +1,16 @@
+state={
+	id=880
+	name="Alexandria"
+	provinces={
+		818 3630 6658 11588 
+	}
+history={
+add_core_of = ROM
+owner = ROM
+
+}
+	manpower=715921
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+        state_category = city
+}

@@ -1,0 +1,20 @@
+state={
+	id=861
+	name="Koper"
+
+	history={
+		add_core_of = ITA
+		add_core_of = SLV
+		add_core_of = AUH
+		owner = AUH
+
+	}
+
+	provinces={
+		599 
+	}
+	manpower=358182
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

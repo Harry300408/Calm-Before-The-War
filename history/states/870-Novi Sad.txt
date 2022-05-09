@@ -1,0 +1,18 @@
+state={
+	id=870
+	name="Novi Sad"
+	provinces={
+		11577 11580 
+	}
+history={
+add_core_of = SER
+add_core_of = YUG
+add_core_of = AUH
+owner = AUH
+
+}
+	manpower=101521
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+        state_category = town
+}

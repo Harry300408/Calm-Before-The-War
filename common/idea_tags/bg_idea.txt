@@ -1,0 +1,86 @@
+idea_categories = {
+
+	military_recruitment = {
+		slot = mr_high_council
+		slot = mr_recruitment_standard
+		slot = mr_service_limit
+		slot = mr_minimum_age
+		slot = mr_maximum_age
+		slot = mr_role_of_women
+
+		ledger = civilian
+		
+		cost = 100
+		removal_cost = 0
+	}
+
+	government_policies = {
+		slot = gp_mass_media
+		slot = gp_population
+		slot = gp_equality
+		slot = gp_war_bonds
+		slot = gp_nationalization
+		slot = gp_finances
+		
+		ledger = civilian
+
+		cost = 0
+		removal_cost = 0
+	}
+
+	army_policies = {
+		slot = ap_doctrine_army
+		slot = ap_conscription_type
+		slot = ap_soldier_training
+		slot = ap_officer_training
+		slot = ap_spec_ops
+		slot = ap_convention
+
+		ledger = civilian
+		
+		cost = 0
+		removal_cost = 0
+	}
+
+	navy_policies = {
+		slot = np_doctrine_navy
+		slot = np_training_navy
+		slot = np_navy_production
+		slot = np_light_ships
+		slot = np_heavy_ships
+		slot = np_marine_corps
+
+		ledger = civilian
+		
+		cost = 0
+		removal_cost = 0
+	}
+
+	air_policies = {
+		slot = aip_doctrine_air
+		slot = aip_training_air
+		slot = aip_air_production
+		slot = aip_light_planes
+		slot = aip_heavy_planes
+		slot = aip_airborne
+
+		ledger = civilian
+		
+		cost = 0
+		removal_cost = 0
+	}
+
+	civilian_policies = {
+		slot = cp_build_focus
+		slot = cp_output_focus
+		slot = cp_transport_focus
+		slot = cp_citizen_assembly_focus
+		slot = cp_special_building_construct
+		slot = cp_synthetic_resources_focus
+
+		ledger = civilian
+		
+		cost = 0
+		removal_cost = 0
+	}
+}

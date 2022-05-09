@@ -1,0 +1,20 @@
+state={
+	id=902
+	name="South-West Steiermark"
+
+	history={
+		add_core_of = YUG
+		add_core_of = SLV
+		add_core_of = AUH
+		owner = AUH
+
+	}
+
+	provinces={
+		3631 9596 
+	}
+	manpower=15821
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+}

@@ -1,0 +1,32 @@
+
+state={
+	id=39
+	name="Trentino"
+	resources={
+		aluminium=14.000
+	}
+
+	history={
+		victory_points = {
+			11598 1 
+		}
+		owner = AUH
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+		add_core_of = ITA
+		add_core_of = AUH
+		add_core_of = AUS
+
+	}
+
+	provinces={
+		6631 9598 
+	}
+	manpower=641650
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

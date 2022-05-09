@@ -1,0 +1,17 @@
+state={
+	id=881
+	name="Transnistria"
+	provinces={
+		414 6600 9683 11686 11705 
+	}
+history={
+add_core_of = ROM
+add_core_of = MOL
+owner = ROM
+
+}
+	manpower=529512
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+        state_category = city
+}

@@ -1,0 +1,18 @@
+state={
+	id=871
+	name="Sombor"
+	provinces={
+		9608 
+	}
+history={
+add_core_of = CRO
+add_core_of = YUG
+add_core_of = AUH
+owner = AUH
+
+}
+	manpower=15251
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+        state_category = town
+}

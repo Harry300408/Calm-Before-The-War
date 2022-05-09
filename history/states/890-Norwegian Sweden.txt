@@ -1,0 +1,18 @@
+state={
+	id=890
+	name="Storlien"
+
+	history={
+		add_core_of = SWE
+		owner = SWE
+
+	}
+
+	provinces={
+		168 202 3111 6185 6207 9066 9068 9171 
+	}
+	manpower=195821
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

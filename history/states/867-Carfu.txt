@@ -1,0 +1,16 @@
+state={
+	id=867
+	name="Carfu"
+	provinces={
+		10203 
+	}
+history={
+add_core_of = GRE
+owner = GRE
+
+}
+	manpower=21625
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+        state_category = small_island
+}

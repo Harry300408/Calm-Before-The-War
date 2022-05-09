@@ -1,0 +1,16 @@
+state={
+	id=864
+	name="Finnmark"
+	provinces={
+		22 64 76 128 2995 3016 3040 3082 6015 6079 6092 6107 9042 9064 9089 9116 9128 9191 11034 11063 11077 11104 11169 
+	}
+history={
+add_core_of = NOR
+owner = NOR
+
+}
+	manpower=152912
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+        state_category = rural
+}

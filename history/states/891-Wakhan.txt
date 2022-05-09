@@ -1,0 +1,16 @@
+state={
+	id=891
+	name="Wakhan"
+	provinces={
+		7519 
+	}
+history={
+add_core_of = AFG
+owner = AFG
+
+}
+	manpower=21951
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+        state_category = town
+}

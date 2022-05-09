@@ -1,0 +1,20 @@
+state={
+	id=882
+	name="South-West Germany"
+
+	history={
+		add_core_of = GRM
+		add_core_of = WRG
+		owner = GRM
+		
+
+	}
+
+	provinces={
+		563 3530 3558 3692 6542 6712 11486 11547 11640 
+	}
+	manpower=269256
+	buildings_max_level_factor=1.000
+	state_category=large_city
+	local_supplies=0.000
+}

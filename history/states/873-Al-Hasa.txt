@@ -1,0 +1,17 @@
+state={
+	id=873
+	name="Al-Hasa"
+	provinces={
+		1955 4932 10791 10850 12702 12749 
+	}
+history={
+add_core_of = NEJ
+add_core_of = SAU
+owner = NEJ
+
+}
+	manpower=360195
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+        state_category = pastoral
+}

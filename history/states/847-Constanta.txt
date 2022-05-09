@@ -1,0 +1,16 @@
+state={
+	id=847
+	name="Constanta"
+	provinces={
+		657 
+	}
+history={
+add_core_of = ROM
+owner = ROM
+
+}
+	manpower=51953
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+        state_category = rural
+}

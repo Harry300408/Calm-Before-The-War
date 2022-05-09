@@ -1,0 +1,24 @@
+state={
+	id=858
+	name="Vorarlberg"
+	provinces={
+		6678 6680 
+	}
+history={
+add_core_of = AUS
+add_core_of = AUH
+owner = AUH
+
+
+
+		1938.3.12 = {
+			owner = AUH
+			controller = AUH
+		
+}
+}
+	manpower=510281
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+        state_category = town
+}

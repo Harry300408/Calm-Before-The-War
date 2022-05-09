@@ -1,0 +1,18 @@
+state={
+	id=892
+	name="West Canada"
+
+	history={
+		add_core_of = CAN
+		owner = CAN
+
+	}
+
+	provinces={
+		1799 1872 5403 7869 10548 12508 12571 
+	}
+	manpower=395182
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

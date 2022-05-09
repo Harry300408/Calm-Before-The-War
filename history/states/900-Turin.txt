@@ -1,0 +1,19 @@
+state={
+	id=900
+	name="Turin"
+
+	history={
+		add_core_of = ITA
+		add_core_of = NIT
+		owner = NIT
+
+	}
+
+	provinces={
+		770 6780 9738 11721 11891 
+	}
+	manpower=517241
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+	local_supplies=0.000
+}

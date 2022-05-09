@@ -1,0 +1,19 @@
+state={
+	id=869
+	name="Croatian Sprska"
+
+	history={
+		add_core_of = YUG
+		add_core_of = BOS
+		owner = YUG
+
+	}
+
+	provinces={
+		3985 6614 6619 9586 9588 9591 11574 
+	}
+	manpower=261682
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}
