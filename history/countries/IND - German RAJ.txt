@@ -126,9 +126,8 @@ if = {
 	}
 }
 
+set_cosmetic_tag = IND_GRM
 set_convoys = 20
-
-set_cosmetic_tag = RAJ_UK # British Raj
 
 1939.1.1 = {
 	
