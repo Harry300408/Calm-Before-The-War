@@ -5,8 +5,9 @@ state={
 		3230 6321 6401 9290 9316 9439 9546 11515 
 	}
 history={
+add_core_of = GRM
 add_core_of = POL
-owner = POL
+owner = GRM
 
 }
 	manpower=1916162

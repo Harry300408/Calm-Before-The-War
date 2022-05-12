@@ -25,7 +25,10 @@ set_autonomy = {
 		autonomous_state = autonomy_puppet
 		freedom_level = 0.4
 	}
-
+declare_war_on = {
+		target = REM
+		type = annex_everything
+	}
 #COUNTRY LEADERS
 recruit_character = SOV_iosif_stalin
 recruit_character = SOV_supreme_soviet #This is a fake character! Proper country leader role is added via focus

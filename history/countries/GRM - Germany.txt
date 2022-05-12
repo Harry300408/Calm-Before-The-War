@@ -9,6 +9,7 @@ if = {
 	set_oob = "GER_1936_nsb"
 }
 puppet = UKR
+puppet = LAT
 puppet = IND
 puppet = COG
 puppet = BEL
