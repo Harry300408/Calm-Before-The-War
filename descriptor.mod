@@ -6,5 +6,5 @@ tags={
 }
 name="Calm Before The War - Das Erbe des Kaisers"
 picture="thumbnail.png"
-supported_version="1.11.4"
+supported_version="1.11.11"
 remote_file_id="2666375814"
