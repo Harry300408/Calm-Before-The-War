@@ -11,6 +11,7 @@ state = {
 		}
 		add_core_of = SOV
 		add_core_of = UZB
+                add_core_of = REM
 		
 		victory_points = {
 			1554 1 

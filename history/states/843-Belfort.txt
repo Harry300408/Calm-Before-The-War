@@ -15,3 +15,25 @@ owner = GRM
 	local_supplies=0.000
         state_category = city
 }
+
+                      buildings = {
+
+			}
+			 698= {
+				bunker = 3
+
+			}
+			 521= {
+				bunker = 3
+
+			}
+			 11516= {
+				bunker = 3
+
+			}
+			 5291= {
+				bunker = 3
+
+
+
+
