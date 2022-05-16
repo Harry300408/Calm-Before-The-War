@@ -20,8 +20,11 @@ state={
 			infrastructure = 4
 			industrial_complex = 3
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 			
 			}
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 			anti_air_building = 5
