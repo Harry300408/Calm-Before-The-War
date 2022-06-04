@@ -1,5 +1,6 @@
-﻿
-    create_faction = "Balkan Defence Pact"
+﻿	capital = 48
+   
+   create_faction = "Balkan Defence Pact"
     add_to_faction = BUL
     add_to_faction = TUR
 	add_to_faction = GRE
@@ -33,7 +34,7 @@ if = { #DLC
 		long_name = BUL_democratic_party_bftb_bulgarian_long
 	}	
 	
-	capital = 48
+
 
 	###################
 	#### 3D MODELS ####

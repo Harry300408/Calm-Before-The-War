@@ -12,7 +12,6 @@ state = {
 
 		}
 		add_core_of = GEA
-		add_core_of = REM
 		victory_points = {
 			9663 1
 		}

@@ -11,8 +11,7 @@ state={
 
 	history={
 		add_core_of = SRL
-		add_core_of = IND
-		owner = IND
+		owner = RAJ
 		victory_points = {
 			10201 3 
 		}

@@ -18,7 +18,6 @@ state = {
 		add_core_of = UZB
 		add_core_of = KKP
 		add_core_of = KHI
-                add_core_of = REM
 		
 	}
 

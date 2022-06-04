@@ -28,6 +28,22 @@ state={
 			575 = {
 				naval_base = 6
 			}
+			11606 =
+			{
+				bunker = 3
+			}
+			6504 =
+			{
+				bunker = 3
+			}
+			3476 =
+			{
+				bunker = 3
+			}
+			9500 =
+			{
+				bunker = 3
+			}
 		}
 		add_core_of = FRA
 		add_core_of = BEL

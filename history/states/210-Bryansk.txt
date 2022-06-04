@@ -10,8 +10,6 @@ state={
 
 		}
 		add_core_of = LAT
-		add_core_of = REM
-		add_core_of = SOV
 		victory_points = {
 			11234 1 
 		}

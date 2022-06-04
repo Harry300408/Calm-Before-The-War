@@ -6,7 +6,7 @@ focus_tree = {
 		
 		modifier = {
 			add = 10
-			tag = 
+			tag = GRM
 			
 		}
 	}
@@ -48,20 +48,53 @@ focus_tree = {
 #		}
 #	}	
 	
-	#focus = {
-	#id = GRM_focus_1
-	#icon = GFX_focus_ger_return_of_the_kaiser
-	#x = -3
-	#y = 0
-	#cost = 2
-	#cancel_if_invalid = yes
-	#continue_if_invalid = no
-	#available_if_capitulated = no
-	#completion_reward = {
-	#add_war_support = 0.05
-	#add_stability = 0.2
-	#add_political_power = 50
-    #}
-	#}
+	## Main ##
+	
+	focus = {
+	id = GRM_focus_1
+	icon = GFX_focus_ger_revive_kaiserreich
+	x = -3
+	y = 0
+	cost = 2
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+	add_war_support = 0.05
+	add_stability = 0.2
+	add_political_power = 50
+    }
+	}
+	
+	focus = {
+	id = GRM_focus_2
+	icon = GFX_focus_ger_return_of_the_kaiser
+	x = -3
+	y = 1
+	cost = 2
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	prerequisite = { focus = GRM_focus_1 }
+	mutually_exclusive = { focus = GRM_focus_3 }
+	completion_reward = {
+	
+    }
+	}
+	focus = {
+	id = GRM_focus_3
+	icon = GFX_focus_ger_return_of_the_kaiser
+	x = -1
+	y = 1
+	cost = 2
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	prerequisite = { focus = GRM_focus_1 }
+	mutually_exclusive = { focus = GRM_focus_2 }
+	completion_reward = {
+	
+    }
+	}
 	
 }

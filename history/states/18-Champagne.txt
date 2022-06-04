@@ -21,7 +21,7 @@ state={
 
 		}
 		add_core_of = FRA
-
+        set_demilitarized_zone = yes
 	}
 
 	provinces={

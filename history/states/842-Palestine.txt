@@ -5,6 +5,7 @@ state={
 	history={
 		add_core_of = PAL
 		owner = ENG
+		add_claim_by = TUR
 
 	}
 

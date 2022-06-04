@@ -1,10 +1,13 @@
-version="1.0"
+version="0.1 BETA"
 tags={
-	"Balance"
+	"Alternative History"
+	"Map"
+	"Military"
+	"National Focuses"
+	"Technologies"
 	"Gameplay"
+	"Graphics"
 	"Ideologies"
 }
-name="Calm Before The War - Das Erbe des Kaisers"
-picture="thumbnail.png"
+name="Calm Before The War:  Das Erbe des Kaisers"
 supported_version="1.11.11"
-remote_file_id="2666375814"

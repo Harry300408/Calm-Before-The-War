@@ -1,4 +1,4 @@
-﻿capital = 219 
+﻿capital = 217
  
 
 
@@ -121,11 +121,4 @@ create_country_leader = {
 	traits = {
 		#
 	}
-}
-
-add_ideas = {
-REM_a_puppet_of_the_west
-REM_disorganised_army
-REM_a_call_to_war
-}
-
+}	

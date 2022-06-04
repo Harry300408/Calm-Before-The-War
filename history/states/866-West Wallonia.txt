@@ -6,7 +6,13 @@ state={
 		add_core_of = BEL
 		add_core_of = GRM
 		owner = GRM
-
+        buildings = {
+			infrastructure = 4
+			9444 =
+			{
+				bunker = 3
+			}
+		}	
 	}
 
 	provinces={

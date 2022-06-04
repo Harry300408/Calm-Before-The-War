@@ -6,8 +6,9 @@ state={
 	}
 
 history={
-add_core_of = TUR
-owner = TUR
+add_core_of = GRE
+add_claim_by = TUR
+owner = GRE
 
 }
 

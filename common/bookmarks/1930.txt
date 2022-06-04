@@ -4,7 +4,7 @@ bookmarks = {
 		desc = ""
 		date = 1930.8.14.12
 		picture = "GFX_select_date_1936"
-		default_country = "GER"
+		default_country = "GRM"
 	    default = yes
 
 		SOV = {

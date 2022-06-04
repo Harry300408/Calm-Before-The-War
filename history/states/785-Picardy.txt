@@ -19,6 +19,7 @@ state={
 			infrastructure = 4 #was: 8
 			industrial_complex = 1
 		}
+		set_demilitarized_zone = yes
 	}
 
 	provinces={
