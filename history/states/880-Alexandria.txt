@@ -5,8 +5,8 @@ state={
 		818 3630 6658 11588 
 	}
 history={
-add_core_of = ROM
-owner = ROM
+add_core_of = BUL
+owner = BUL
 
 }
 	manpower=715921

@@ -1,14 +1,9 @@
-﻿capital = 219
- 
+﻿capital = 586 #Almaty
 
+oob = "KAZ_1936"
 
 set_research_slots = 3
 
-create_faction = "Anti-Soviet pact"
-    add_to_faction = REM
-
-   
-   
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
@@ -21,6 +16,8 @@ set_technology = {
 	motorised_infantry = 1
 	paratroopers = 1
 	gw_artillery = 1
+
+
 	early_fighter = 1
 	fighter1 = 1
 	early_bomber = 1
@@ -35,19 +32,6 @@ if = {
 			has_dlc = "No Step Back"
 		}
 	}
-	set_oob = "REM_1936"
-}
-if = {
-	limit = {
-		has_dlc = "No Step Back"
-	}
-	set_oob = "REM_1936"
-}	
-
-if = {
-	limit = {
-		NOT = { has_dlc = "No Step Back" }
-	}
 	set_technology = {
 		gwtank = 1
 		basic_light_tank = 1
@@ -55,7 +39,9 @@ if = {
 }
 if = {
 	limit = {
+		
 		has_dlc = "No Step Back"
+		
 	}
 	set_technology = {
 		gwtank_chassis = 1
@@ -92,33 +78,49 @@ if = {
 		basic_torpedo = 1
 	}
 }
-set_politics = {
-	ruling_party = Neutrality
-	last_election = "1936.1.1"
-	election_frequency = 48
-	elections_allowed = yes
-}
 
 set_popularities = {
-	democratic = 0
-	fascism = 0
-	communism = 0
-	neutrality = 100
+	democratic = 40
+	neutrality = 60
+}
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
 }
 
-set_research_slots = 4
-set_stability = 0.55
-set_war_support = 0.60
-add_command_power = 10
-
-
-
 create_country_leader = {
-	name = "Admiral Alexander Kolchak"
+	name = "Ilyas Zhansugurov"
 	desc = ""
-	picture = "Admiral_Alexander_Kolchak.dds"
-	ideology = Moderatism
-	traits = {
-		#
-	}
-}	
+	picture = GFX_portrait_Ilyas_Zhansugurov
+	expire = "1953.3.1"
+	ideology = neutrality
+	
+}
+
+recruit_character = KAZ_awt
+recruit_character = KAZ_acd2
+recruit_character = KAZ_nt
+recruit_character = KAZ_aco2
+recruit_character = KAZ_acas
+recruit_character = KAZ_acr
+recruit_character = KAZ_mt
+recruit_character = KAZ_stc
+recruit_character = KAZ_aa2
+recruit_character = KAZ_ncm
+recruit_character = KAZ_communist_guy
+recruit_character = KAZ_ncs
+recruit_character = KAZ_pot
+recruit_character = KAZ_nccr
+recruit_character = KAZ_fascist_guy
+recruit_character = KAZ_coi
+recruit_character = KAZ_ai2
+recruit_character = KAZ_democratic_guy
+recruit_character = KAZ_ar
+recruit_character = KAZ_acgs
+
+
+
+
+

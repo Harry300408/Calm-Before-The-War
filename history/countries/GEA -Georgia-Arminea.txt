@@ -4,9 +4,6 @@
 
 set_research_slots = 3
 
-create_faction = "Anti-Soviet pact"
-    add_to_faction = REM
-
    
    
 # Starting tech
@@ -35,13 +32,13 @@ if = {
 			has_dlc = "No Step Back"
 		}
 	}
-	set_oob = "REM_1936"
+	set_oob = ""
 }
 if = {
 	limit = {
 		has_dlc = "No Step Back"
 	}
-	set_oob = "REM_1936"
+	set_oob = ""
 }	
 
 if = {

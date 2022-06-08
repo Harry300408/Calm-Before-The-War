@@ -6,8 +6,8 @@ state={
 	}
 history={
 add_core_of = MAC
-add_core_of = YUG
-owner = YUG
+add_core_of = BUL
+owner = BUL
 
 }
 	manpower=350158

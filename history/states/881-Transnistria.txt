@@ -5,9 +5,9 @@ state={
 		414 6600 9683 11686 11705 
 	}
 history={
-add_core_of = ROM
+add_core_of = UKR
 add_core_of = MOL
-owner = ROM
+owner = UKR
 
 }
 	manpower=529512

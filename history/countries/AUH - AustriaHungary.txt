@@ -117,3 +117,6 @@ create_country_leader = {
 
 puppet = YUG
 puppet = NIT
+puppet = BOS
+puppet = MNT
+puppet = SER

@@ -5,7 +5,7 @@ state={
 	history={
 		add_core_of = YUG
 		add_core_of = BOS
-		owner = YUG
+		owner = BOS
 
 	}
 

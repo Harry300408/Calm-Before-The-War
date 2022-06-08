@@ -27,83 +27,6 @@ division= {
 			is_name_ordered = yes
 			name_order = 18
 		}
-		location = 4859
-		division_template = "White Infantry"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.85
-
-	}
-	division= {		
-		division_name = {
-			is_name_ordered = yes
-			name_order = 18
-		}
-		location = 6380
-		division_template = "White Infantry"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.85
-
-	}
-		division= {		
-		division_name = {
-			is_name_ordered = yes
-			name_order = 18
-		}
-		location = 6380
-		division_template = "White Infantry"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.85
-
-	}
-		division= {		
-		division_name = {
-			is_name_ordered = yes
-			name_order = 18
-		}
-		location = 6380
-		division_template = "White Infantry"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.85
-
-	}
-		division= {		
-		division_name = {
-			is_name_ordered = yes
-			name_order = 18
-		}
-		location = 6380
-		division_template = "White Infantry"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.85
-
-	}
-	division= {		
-		division_name = {
-			is_name_ordered = yes
-			name_order = 18
-		}
-		location = 6380
-		division_template = "White Infantry"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.85
-
-	}
-		division= {		
-		division_name = {
-			is_name_ordered = yes
-			name_order = 18
-		}
-		location = 6380
-		division_template = "White Infantry"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.85
-
-	}
-		division= {		
-		division_name = {
-			is_name_ordered = yes
-			name_order = 18
-		}
 		location = 6380
 		division_template = "White Infantry"
 		start_experience_factor = 0.2
@@ -341,17 +264,6 @@ division= {
 		start_equipment_factor = 0.85
 
 	}
-		division= {		
-		division_name = {
-			is_name_ordered = yes
-			name_order = 18
-		}
-		location = 6380
-		division_template = "White Infantry"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.85
-
-	}
 	division= {		
 		division_name = {
 			is_name_ordered = yes
@@ -445,7 +357,95 @@ division= {
 			is_name_ordered = yes
 			name_order = 18
 		}
-		location = 4859
+		location = 6380
+		division_template = "White Infantry"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.85
+
+	}
+		division= {		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 18
+		}
+		location = 6380
+		division_template = "White Infantry"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.85
+
+	}
+		division= {		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 18
+		}
+		location = 6380
+		division_template = "White Infantry"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.85
+
+	}
+		division= {		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 18
+		}
+		location = 6380
+		division_template = "White Infantry"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.85
+
+	}
+	division= {		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 18
+		}
+		location = 6380
+		division_template = "White Infantry"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.85
+
+	}
+		division= {		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 18
+		}
+		location = 6380
+		division_template = "White Infantry"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.85
+
+	}
+		division= {		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 18
+		}
+		location = 6380
+		division_template = "White Infantry"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.85
+
+	}
+		division= {		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 18
+		}
+		location = 6380
+		division_template = "White Infantry"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.85
+
+	}
+	division= {		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 18
+		}
+		location = 6380
 		division_template = "White Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.85
@@ -455,7 +455,7 @@ division= {
 			is_name_ordered = yes
 			name_order = 18
 		}
-		location = 4859
+		location = 6380
 		division_template = "White Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.85
@@ -466,7 +466,7 @@ division= {
 			is_name_ordered = yes
 			name_order = 18
 		}
-		location = 4859
+		location = 6380
 		division_template = "White Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.85
@@ -477,7 +477,7 @@ division= {
 			is_name_ordered = yes
 			name_order = 18
 		}
-		location = 4859
+		location = 6380
 		division_template = "White Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.85
@@ -488,7 +488,7 @@ division= {
 			is_name_ordered = yes
 			name_order = 18
 		}
-		location = 4545
+		location = 6380
 		division_template = "White Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.85
@@ -499,18 +499,7 @@ division= {
 			is_name_ordered = yes
 			name_order = 18
 		}
-		location = 4545
-		division_template = "White Infantry"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.85
-
-	}
-	division= {		
-		division_name = {
-			is_name_ordered = yes
-			name_order = 18
-		}
-		location = 4545
+		location = 6380
 		division_template = "White Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.85
@@ -796,312 +785,7 @@ division= {
 			is_name_ordered = yes
 			name_order = 18
 		}
-		location = 4859
-		division_template = "White Infantry"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.85
-
-	}
-	division= {		
-		division_name = {
-			is_name_ordered = yes
-			name_order = 18
-		}
-		location = 4859
-		division_template = "White Infantry"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.85
-
-	}
-	division= {		
-		division_name = {
-			is_name_ordered = yes
-			name_order = 18
-		}
-		location = 4859
-		division_template = "White Infantry"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.85
-
-	}
-	division= {		
-		division_name = {
-			is_name_ordered = yes
-			name_order = 18
-		}
-		location = 4859
-		division_template = "White Infantry"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.85
-
-	}
-	division= {		
-		division_name = {
-			is_name_ordered = yes
-			name_order = 18
-		}
-		location = 4859
-		division_template = "White Infantry"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.85
-
-	}
-	division= {		
-		division_name = {
-			is_name_ordered = yes
-			name_order = 18
-		}
-		location = 4859
-		division_template = "White Infantry"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.85
-
-	}division= {		
-		division_name = {
-			is_name_ordered = yes
-			name_order = 18
-		}
-		location = 4859
-		division_template = "White Infantry"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.85
-
-	}
-	division= {		
-		division_name = {
-			is_name_ordered = yes
-			name_order = 18
-		}
-		location = 4859
-		division_template = "White Infantry"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.85
-
-	}
-	division= {		
-		division_name = {
-			is_name_ordered = yes
-			name_order = 18
-		}
-		location = 4859
-		division_template = "White Infantry"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.85
-
-	}
-	division= {		
-		division_name = {
-			is_name_ordered = yes
-			name_order = 18
-		}
-		location = 4859
-		division_template = "White Infantry"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.85
-
-	}
-	division= {		
-		division_name = {
-			is_name_ordered = yes
-			name_order = 18
-		}
-		location = 4859
-		division_template = "White Infantry"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.85
-
-	}
-	division= {		
-		division_name = {
-			is_name_ordered = yes
-			name_order = 18
-		}
-		location = 4859
-		division_template = "White Infantry"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.85
-
-	}
-	division= {		
-		division_name = {
-			is_name_ordered = yes
-			name_order = 18
-		}
-		location = 4859
-		division_template = "White Infantry"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.85
-
-	}
-	division= {		
-		division_name = {
-			is_name_ordered = yes
-			name_order = 18
-		}
-		location = 4859
-		division_template = "White Infantry"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.85
-
-	}
-	division= {		
-		division_name = {
-			is_name_ordered = yes
-			name_order = 18
-		}
-		location = 4859
-		division_template = "White Infantry"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.85
-
-	}
-	division= {		
-		division_name = {
-			is_name_ordered = yes
-			name_order = 18
-		}
-		location = 4859
-		division_template = "White Infantry"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.85
-
-	}
-	division= {		
-		division_name = {
-			is_name_ordered = yes
-			name_order = 18
-		}
-		location = 4859
-		division_template = "White Infantry"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.85
-
-	}
-	division= {		
-		division_name = {
-			is_name_ordered = yes
-			name_order = 18
-		}
-		location = 4859
-		division_template = "White Infantry"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.85
-
-	}
-	division= {		
-		division_name = {
-			is_name_ordered = yes
-			name_order = 18
-		}
-		location = 4859
-		division_template = "White Infantry"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.85
-
-	}division= {		
-		division_name = {
-			is_name_ordered = yes
-			name_order = 18
-		}
-		location = 4859
-		division_template = "White Infantry"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.85
-
-	}
-	division= {		
-		division_name = {
-			is_name_ordered = yes
-			name_order = 18
-		}
-		location = 4859
-		division_template = "White Infantry"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.85
-
-	}
-	division= {		
-		division_name = {
-			is_name_ordered = yes
-			name_order = 18
-		}
-		location = 4859
-		division_template = "White Infantry"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.85
-
-	}division= {		
-		division_name = {
-			is_name_ordered = yes
-			name_order = 18
-		}
-		location = 4859
-		division_template = "White Infantry"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.85
-
-	}
-	division= {		
-		division_name = {
-			is_name_ordered = yes
-			name_order = 18
-		}
-		location = 4859
-		division_template = "White Infantry"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.85
-
-	}
-	division= {		
-		division_name = {
-			is_name_ordered = yes
-			name_order = 18
-		}
-		location = 4859
-		division_template = "White Infantry"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.85
-
-	}
-	division= {		
-		division_name = {
-			is_name_ordered = yes
-			name_order = 18
-		}
-		location = 4859
-		division_template = "White Infantry"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.85
-
-	}
-	division= {		
-		division_name = {
-			is_name_ordered = yes
-			name_order = 18
-		}
-		location = 4859
-		division_template = "White Infantry"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.85
-
-	}
-	division= {		
-		division_name = {
-			is_name_ordered = yes
-			name_order = 18
-		}
-		location = 4859
-		division_template = "White Infantry"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.85
-
-	}
-	division= {		
-		division_name = {
-			is_name_ordered = yes
-			name_order = 18
-		}
-		location = 4859
+		location = 4545
 		division_template = "White Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.85
@@ -1689,7 +1373,7 @@ division= {
 			is_name_ordered = yes
 			name_order = 18
 		}
-		location = 4859
+		location = 6380
 		division_template = "White Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.85
@@ -1700,7 +1384,7 @@ division= {
 			is_name_ordered = yes
 			name_order = 18
 		}
-		location = 4859
+		location = 6380
 		division_template = "White Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.85
@@ -1711,7 +1395,7 @@ division= {
 			is_name_ordered = yes
 			name_order = 18
 		}
-		location = 4859
+		location = 6380
 		division_template = "White Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.85
@@ -1722,7 +1406,7 @@ division= {
 			is_name_ordered = yes
 			name_order = 18
 		}
-		location = 4859
+		location = 6380
 		division_template = "White Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.85
@@ -1733,7 +1417,7 @@ division= {
 			is_name_ordered = yes
 			name_order = 18
 		}
-		location = 4859
+		location = 6380
 		division_template = "White Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.85
@@ -1744,7 +1428,7 @@ division= {
 			is_name_ordered = yes
 			name_order = 18
 		}
-		location = 4859
+		location = 6380
 		division_template = "White Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.85
@@ -1755,7 +1439,7 @@ division= {
 			is_name_ordered = yes
 			name_order = 18
 		}
-		location = 4859
+		location = 6380
 		division_template = "White Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.85
@@ -1766,7 +1450,7 @@ division= {
 			is_name_ordered = yes
 			name_order = 18
 		}
-		location = 4859
+		location = 6380
 		division_template = "White Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.85
@@ -1777,7 +1461,7 @@ division= {
 			is_name_ordered = yes
 			name_order = 18
 		}
-		location = 4859
+		location = 6380
 		division_template = "White Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.85
@@ -1788,7 +1472,7 @@ division= {
 			is_name_ordered = yes
 			name_order = 18
 		}
-		location = 4859
+		location = 6380
 		division_template = "White Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.85
@@ -1799,39 +1483,7 @@ division= {
 			is_name_ordered = yes
 			name_order = 18
 		}
-		location = 4859
-		division_template = "White Infantry"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.85
-
-	}division= {		
-		division_name = {
-			is_name_ordered = yes
-			name_order = 18
-		}
-		location = 4859
-		division_template = "White Infantry"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.85
-
-	}
-	division= {		
-		division_name = {
-			is_name_ordered = yes
-			name_order = 18
-		}
-		location = 4859
-		division_template = "White Infantry"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.85
-
-	}
-	division= {		
-		division_name = {
-			is_name_ordered = yes
-			name_order = 18
-		}
-		location = 4859
+		location = 6380
 		division_template = "White Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.85
@@ -1841,7 +1493,7 @@ division= {
 			is_name_ordered = yes
 			name_order = 18
 		}
-		location = 4859
+		location = 6380
 		division_template = "White Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.85
@@ -1852,7 +1504,7 @@ division= {
 			is_name_ordered = yes
 			name_order = 18
 		}
-		location = 4859
+		location = 6380
 		division_template = "White Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.85
@@ -1863,7 +1515,7 @@ division= {
 			is_name_ordered = yes
 			name_order = 18
 		}
-		location = 4859
+		location = 6380
 		division_template = "White Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.85
@@ -1874,7 +1526,7 @@ division= {
 			is_name_ordered = yes
 			name_order = 18
 		}
-		location = 4859
+		location = 6380
 		division_template = "White Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.85
@@ -1885,7 +1537,7 @@ division= {
 			is_name_ordered = yes
 			name_order = 18
 		}
-		location = 4859
+		location = 6380
 		division_template = "White Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.85
@@ -1896,7 +1548,7 @@ division= {
 			is_name_ordered = yes
 			name_order = 18
 		}
-		location = 4859
+		location = 6380
 		division_template = "White Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.85
@@ -1907,7 +1559,7 @@ division= {
 			is_name_ordered = yes
 			name_order = 18
 		}
-		location = 4859
+		location = 6380
 		division_template = "White Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.85
@@ -1918,7 +1570,7 @@ division= {
 			is_name_ordered = yes
 			name_order = 18
 		}
-		location = 4859
+		location = 6380
 		division_template = "White Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.85
@@ -1929,7 +1581,7 @@ division= {
 			is_name_ordered = yes
 			name_order = 18
 		}
-		location = 4859
+		location = 6380
 		division_template = "White Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.85
@@ -1940,7 +1592,7 @@ division= {
 			is_name_ordered = yes
 			name_order = 18
 		}
-		location = 4859
+		location = 6380
 		division_template = "White Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.85
@@ -1951,7 +1603,7 @@ division= {
 			is_name_ordered = yes
 			name_order = 18
 		}
-		location = 4859
+		location = 6380
 		division_template = "White Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.85
@@ -1962,7 +1614,7 @@ division= {
 			is_name_ordered = yes
 			name_order = 18
 		}
-		location = 4859
+		location = 6380
 		division_template = "White Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.85
@@ -1973,149 +1625,7 @@ division= {
 			is_name_ordered = yes
 			name_order = 18
 		}
-		location = 4859
-		division_template = "White Infantry"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.85
-
-	}division= {		
-		division_name = {
-			is_name_ordered = yes
-			name_order = 18
-		}
-		location = 4859
-		division_template = "White Infantry"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.85
-
-	}
-	division= {		
-		division_name = {
-			is_name_ordered = yes
-			name_order = 18
-		}
-		location = 4859
-		division_template = "White Infantry"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.85
-
-	}
-	division= {		
-		division_name = {
-			is_name_ordered = yes
-			name_order = 18
-		}
-		location = 4859
-		division_template = "White Infantry"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.85
-
-	}
-	division= {		
-		division_name = {
-			is_name_ordered = yes
-			name_order = 18
-		}
-		location = 4859
-		division_template = "White Infantry"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.85
-
-	}
-	division= {		
-		division_name = {
-			is_name_ordered = yes
-			name_order = 18
-		}
-		location = 4859
-		division_template = "White Infantry"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.85
-
-	}
-	division= {		
-		division_name = {
-			is_name_ordered = yes
-			name_order = 18
-		}
-		location = 4859
-		division_template = "White Infantry"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.85
-
-	}
-	division= {		
-		division_name = {
-			is_name_ordered = yes
-			name_order = 18
-		}
-		location = 4859
-		division_template = "White Infantry"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.85
-
-	}
-	division= {		
-		division_name = {
-			is_name_ordered = yes
-			name_order = 18
-		}
-		location = 4859
-		division_template = "White Infantry"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.85
-
-	}
-	division= {		
-		division_name = {
-			is_name_ordered = yes
-			name_order = 18
-		}
-		location = 4859
-		division_template = "White Infantry"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.85
-
-	}
-	division= {		
-		division_name = {
-			is_name_ordered = yes
-			name_order = 18
-		}
-		location = 4859
-		division_template = "White Infantry"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.85
-
-	}
-	division= {		
-		division_name = {
-			is_name_ordered = yes
-			name_order = 18
-		}
-		location = 4859
-		division_template = "White Infantry"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.85
-
-	}
-	division= {		
-		division_name = {
-			is_name_ordered = yes
-			name_order = 18
-		}
-		location = 4859
-		division_template = "White Infantry"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.85
-
-	}
-	division= {		
-		division_name = {
-			is_name_ordered = yes
-			name_order = 18
-		}
-		location = 4859
+		location = 6380
 		division_template = "White Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.85
@@ -2125,7 +1635,7 @@ division= {
 			is_name_ordered = yes
 			name_order = 18
 		}
-		location = 4859
+		location = 6380
 		division_template = "White Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.85
@@ -2136,7 +1646,7 @@ division= {
 			is_name_ordered = yes
 			name_order = 18
 		}
-		location = 4859
+		location = 6380
 		division_template = "White Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.85
@@ -2147,149 +1657,7 @@ division= {
 			is_name_ordered = yes
 			name_order = 18
 		}
-		location = 4859
-		division_template = "White Infantry"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.85
-
-	}division= {		
-		division_name = {
-			is_name_ordered = yes
-			name_order = 18
-		}
-		location = 4859
-		division_template = "White Infantry"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.85
-
-	}
-	division= {		
-		division_name = {
-			is_name_ordered = yes
-			name_order = 18
-		}
-		location = 4859
-		division_template = "White Infantry"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.85
-
-	}
-	division= {		
-		division_name = {
-			is_name_ordered = yes
-			name_order = 18
-		}
-		location = 4859
-		division_template = "White Infantry"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.85
-
-	}
-	division= {		
-		division_name = {
-			is_name_ordered = yes
-			name_order = 18
-		}
-		location = 4859
-		division_template = "White Infantry"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.85
-
-	}
-	division= {		
-		division_name = {
-			is_name_ordered = yes
-			name_order = 18
-		}
-		location = 4859
-		division_template = "White Infantry"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.85
-
-	}
-	division= {		
-		division_name = {
-			is_name_ordered = yes
-			name_order = 18
-		}
-		location = 4859
-		division_template = "White Infantry"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.85
-
-	}
-	division= {		
-		division_name = {
-			is_name_ordered = yes
-			name_order = 18
-		}
-		location = 4859
-		division_template = "White Infantry"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.85
-
-	}
-	division= {		
-		division_name = {
-			is_name_ordered = yes
-			name_order = 18
-		}
-		location = 4859
-		division_template = "White Infantry"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.85
-
-	}
-	division= {		
-		division_name = {
-			is_name_ordered = yes
-			name_order = 18
-		}
-		location = 4859
-		division_template = "White Infantry"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.85
-
-	}
-	division= {		
-		division_name = {
-			is_name_ordered = yes
-			name_order = 18
-		}
-		location = 4859
-		division_template = "White Infantry"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.85
-
-	}
-	division= {		
-		division_name = {
-			is_name_ordered = yes
-			name_order = 18
-		}
-		location = 4859
-		division_template = "White Infantry"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.85
-
-	}
-	division= {		
-		division_name = {
-			is_name_ordered = yes
-			name_order = 18
-		}
-		location = 4859
-		division_template = "White Infantry"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.85
-
-	}
-	division= {		
-		division_name = {
-			is_name_ordered = yes
-			name_order = 18
-		}
-		location = 4859
+		location = 6380
 		division_template = "White Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.85
@@ -2299,7 +1667,7 @@ division= {
 			is_name_ordered = yes
 			name_order = 18
 		}
-		location = 4859
+		location = 6380
 		division_template = "White Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.85
@@ -2310,7 +1678,7 @@ division= {
 			is_name_ordered = yes
 			name_order = 18
 		}
-		location = 4859
+		location = 6380
 		division_template = "White Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.85
@@ -2321,7 +1689,7 @@ division= {
 			is_name_ordered = yes
 			name_order = 18
 		}
-		location = 4859
+		location = 6380
 		division_template = "White Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.85
@@ -2332,7 +1700,7 @@ division= {
 			is_name_ordered = yes
 			name_order = 18
 		}
-		location = 4859
+		location = 6380
 		division_template = "White Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.85
@@ -2343,7 +1711,7 @@ division= {
 			is_name_ordered = yes
 			name_order = 18
 		}
-		location = 4859
+		location = 6380
 		division_template = "White Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.85
@@ -2354,7 +1722,7 @@ division= {
 			is_name_ordered = yes
 			name_order = 18
 		}
-		location = 4859
+		location = 6380
 		division_template = "White Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.85
@@ -2365,7 +1733,7 @@ division= {
 			is_name_ordered = yes
 			name_order = 18
 		}
-		location = 4859
+		location = 6380
 		division_template = "White Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.85
@@ -2376,7 +1744,7 @@ division= {
 			is_name_ordered = yes
 			name_order = 18
 		}
-		location = 4859
+		location = 6380
 		division_template = "White Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.85
@@ -2387,7 +1755,7 @@ division= {
 			is_name_ordered = yes
 			name_order = 18
 		}
-		location = 4859
+		location = 6380
 		division_template = "White Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.85
@@ -2398,7 +1766,7 @@ division= {
 			is_name_ordered = yes
 			name_order = 18
 		}
-		location = 4859
+		location = 6380
 		division_template = "White Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.85
@@ -2409,7 +1777,7 @@ division= {
 			is_name_ordered = yes
 			name_order = 18
 		}
-		location = 4859
+		location = 6380
 		division_template = "White Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.85
@@ -2420,7 +1788,7 @@ division= {
 			is_name_ordered = yes
 			name_order = 18
 		}
-		location = 4859
+		location = 6380
 		division_template = "White Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.85
@@ -2431,7 +1799,7 @@ division= {
 			is_name_ordered = yes
 			name_order = 18
 		}
-		location = 4859
+		location = 6380
 		division_template = "White Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.85
@@ -2441,7 +1809,7 @@ division= {
 			is_name_ordered = yes
 			name_order = 18
 		}
-		location = 4859
+		location = 6380
 		division_template = "White Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.85
@@ -2452,7 +1820,7 @@ division= {
 			is_name_ordered = yes
 			name_order = 18
 		}
-		location = 4859
+		location = 6380
 		division_template = "White Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.85
@@ -2463,7 +1831,7 @@ division= {
 			is_name_ordered = yes
 			name_order = 18
 		}
-		location = 4859
+		location = 6380
 		division_template = "White Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.85
@@ -2473,7 +1841,7 @@ division= {
 			is_name_ordered = yes
 			name_order = 18
 		}
-		location = 4859
+		location = 6380
 		division_template = "White Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.85
@@ -2484,7 +1852,7 @@ division= {
 			is_name_ordered = yes
 			name_order = 18
 		}
-		location = 4859
+		location = 6380
 		division_template = "White Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.85
@@ -2495,7 +1863,7 @@ division= {
 			is_name_ordered = yes
 			name_order = 18
 		}
-		location = 4859
+		location = 6380
 		division_template = "White Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.85
@@ -2506,7 +1874,7 @@ division= {
 			is_name_ordered = yes
 			name_order = 18
 		}
-		location = 4859
+		location = 6380
 		division_template = "White Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.85
@@ -2517,7 +1885,7 @@ division= {
 			is_name_ordered = yes
 			name_order = 18
 		}
-		location = 4859
+		location = 6380
 		division_template = "White Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.85
@@ -2528,7 +1896,7 @@ division= {
 			is_name_ordered = yes
 			name_order = 18
 		}
-		location = 4859
+		location = 6380
 		division_template = "White Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.85
@@ -2539,7 +1907,7 @@ division= {
 			is_name_ordered = yes
 			name_order = 18
 		}
-		location = 4859
+		location = 6380
 		division_template = "White Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.85
@@ -2550,7 +1918,7 @@ division= {
 			is_name_ordered = yes
 			name_order = 18
 		}
-		location = 4859
+		location = 6380
 		division_template = "White Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.85
@@ -2561,7 +1929,7 @@ division= {
 			is_name_ordered = yes
 			name_order = 18
 		}
-		location = 4859
+		location = 6380
 		division_template = "White Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.85
@@ -2572,7 +1940,7 @@ division= {
 			is_name_ordered = yes
 			name_order = 18
 		}
-		location = 4859
+		location = 6380
 		division_template = "White Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.85
@@ -2583,7 +1951,7 @@ division= {
 			is_name_ordered = yes
 			name_order = 18
 		}
-		location = 4859
+		location = 6380
 		division_template = "White Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.85
@@ -2594,7 +1962,7 @@ division= {
 			is_name_ordered = yes
 			name_order = 18
 		}
-		location = 4859
+		location = 6380
 		division_template = "White Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.85
@@ -2605,7 +1973,7 @@ division= {
 			is_name_ordered = yes
 			name_order = 18
 		}
-		location = 4859
+		location = 6380
 		division_template = "White Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.85
@@ -2615,7 +1983,7 @@ division= {
 			is_name_ordered = yes
 			name_order = 18
 		}
-		location = 4859
+		location = 6380
 		division_template = "White Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.85
@@ -2626,7 +1994,7 @@ division= {
 			is_name_ordered = yes
 			name_order = 18
 		}
-		location = 4859
+		location = 6380
 		division_template = "White Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.85
@@ -2637,7 +2005,7 @@ division= {
 			is_name_ordered = yes
 			name_order = 18
 		}
-		location = 4859
+		location = 6380
 		division_template = "White Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.85
@@ -2648,7 +2016,7 @@ division= {
 			is_name_ordered = yes
 			name_order = 18
 		}
-		location = 4859
+		location = 6380
 		division_template = "White Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.85
@@ -2659,7 +2027,7 @@ division= {
 			is_name_ordered = yes
 			name_order = 18
 		}
-		location = 4859
+		location = 6380
 		division_template = "White Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.85
@@ -2670,7 +2038,7 @@ division= {
 			is_name_ordered = yes
 			name_order = 18
 		}
-		location = 4859
+		location = 6380
 		division_template = "White Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.85
@@ -2681,7 +2049,7 @@ division= {
 			is_name_ordered = yes
 			name_order = 18
 		}
-		location = 4859
+		location = 6380
 		division_template = "White Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.85
@@ -2692,7 +2060,7 @@ division= {
 			is_name_ordered = yes
 			name_order = 18
 		}
-		location = 4859
+		location = 6380
 		division_template = "White Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.85
@@ -2703,7 +2071,7 @@ division= {
 			is_name_ordered = yes
 			name_order = 18
 		}
-		location = 4859
+		location = 6380
 		division_template = "White Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.85
@@ -2714,7 +2082,7 @@ division= {
 			is_name_ordered = yes
 			name_order = 18
 		}
-		location = 4859
+		location = 6380
 		division_template = "White Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.85
@@ -2725,7 +2093,7 @@ division= {
 			is_name_ordered = yes
 			name_order = 18
 		}
-		location = 4859
+		location = 6380
 		division_template = "White Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.85
@@ -2736,7 +2104,7 @@ division= {
 			is_name_ordered = yes
 			name_order = 18
 		}
-		location = 4859
+		location = 6380
 		division_template = "White Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.85
@@ -2747,7 +2115,7 @@ division= {
 			is_name_ordered = yes
 			name_order = 18
 		}
-		location = 4859
+		location = 6380
 		division_template = "White Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.85
@@ -2757,7 +2125,7 @@ division= {
 			is_name_ordered = yes
 			name_order = 18
 		}
-		location = 4859
+		location = 6380
 		division_template = "White Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.85
@@ -2768,7 +2136,7 @@ division= {
 			is_name_ordered = yes
 			name_order = 18
 		}
-		location = 4859
+		location = 6380
 		division_template = "White Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.85
@@ -2779,117 +2147,7 @@ division= {
 			is_name_ordered = yes
 			name_order = 18
 		}
-		location = 4859
-		division_template = "White Infantry"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.85
-
-	}
-	division= {		
-		division_name = {
-			is_name_ordered = yes
-			name_order = 18
-		}
-		location = 4859
-		division_template = "White Infantry"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.85
-
-	}
-	division= {		
-		division_name = {
-			is_name_ordered = yes
-			name_order = 18
-		}
-		location = 4859
-		division_template = "White Infantry"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.85
-
-	}
-	division= {		
-		division_name = {
-			is_name_ordered = yes
-			name_order = 18
-		}
-		location = 4859
-		division_template = "White Infantry"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.85
-
-	}
-	division= {		
-		division_name = {
-			is_name_ordered = yes
-			name_order = 18
-		}
-		location = 4859
-		division_template = "White Infantry"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.85
-
-	}
-	division= {		
-		division_name = {
-			is_name_ordered = yes
-			name_order = 18
-		}
-		location = 4859
-		division_template = "White Infantry"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.85
-
-	}
-	division= {		
-		division_name = {
-			is_name_ordered = yes
-			name_order = 18
-		}
-		location = 4859
-		division_template = "White Infantry"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.85
-
-	}
-	division= {		
-		division_name = {
-			is_name_ordered = yes
-			name_order = 18
-		}
-		location = 4859
-		division_template = "White Infantry"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.85
-
-	}
-	division= {		
-		division_name = {
-			is_name_ordered = yes
-			name_order = 18
-		}
-		location = 4859
-		division_template = "White Infantry"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.85
-
-	}
-	division= {		
-		division_name = {
-			is_name_ordered = yes
-			name_order = 18
-		}
-		location = 4859
-		division_template = "White Infantry"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.85
-
-	}
-	division= {		
-		division_name = {
-			is_name_ordered = yes
-			name_order = 18
-		}
-		location = 4859
+		location = 6380
 		division_template = "White Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.85
@@ -2899,7 +2157,7 @@ division= {
 			is_name_ordered = yes
 			name_order = 18
 		}
-		location = 4859
+		location = 6380
 		division_template = "White Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.85
@@ -2910,7 +2168,7 @@ division= {
 			is_name_ordered = yes
 			name_order = 18
 		}
-		location = 4859
+		location = 6380
 		division_template = "White Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.85
@@ -2921,7 +2179,7 @@ division= {
 			is_name_ordered = yes
 			name_order = 18
 		}
-		location = 4859
+		location = 6380
 		division_template = "White Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.85
@@ -2932,7 +2190,7 @@ division= {
 			is_name_ordered = yes
 			name_order = 18
 		}
-		location = 4859
+		location = 6380
 		division_template = "White Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.85
@@ -2943,7 +2201,7 @@ division= {
 			is_name_ordered = yes
 			name_order = 18
 		}
-		location = 4859
+		location = 6380
 		division_template = "White Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.85
@@ -2954,7 +2212,7 @@ division= {
 			is_name_ordered = yes
 			name_order = 18
 		}
-		location = 4859
+		location = 6380
 		division_template = "White Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.85
@@ -2965,7 +2223,7 @@ division= {
 			is_name_ordered = yes
 			name_order = 18
 		}
-		location = 4859
+		location = 6380
 		division_template = "White Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.85
@@ -2976,7 +2234,7 @@ division= {
 			is_name_ordered = yes
 			name_order = 18
 		}
-		location = 4859
+		location = 6380
 		division_template = "White Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.85
@@ -2987,7 +2245,7 @@ division= {
 			is_name_ordered = yes
 			name_order = 18
 		}
-		location = 4859
+		location = 6380
 		division_template = "White Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.85
@@ -2998,7 +2256,7 @@ division= {
 			is_name_ordered = yes
 			name_order = 18
 		}
-		location = 4859
+		location = 6380
 		division_template = "White Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.85
@@ -3009,7 +2267,749 @@ division= {
 			is_name_ordered = yes
 			name_order = 18
 		}
-		location = 4859
+		location = 6380
+		division_template = "White Infantry"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.85
+
+	}
+	division= {		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 18
+		}
+		location = 6380
+		division_template = "White Infantry"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.85
+
+	}
+	division= {		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 18
+		}
+		location = 6380
+		division_template = "White Infantry"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.85
+
+	}division= {		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 18
+		}
+		location = 6380
+		division_template = "White Infantry"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.85
+
+	}
+	division= {		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 18
+		}
+		location = 6380
+		division_template = "White Infantry"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.85
+
+	}
+	division= {		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 18
+		}
+		location = 6380
+		division_template = "White Infantry"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.85
+
+	}
+	division= {		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 18
+		}
+		location = 6380
+		division_template = "White Infantry"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.85
+
+	}
+	division= {		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 18
+		}
+		location = 6380
+		division_template = "White Infantry"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.85
+
+	}
+	division= {		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 18
+		}
+		location = 6380
+		division_template = "White Infantry"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.85
+
+	}
+	division= {		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 18
+		}
+		location = 6380
+		division_template = "White Infantry"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.85
+
+	}
+	division= {		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 18
+		}
+		location = 6380
+		division_template = "White Infantry"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.85
+
+	}
+	division= {		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 18
+		}
+		location = 6380
+		division_template = "White Infantry"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.85
+
+	}
+	division= {		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 18
+		}
+		location = 6380
+		division_template = "White Infantry"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.85
+
+	}
+	division= {		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 18
+		}
+		location = 6380
+		division_template = "White Infantry"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.85
+
+	}
+	division= {		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 18
+		}
+		location = 6380
+		division_template = "White Infantry"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.85
+
+	}
+	division= {		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 18
+		}
+		location = 6380
+		division_template = "White Infantry"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.85
+
+	}division= {		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 18
+		}
+		location = 6380
+		division_template = "White Infantry"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.85
+
+	}
+	division= {		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 18
+		}
+		location = 6380
+		division_template = "White Infantry"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.85
+
+	}
+	division= {		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 18
+		}
+		location = 6380
+		division_template = "White Infantry"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.85
+
+	}division= {		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 18
+		}
+		location = 6380
+		division_template = "White Infantry"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.85
+
+	}
+	division= {		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 18
+		}
+		location = 6380
+		division_template = "White Infantry"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.85
+
+	}
+	division= {		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 18
+		}
+		location = 6380
+		division_template = "White Infantry"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.85
+
+	}
+	division= {		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 18
+		}
+		location = 6380
+		division_template = "White Infantry"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.85
+
+	}
+	division= {		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 18
+		}
+		location = 6380
+		division_template = "White Infantry"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.85
+
+	}
+	division= {		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 18
+		}
+		location = 6380
+		division_template = "White Infantry"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.85
+
+	}
+	division= {		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 18
+		}
+		location = 6380
+		division_template = "White Infantry"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.85
+
+	}
+	division= {		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 18
+		}
+		location = 6380
+		division_template = "White Infantry"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.85
+
+	}
+	division= {		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 18
+		}
+		location = 6380
+		division_template = "White Infantry"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.85
+
+	}
+	division= {		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 18
+		}
+		location = 6380
+		division_template = "White Infantry"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.85
+
+	}
+	division= {		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 18
+		}
+		location = 6380
+		division_template = "White Infantry"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.85
+
+	}
+	division= {		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 18
+		}
+		location = 6380
+		division_template = "White Infantry"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.85
+
+	}
+	division= {		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 18
+		}
+		location = 6380
+		division_template = "White Infantry"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.85
+
+	}division= {		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 18
+		}
+		location = 6380
+		division_template = "White Infantry"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.85
+
+	}
+	division= {		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 18
+		}
+		location = 6380
+		division_template = "White Infantry"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.85
+
+	}
+	division= {		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 18
+		}
+		location = 6380
+		division_template = "White Infantry"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.85
+
+	}
+	division= {		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 18
+		}
+		location = 6380
+		division_template = "White Infantry"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.85
+
+	}
+	division= {		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 18
+		}
+		location = 6380
+		division_template = "White Infantry"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.85
+
+	}
+	division= {		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 18
+		}
+		location = 6380
+		division_template = "White Infantry"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.85
+
+	}
+	division= {		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 18
+		}
+		location = 6380
+		division_template = "White Infantry"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.85
+
+	}
+	division= {		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 18
+		}
+		location = 6380
+		division_template = "White Infantry"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.85
+
+	}
+	division= {		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 18
+		}
+		location = 6380
+		division_template = "White Infantry"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.85
+
+	}
+	division= {		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 18
+		}
+		location = 6380
+		division_template = "White Infantry"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.85
+
+	}
+	division= {		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 18
+		}
+		location = 6380
+		division_template = "White Infantry"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.85
+
+	}
+	division= {		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 18
+		}
+		location = 6380
+		division_template = "White Infantry"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.85
+
+	}
+	division= {		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 18
+		}
+		location = 6380
+		division_template = "White Infantry"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.85
+
+	}division= {		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 18
+		}
+		location = 6380
+		division_template = "White Infantry"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.85
+
+	}
+	division= {		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 18
+		}
+		location = 6380
+		division_template = "White Infantry"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.85
+
+	}
+	division= {		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 18
+		}
+		location = 6380
+		division_template = "White Infantry"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.85
+
+	}
+	division= {		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 18
+		}
+		location = 6380
+		division_template = "White Infantry"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.85
+
+	}
+	division= {		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 18
+		}
+		location = 6380
+		division_template = "White Infantry"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.85
+
+	}
+	division= {		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 18
+		}
+		location = 6380
+		division_template = "White Infantry"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.85
+
+	}
+	division= {		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 18
+		}
+		location = 6380
+		division_template = "White Infantry"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.85
+
+	}
+	division= {		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 18
+		}
+		location = 6380
+		division_template = "White Infantry"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.85
+
+	}
+	division= {		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 18
+		}
+		location = 6380
+		division_template = "White Infantry"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.85
+
+	}
+	division= {		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 18
+		}
+		location = 6380
+		division_template = "White Infantry"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.85
+
+	}
+	division= {		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 18
+		}
+		location = 6380
+		division_template = "White Infantry"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.85
+
+	}
+	division= {		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 18
+		}
+		location = 6380
+		division_template = "White Infantry"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.85
+
+	}
+	division= {		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 18
+		}
+		location = 6380
+		division_template = "White Infantry"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.85
+
+	}division= {		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 18
+		}
+		location = 6380
+		division_template = "White Infantry"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.85
+
+	}
+	division= {		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 18
+		}
+		location = 6380
+		division_template = "White Infantry"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.85
+
+	}
+	division= {		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 18
+		}
+		location = 6380
+		division_template = "White Infantry"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.85
+
+	}
+	division= {		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 18
+		}
+		location = 6380
+		division_template = "White Infantry"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.85
+
+	}
+	division= {		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 18
+		}
+		location = 6380
+		division_template = "White Infantry"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.85
+
+	}
+	division= {		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 18
+		}
+		location = 6380
+		division_template = "White Infantry"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.85
+
+	}
+	division= {		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 18
+		}
+		location = 6380
+		division_template = "White Infantry"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.85
+
+	}
+	division= {		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 18
+		}
+		location = 6380
+		division_template = "White Infantry"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.85
+
+	}
+	division= {		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 18
+		}
+		location = 6380
+		division_template = "White Infantry"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.85
+
+	}
+	division= {		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 18
+		}
+		location = 6380
+		division_template = "White Infantry"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.85
+
+	}
+	division= {		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 18
+		}
+		location = 6380
 		division_template = "White Infantry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.85

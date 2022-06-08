@@ -5,6 +5,7 @@
     add_to_faction = TUR
 	add_to_faction = GRE
 	add_to_faction = ALB
+	add_to_faction = KOS
 	
 #TROOPS
 oob = "BUL_1936" #VANILLA & DLC

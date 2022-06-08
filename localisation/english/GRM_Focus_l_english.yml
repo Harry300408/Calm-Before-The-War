@@ -1,0 +1,75 @@
+﻿l_english:
+ ################
+ # Main Focuses #
+ ################ 
+ 
+ ## Build up #
+ GRM_focus_1:0 "The Kaisers Legacy"
+ GRM_focus_1_desc:0 ""
+ 
+ GRM_focus_2:0 " Seize Rule "
+ GRM_focus_2_desc:0 ""
+ 
+ GRM_focus_3:0 " Keep Power "
+ GRM_focus_3_desc:0 ""
+
+ GRM_focus_4:0 "Leave The Central Powers"
+ GRM_focus_4_desc:0 ""
+ 
+ GRM_focus_5:0 "Wilhelm II Falls Ill"
+ GRM_focus_5_desc:0 ""
+ 
+ GRM_focus_6:0 " Fate of Wihelm's Life "
+ GRM_focus_6_desc:0 ""
+ 
+ GRM_focus_7:0 " Reform The Empire "
+ GRM_focus_7_desc:0 ""
+ 
+ ## Democratic ##
+ GRM_focus_9:0 " A Diplomatic Approach "
+ GRM_focus_9_desc:0 ""  
+ 
+ ## Communist ##
+ GRM_focus_10:0 " Marx's Legacy "
+ GRM_focus_10_desc:0 ""  
+ 
+ ## Facist ##
+ GRM_focus_11:0 " Moesly's Dream "
+ GRM_focus_11_desc:0 ""  
+   
+ ## Monarchist ##
+ GRM_focus_8:0 " Keep The Status Quo "
+ GRM_focus_8_desc:0 ""
+ 
+ GRM_focus_12:0 " Reign In The Break Aways "
+ GRM_focus_12_desc:0 ""
+ 
+ GRM_focus_13:0 " Annex Bialystok "
+ GRM_focus_13_desc:0 ""
+ 
+ GRM_focus_14:0 " Subjugate Belgium "
+ GRM_focus_14_desc:0 ""
+
+ GRM_focus_15:0 " Subjugate The Dutch "
+ GRM_focus_15_desc:0 ""
+ 
+ GRM_focus_16:0 " Intergrate Poland "
+ GRM_focus_16_desc:0 ""
+ 
+ GRM_focus_17:0 " Expand East "
+ GRM_focus_17_desc:0 ""
+ 
+ GRM_focus_18:0 " Send Ultimatum To Lithuania"
+ GRM_focus_18_desc:0 ""
+ 
+ GRM_focus_19:0 " Send Ultimatum To Belarus "
+ GRM_focus_19_desc:0 ""
+ 
+ GRM_focus_20:0 " Alliance With Ukraine "
+ GRM_focus_20_desc:0 ""
+
+ GRM_focus_21:0 " Send Ultimatum To The Baltics  "
+ GRM_focus_21_desc:0 ""
+
+ GRM_focus_22:0 " 1st Wien Treaty "
+ GRM_focus_22_desc:0 ""
