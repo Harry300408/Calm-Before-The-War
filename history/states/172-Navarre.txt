@@ -4,6 +4,7 @@ state={
 
 	history={
 		owner = SPR
+		is_demilitarized_zone = yes
 		add_core_of = NAV
 		victory_points = {
 			3933 1
