@@ -1,0 +1,96 @@
+focus_tree = {
+	id = castile_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = CAS
+			
+		}
+	}
+	
+	default = no
+    focus = {
+		id = CAS_castilean_situation
+		icon = GFX_focus_intervention_spain_republic
+  	prerequisite = { focus = }
+  	mutually_exclusive = { focus =  }
+    text = The Castilean Situation
+  	x = 5
+  	y = 0
+  	relative_position_id = 
+   	cost = 2
+
+		ai_will_do = {
+			factor = 100
+	  }
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+  	available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+    add_political_power = 25
+		}
+	}
+	
+	
+	
+	
+}
+
+    focus = {
+		id = CAS_dreams_united_iberia
+		icon = GFX_focus_intervention_spain_republic
+  	prerequisite = { focus = CAS_castilean_situation}
+  	mutually_exclusive = { focus =  }
+    text = Dreams Of a united Iberia
+  	x = 4
+  	y = 1
+  	relative_position_id = 
+   	cost = 2
+
+		ai_will_do = {
+			factor = 1
+	  }
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+  	available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+    add_political_power = 50
+    add_idea = CAS_dreams_iberia
+		}
+	}
+	
+	
+	
+	
+}
