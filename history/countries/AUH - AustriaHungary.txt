@@ -120,3 +120,4 @@ puppet = NIT
 puppet = BOS
 puppet = MNT
 puppet = SER
+puppet = VNI

@@ -3,8 +3,9 @@ state={
 	name="Nice"
 
 	history={
-		add_core_of = FRA
-		owner = FRA
+		add_core_of = PIE
+		add_claim_by = FRA
+		owner = PIE
 
 	}
 

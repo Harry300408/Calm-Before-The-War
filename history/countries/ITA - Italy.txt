@@ -143,7 +143,6 @@ if = {
 	}
 
 	
-	give_guarantee = ALB
 }
 
 1939.1.1 = {

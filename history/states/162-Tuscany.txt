@@ -7,7 +7,7 @@ state={
 	state_category = large_city
 
 	history={
-		owner = NIT
+		owner = TUS
 		victory_points = {
 			9907 3 
 		}
@@ -31,7 +31,7 @@ state={
 			}
 		}
 		add_core_of = ITA
-		add_core_of = NIT
+		add_core_of = TUS
 		1939.1.1 = {
 			buildings = {
 				arms_factory = 2

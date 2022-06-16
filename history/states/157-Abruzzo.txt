@@ -7,7 +7,7 @@ state={
 	state_category = city
 
 	history={
-		owner = TSI
+		owner = ABR
 		victory_points = {
 			925 1 
 		}
@@ -22,7 +22,7 @@ state={
 			}
 		}
 		add_core_of = ITA
-		add_core_of = TSI
+		add_core_of = ARB
 	}
 
 	provinces={

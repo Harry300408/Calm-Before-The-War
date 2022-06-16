@@ -8,13 +8,49 @@ GRM = {
 	color = rgb { 68 68 68 }
 	color_ui = rgb { 68 68 68 }
 }
+MIT = {
+	color = rgb { 127 118 119 }
+	color_ui = rgb { 127 118 119 }
+}
+TUS = {
+	color = rgb { 113 125 127 }
+	color_ui = rgb { 113 125 127 }
+}
+BAE = {
+	color = rgb { 173 39 64 }
+	color_ui = rgb { 173 39 64 }
+}
+ABR = {
+	color = rgb { 160 198 255 }
+	color_ui = rgb { 160 198 255 }
+}
+VNI = {
+	color = rgb { 204 241 255 }
+	color_ui = rgb { 204 241 255 }
+}
+CAS = {
+	color = rgb { 255 230 122 }
+	color_ui = rgb { 255 230 122 }
+}
+ARA = {
+	color = rgb { 255 166 94 }
+	color_ui = rgb { 255 166 94 }
+}
+SAR = {
+	color = rgb { 255 193 227 }
+	color_ui = rgb { 255 193 227 }
+}
 REM = {
-	color = rgb { 0 204 91 }
-	color_ui = rgb { 0 204 91 }
+	color = rgb { 255 255 255 }
+	color_ui = rgb { 255 255 255 }
+}
+PIE = {
+	color = rgb { 255 168 255 }
+	color_ui = rgb { 255 168 255 }
 }
 FER = {
-	color = rgb { 249 249 249 }
-	color_ui = rgb { 249 249 249 }
+	color = rgb { 219 255 249 }
+	color_ui = rgb { 219 255 249 }
 }
 PAP = {
 	color = rgb { 255 229 188 }
@@ -763,3 +799,5 @@ SHL = {
 	color = rgb { 51 51 255 }
 	color_ui = rgb { 51 51 255 }
 }
+
+

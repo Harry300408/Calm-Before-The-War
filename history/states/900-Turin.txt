@@ -4,8 +4,8 @@ state={
 
 	history={
 		add_core_of = ITA
-		add_core_of = NIT
-		owner = NIT
+		add_core_of = PIE
+		owner = PIE
 
 	}
 

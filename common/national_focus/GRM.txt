@@ -246,7 +246,7 @@ focus_tree = {
     focus = {
 	id = GRM_focus_12
 	icon = GFX_focus_ger_return_of_the_kaiser
-	x = 0  
+	x = 1 
 	y = 6
 	cost = 4
 	cancel_if_invalid = yes
@@ -276,23 +276,6 @@ focus_tree = {
         
 	} 
 	}	
-    ##############################################	
-    focus = {
-	id = GRM_focus_13
-	icon = GFX_focus_ger_return_of_the_kaiser
-	x = 0  
-	y = 7
-	cost = 4
-	cancel_if_invalid = yes
-	continue_if_invalid = no
-	available_if_capitulated = no
-	prerequisite = { focus = GRM_focus_12} 
-	mutually_exclusive = {}
-	completion_reward = {
-      	
-        
-	} 
-	}
 	##############################################	
     focus = {
 	id = GRM_focus_14
@@ -314,7 +297,7 @@ focus_tree = {
     focus = {
 	id = GRM_focus_15
 	icon = GFX_focus_ger_return_of_the_kaiser
-	x = 2
+	x = -1
 	y = 6
 	cost = 4
 	cancel_if_invalid = yes
@@ -437,13 +420,457 @@ focus_tree = {
 	icon = GFX_focus_ger_return_of_the_kaiser
 	x = 0
 	y = 10
-	cost = 2
+	cost = 5
 	cancel_if_invalid = yes
 	continue_if_invalid = no
 	available_if_capitulated = no
 	prerequisite = { focus = GRM_focus_21 }
 	prerequisite = { focus = GRM_focus_18 }
 	mutually_exclusive = {}
+	completion_reward = {
+      	
+        
+	} 
+	}
+	##############################################	
+    focus = {
+	id = GRM_focus_23
+	icon = GFX_focus_ger_return_of_the_kaiser
+	x = 2
+	y = 10
+	cost = 2
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	prerequisite = { focus = GRM_focus_19 }
+	prerequisite = { focus = GRM_focus_18 }
+	mutually_exclusive = {}
+	completion_reward = {
+      	
+        
+	} 
+	}
+	##############################################	
+    focus = {
+	id = GRM_focus_24
+	icon = GFX_focus_ger_return_of_the_kaiser
+	x = 5
+	y = 9
+	cost = 2
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	prerequisite = { focus = GRM_focus_20 }
+	mutually_exclusive = {}
+	completion_reward = {
+      	
+        
+	} 
+	}
+	##############################################	
+    focus = {
+	id = GRM_focus_25
+	icon = GFX_focus_ger_return_of_the_kaiser
+	x = 3
+	y = 11
+	cost = 2
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	prerequisite = { focus = GRM_focus_23 }
+	mutually_exclusive = { focus = GRM_focus_26 }
+	completion_reward = {
+      	
+        
+	}
+    }
+	##############################################	
+    focus = {
+	id = GRM_focus_26
+	icon = GFX_focus_ger_return_of_the_kaiser
+	x = 1
+	y = 11
+	cost = 4
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	prerequisite = { focus = GRM_focus_23 }
+	mutually_exclusive = { focus = GRM_focus_25 }
+	completion_reward = {
+      	
+        
+	} 
+	}
+	##############################################	
+    focus = {
+	id = GRM_focus_27
+	icon = GFX_focus_ger_return_of_the_kaiser
+	x = 5
+	y = 10
+	cost = 5
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	prerequisite = { focus = GRM_focus_24 }
+	mutually_exclusive = {  }
+	completion_reward = {
+      	
+        
+	} 
+	}
+	##############################################	
+    focus = {
+	id = GRM_focus_28
+	icon = GFX_focus_ger_return_of_the_kaiser
+	x = -1
+	y = 11
+	cost = 2
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	prerequisite = { focus = GRM_focus_22 }
+	mutually_exclusive = {  }
+	completion_reward = {
+      	
+        
+	} 
+	}
+	##############################################	
+    focus = {
+	id = GRM_focus_29 
+	icon = GFX_focus_ger_return_of_the_kaiser
+	x = 2
+	y = 12
+	cost = 4
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	prerequisite = { focus = GRM_focus_25 focus = GRM_focus_26 }
+	mutually_exclusive = {  }
+	completion_reward = {
+      	
+        
+	} 
+	}
+	##############################################	
+    focus = {
+	id = GRM_focus_30 
+	icon = GFX_focus_ger_return_of_the_kaiser
+	x = 5
+	y = 6
+	cost = 4
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	prerequisite = { focus = GRM_focus_8 }
+	mutually_exclusive = {  }
+	completion_reward = {
+      	
+        
+	} 
+	}
+	##############################################	
+    focus = {
+	id = GRM_focus_31 
+	icon = GFX_focus_ger_return_of_the_kaiser
+	x = 3
+	y = 13
+	cost = 3
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	prerequisite = { focus = GRM_focus_29 }
+	mutually_exclusive = {  }
+	completion_reward = {
+      	
+        
+	} 
+	}
+	##############################################	
+    focus = {
+	id = GRM_focus_32 
+	icon = GFX_focus_ger_return_of_the_kaiser
+	x = 1
+	y = 13
+	cost = 2
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	prerequisite = { focus = GRM_focus_29 }
+	mutually_exclusive = {  }
+	completion_reward = {
+      	
+        
+	} 
+	}
+	##############################################	
+    focus = {
+	id = GRM_focus_33 
+	icon = GFX_focus_ger_return_of_the_kaiser
+	x = 5
+	y = 11
+	cost = 6
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	prerequisite = { focus = GRM_focus_27 }
+	mutually_exclusive = {  }
+	completion_reward = {
+      	
+        
+	} 
+	}
+	##############################################	
+    focus = {
+	id = GRM_focus_34 
+	icon = GFX_focus_ger_return_of_the_kaiser
+	x = -2
+	y = 10/
+	cost = 4
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	prerequisite = { focus = GRM_focus_21 }
+	mutually_exclusive = { focus = GRM_focus_35 }
+	completion_reward = {
+      	
+        
+	} 
+	}
+	##############################################	
+    focus = {
+	id = GRM_focus_35 
+	icon = GFX_focus_ger_return_of_the_kaiser
+	x = -4
+	y = 10
+	cost = 4
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	prerequisite = { focus = GRM_focus_21 }
+	prerequisite = { focus = GRM_focus_18 }
+	mutually_exclusive = { focus = GRM_focus_34 }
+	completion_reward = {
+      	
+        
+	} 
+	}
+	##############################################	
+    focus = {
+	id = GRM_focus_36 
+	icon = GFX_focus_ger_return_of_the_kaiser
+	x = -3
+	y = 11
+	cost = 4
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	prerequisite = { focus = GRM_focus_34 focus = GRM_focus_35 }
+	mutually_exclusive = {  }
+	completion_reward = {
+      	
+        
+	} 
+	}
+	##############################################	
+    focus = {
+	id = GRM_focus_37 
+	icon = GFX_focus_ger_return_of_the_kaiser
+	x = -4
+	y = 12
+	cost = 4
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	prerequisite = { focus = GRM_focus_36 }
+	mutually_exclusive = {  }
+	completion_reward = {
+      	
+        
+	} 
+	}
+	##############################################	
+    focus = {
+	id = GRM_focus_38 
+	icon = GFX_focus_ger_return_of_the_kaiser
+	x = -2
+	y = 12
+	cost = 4
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	prerequisite = { focus = GRM_focus_36 }
+	mutually_exclusive = {  }
+	completion_reward = {
+      	
+        
+	} 
+	}
+	##############################################	
+    focus = {
+	id = GRM_focus_39 
+	icon = GFX_focus_ger_return_of_the_kaiser
+	x = 0
+	y = 12
+	cost = 4
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	prerequisite = { focus = GRM_focus_28 }
+	mutually_exclusive = {  }
+	completion_reward = {
+      	
+        
+	} 
+	}
+	##############################################	
+    focus = {
+	id = GRM_focus_40 
+	icon = GFX_focus_ger_return_of_the_kaiser
+	x = 9
+	y = 6
+	cost = 3
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	prerequisite = { focus = GRM_focus_8 }
+	mutually_exclusive = {  }
+	completion_reward = {
+      	
+        
+	} 
+	}
+	##############################################	
+    focus = {
+	id = GRM_focus_41 
+	icon = GFX_focus_ger_return_of_the_kaiser
+	x = 9
+	y = 7
+	cost = 3
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	prerequisite = { focus = GRM_focus_40 }
+	mutually_exclusive = {  }
+	completion_reward = {
+      	
+        
+	} 
+	}
+	##############################################	
+    focus = {
+	id = GRM_focus_42 
+	icon = GFX_focus_ger_return_of_the_kaiser
+	x = 17
+	y = 7
+	cost = 3
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	prerequisite = { focus = GRM_focus_40 }
+	mutually_exclusive = {  }
+	completion_reward = {
+      	
+        
+	} 
+	}
+	##############################################	
+    focus = {
+	id = GRM_focus_43 
+	icon = GFX_focus_ger_return_of_the_kaiser
+	x = 9
+	y = 8
+	cost = 3
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	prerequisite = { focus = GRM_focus_41 }
+	mutually_exclusive = { focus = GRM_focus_44 }
+	completion_reward = {
+      	
+        
+	} 
+	}
+	##############################################	
+    focus = {
+	id = GRM_focus_44 
+	icon = GFX_focus_ger_return_of_the_kaiser
+	x = 13
+	y = 8
+	cost = 3
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	prerequisite = { focus = GRM_focus_41 }
+	mutually_exclusive = { focus = GRM_focus_43 }
+	completion_reward = {
+      	
+        
+	} 
+	}
+	##############################################	
+    focus = {
+	id = GRM_focus_45 
+	icon = GFX_focus_ger_return_of_the_kaiser
+	x = 9
+	y = 9
+	cost = 3
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	prerequisite = { focus = GRM_focus_43 }
+	mutually_exclusive = {  }
+	completion_reward = {
+      	
+        
+	} 
+	}
+	##############################################	
+    focus = {
+	id = GRM_focus_46 
+	icon = GFX_focus_ger_return_of_the_kaiser
+	x = 13
+	y = 9
+	cost = 3
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	prerequisite = { focus = GRM_focus_44 }
+	mutually_exclusive = {  }
+	completion_reward = {
+      	
+        
+	} 
+	}
+	##############################################	
+    focus = {
+	id = GRM_focus_47 
+	icon = GFX_focus_ger_return_of_the_kaiser
+	x = 10
+	y = 10
+	cost = 3
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	prerequisite = { focus = GRM_focus_45 }
+	mutually_exclusive = {  }
+	completion_reward = {
+      	
+        
+	} 
+	}
+	##############################################	
+    focus = {
+	id = GRM_focus_48 
+	icon = GFX_focus_ger_return_of_the_kaiser
+	x = 8
+	y = 10
+	cost = 3
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	prerequisite = { focus = GRM_focus_45 }
+	mutually_exclusive = {  }
 	completion_reward = {
       	
         

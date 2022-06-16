@@ -6,8 +6,10 @@ state={
 	}
 
 history={
-add_core_of = FRA
-owner = FRA
+add_claim_by = FRA
+add_core_of = PIE
+add_core_of = ITA
+owner = PIE
 
 }
 	manpower=372771

@@ -9,5 +9,5 @@ tags={
 	"Graphics"
 	"Ideologies"
 }
-name="Calm Before The War:  Das Erbe des Kaisers"
-supported_version="1.11.11"
+name="Ein Bröckelndes Imperium:Erbe des Kaisers"
+supported_version="1.11.*"

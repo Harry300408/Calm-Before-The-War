@@ -1,6 +1,6 @@
 bookmarks = {
 	bookmark = {
-		name = "Calm before the war"
+		name = ""
 		desc = ""
 		date = 1930.8.14.12
 		picture = "GFX_select_date_1936"
