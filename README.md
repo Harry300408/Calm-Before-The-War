@@ -2,8 +2,8 @@ Ein bröckelndes Imperium; Eine Welt im Krieg, Is a mod for Hearts of Iron 4 whi
 
 (Note: Please rename the git folder to .git & remove the templates folder when you are instaling the files otherwise the game will crash! also if anyone wnats to work for the team as a GFX artist or a code dev you are more than welcome join here: https://discord.gg/UvpfB9PD ,paste this link into a search bar)
 
-The Version You Have Downloaded is a Alpha/Beta for Calm Befor The War: The Kaiser's Legacy With most of the Content Based in Europe and the 6 "Major Powers" 
-Countries with content in this update are; Germany, USSR, White Russia, Qing China, The Free English state, The United States of America, Commune Of France, The Baltics, Poland, The Netherlands, Spain, Portugal, Ukraine <3, Bellarus Romania, Yugoslavia, The Kingdom of Northern Italy, Papal State, Two Sicilies, Albainia, Greece, Türkiye/ Trukey, Bulgaria, Sweeden, Finland & Norway. I know thaat sounds like alot but this is why i've allowed the mdding comunity to download the mod off of GitHub and give feed back. Thanks for reading this!
+The Version You Have Downloaded is a Alpha/Beta for Ein bröckelndes Imperium: Das Erbe des Kaisers, With most of the Content Based in Europe and the 6 "Major Powers" 
+Countries with content in this update are; Germany, USSR, White Russia, Qing China, The Free English state, The United States of America, Commune Of France, The Baltics, Poland, The Netherlands, Spain, Portugal, Ukraine <3, Bellarus Romania, Yugoslavia, The Kingdom of Northern Italy, Papal State, Two Sicilies, Albainia, Greece, Türkiye/ Trukey, Bulgaria, Sweeden, Finland & Norway. I know that sounds like a lot but this is why i've allowed the mdding community to download the mod off of GitHub and give feed back. Thanks for reading this!
 (note:this mod is only fully compatible with english)
 
 Sub-Mods are welcome we always want to see what areas of the mod we can imrpove (we may even release own sub-mods kinda like dlc's)
