@@ -1,5 +1,5 @@
-# Calm-Before-The-War
-Calm Before the War: An End of An Empire, Is a mod for Hearts of Iron 4 which is about what if Germany won WW1 and the fall of the empire leading to WW2
+#Ein Bröckelndes Imperium
+Ein bröckelndes Imperium; Eine Welt im Krieg, Is a mod for Hearts of Iron 4 which is about what if Germany won WW1 and the fall of the empire leading to WW2
 
 (Note: Please rename the git folder to .git & remove the templates folder when you are instaling the files otherwise the game will crash! also if anyone wnats to work for the team as a GFX artist or a code dev you are more than welcome join here: https://discord.gg/UvpfB9PD ,paste this link into a search bar)
 
