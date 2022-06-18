@@ -16,6 +16,14 @@ TUS = {
 	color = rgb { 113 125 127 }
 	color_ui = rgb { 113 125 127 }
 }
+NKR = {
+	color = rgb { 213 59 61 }
+	color_ui = rgb { 213 59 61 }
+}
+SKR = {
+	color = rgb { 255 226 209 }
+	color_ui = rgb { 255 226 209 }
+}
 BAE = {
 	color = rgb { 173 39 64 }
 	color_ui = rgb { 173 39 64 }

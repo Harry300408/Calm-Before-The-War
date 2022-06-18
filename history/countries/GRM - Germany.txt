@@ -17,12 +17,45 @@ puppet = BLR
 puppet = LIT
 puppet = ROM
 puppet = IRQ
+puppet = MIT        
 
-1930.1.1 = {
- 
-puppet = COG        
-         
+create_country_leader = {
+	name = "Kaiser Wilhelm II"
+	desc = ""
+	picture = "Portrait_Kaiser_Wilhelm_II.dds"
+	ideology = moderatism
+	traits = {
+		staunch_monarchist ideological_crusader
+	}
+}
+create_country_leader = {
+	name = "Adolf Hitler"
+	desc = ""
+	picture = "Portrait_Adolf_Hitler.dds"
+	ideology = nazism
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Communist"
+	desc = ""
+	picture = "Portrait_Adolf_Hitler.dds"
+	ideology = leninism
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Democrat"
+	desc = ""
+	picture = "Portrait_Adolf_Hitler.dds"
+	ideology = conservatism
+	traits = {
+		#
+	}
 }         
+         
 starting_train_buffer = 2
 set_fuel_ratio = 0.8
 
@@ -310,46 +343,13 @@ set_popularities = {
 	communism = 1
 	neutrality = 50
 }
-create_country_leader = {
-	name = "Kaiser Wilhelm II"
-	desc = ""
-	picture = "Portrait_Kaiser_Wilhelm_II.dds"
-	ideology = moderatism
-	traits = {
-		#
-	}
-}
-create_country_leader = {
-	name = "Adolf Hitler"
-	desc = ""
-	picture = "Portrait_Adolf_Hitler.dds"
-	ideology = nazism
-	traits = {
-		#
-	}
-}
-create_country_leader = {
-	name = "Communist"
-	desc = ""
-	picture = "Portrait_Adolf_Hitler.dds"
-	ideology = leninism
-	traits = {
-		#
-	}
-}
-create_country_leader = {
-	name = "Democrat"
-	desc = ""
-	picture = "Portrait_Adolf_Hitler.dds"
-	ideology = conservatism
-	traits = {
-		#
-	}
-}
+
 
 
 add_ideas = {
 	GRM_triumphant_nation
+	GRM_mighty_army
+	GRM_superior_air_force
 	FRA_victors_of_wwi
 }
 

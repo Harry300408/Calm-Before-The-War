@@ -59,10 +59,16 @@ set_popularities = {
 	communism = 0
 }
 set_autonomy = {
-		target = MEN
+		target = NKR
 		autonomous_state = autonomy_puppet
 		freedom_level = 0.4
 	}
+set_autonomy = {
+		target = MEN
+		autonomous_state = autonomy_puppet
+		freedom_level = 0.4
+	}	
+
 create_country_leader = {
 	name = "Aisin Gioro Puyi"
 	desc = ""

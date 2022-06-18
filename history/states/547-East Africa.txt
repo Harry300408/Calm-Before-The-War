@@ -7,7 +7,7 @@ state={
 	state_category = rural
 
 	history={
-		owner = COG
+		owner = MIT
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
@@ -22,7 +22,7 @@ state={
 			5210 1
 		}
 		add_core_of = KEN
-		add_core_of = COG
+		add_core_of = MIT
 	}
 
 	provinces={

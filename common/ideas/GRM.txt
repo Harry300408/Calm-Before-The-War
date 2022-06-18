@@ -21,8 +21,48 @@ country = {
 			}
 		}
 }
-	
+country = {
+        GRM_superior_air_force = {
+			
+			allowed = {
+				always = no
+			}
 
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+               	air_ace_generation_chance_factor = 0.15
+				air_mission_efficiency = 0.20
+				air_maximum_speed_factor = 0.5
+			}
+			rule = {
+			}
+		}
+}
+country = {
+        GRM_mighty_army = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+               	
+			}
+			rule = {
+			}
+		}
+}	
 
 
 

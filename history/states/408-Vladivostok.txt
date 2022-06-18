@@ -10,7 +10,7 @@ state = {
 	state_category = town
 
 	history={
-		owner = QIN
+		owner = FER
 		victory_points = {
 			957 15
 		}
@@ -26,7 +26,6 @@ state = {
 		add_core_of = SOV
 		add_core_of = FER
 		add_core_of = VLA
-		add_core_of = QIN
 	}
 
 	provinces = {

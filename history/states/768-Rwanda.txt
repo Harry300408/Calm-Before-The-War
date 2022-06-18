@@ -5,9 +5,9 @@ state={
 	state_category = pastoral
 
 	history={
-		owner = COG
+		owner = MIT
 		add_core_of = RWA
-	    add_core_of = COG
+	    add_core_of = MIT
 		victory_points = {
 			9962 1
 		}

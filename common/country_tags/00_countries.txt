@@ -22,6 +22,8 @@ SAR = "countries/Sardinia.txt"
 ARA = "countries/Aragon.txt"
 BAE = "countries/Balearic Islands"
 MIT = "countries/Mittleafrika.txt"
+NKR = "countries/NKorea.txt"
+SKR = "countries/SKorea.txt"
 
 #######################################################################################################################
 

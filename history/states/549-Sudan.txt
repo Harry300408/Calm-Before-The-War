@@ -11,9 +11,9 @@ state={
 		victory_points = {
 			2096 1
 		}
-		owner = COG
+		owner = MIT
 		add_core_of = SUD
-		add_core_of = COG
+		add_core_of = MIT
 		buildings = {
 			infrastructure = 2
 		}

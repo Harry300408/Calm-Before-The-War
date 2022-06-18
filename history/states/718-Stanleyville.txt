@@ -9,12 +9,12 @@ state={
 	}
 
 	history={
-		owner = COG
+		owner = MIT
 		buildings = {
 			infrastructure = 1
 
 		}
-		add_core_of = COG
+		add_core_of = MIT
 	}
 
 	provinces={
