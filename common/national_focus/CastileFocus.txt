@@ -130,7 +130,7 @@ focus_tree = {
 		completion_reward = {
 			navy_experience = 25
 			add_doctrine_cost_reduction = {
-				name = NZL_form_the_rnzn
+				name = navy_armada
 				cost_reduction = 0.5
 				uses = 2
 				category = naval_doctrine
@@ -139,12 +139,12 @@ focus_tree = {
 	}
 
 	focus = {
-		id = NZL_expand_devonport_naval_base
+		id = CAS_expand_ports
 		icon = GFX_goal_generic_construct_naval_dockyard
-		prerequisite = { focus = NZL_form_the_rnzn }
+		prerequisite = { focus = CAS_the_might_armada }
 		x = -1
 		y = 2
-		relative_position_id = NZL_transfer_the_new_zealand_division
+		relative_position_id = CAS_begin_the_new_armada
 
 		cost = 10
 
@@ -168,7 +168,7 @@ focus_tree = {
 		complete_tooltip = {
 			random_state = {
 				limit = {
-					has_state_flag = NZL_expand_devonport_naval_base_DY
+					
 				}
 				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
@@ -181,7 +181,7 @@ focus_tree = {
 
 		completion_reward = {
 			random_owned_controlled_state = {
-				prioritize = { 284 }
+				prioritize = {  }
 				limit = {
 					is_coastal = yes
 					free_building_slots = {
@@ -196,12 +196,12 @@ focus_tree = {
 					level = 2
 					instant_build = yes
 				}
-				set_state_flag = NZL_expand_devonport_naval_base_DY
+				
 			}
-			284 = {
+			790 = {
 				add_building_construction = {
 					type = naval_base
-					province = 4543
+					province = 9703
 					level = 3
 					instant_build = yes
 				}
@@ -210,7 +210,7 @@ focus_tree = {
 	}
 
 	focus = {
-		id = NZL_coastal_defense
+		id = CAS_expand_south_bases
 		icon = GFX_goal_generic_fortify_city
 		prerequisite = { focus = NZL_form_the_rnzn }
 		x = 1
@@ -228,10 +228,10 @@ focus_tree = {
 
 		bypass = {
 			NOT = {
-				controls_state = 284
+				controls_state = 173
 			}
 			NOT = {
-				controls_state = 723
+				controls_state = 169
 			}
 		}
 
@@ -244,8 +244,8 @@ focus_tree = {
 				limit = {
 					is_controlled_by = ROOT
 					OR = {
-						state = 284
-						state = 723
+						state = 173
+						state = 169
 					}
 				}
 				add_building_construction = {
@@ -281,168 +281,14 @@ focus_tree = {
 		}
 	}
 
-	focus = {
-		id = NZL_destroyer_effort
-		icon = GFX_goal_generic_navy_anti_submarine
-		prerequisite = { focus = NZL_expand_devonport_naval_base }
-		mutually_exclusive = { focus = NZL_submarine_effort }
-		x = -2
-		y = 3
-		relative_position_id = NZL_transfer_the_new_zealand_division
-
-		cost = 10
-
-		ai_will_do = {
-			factor = 20
-		}
-
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-		search_filters = { FOCUS_FILTER_RESEARCH }
-
-		completion_reward = {
-			add_tech_bonus = {
-				name = NZL_destroyer_effort
-				bonus = 1.0
-				ahead_reduction = 2
-				uses = 1
-				category = dd_tech
-			}
-		}
-	}
-
-	focus = {
-		id = NZL_submarine_effort
-		icon = GFX_goal_generic_navy_submarine
-		prerequisite = { focus = NZL_expand_devonport_naval_base }
-		mutually_exclusive = { focus = NZL_destroyer_effort }
-		x = 0
-		y = 3
-		relative_position_id = NZL_transfer_the_new_zealand_division
-
-		cost = 10
-
-		ai_will_do = {
-			factor = 2
-		}
-
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-		search_filters = { FOCUS_FILTER_RESEARCH }
-
-		completion_reward = {
-			add_tech_bonus = {
-				name = NZL_submarine_effort
-				bonus = 1.0
-				ahead_reduction = 2
-				uses = 1
-				category = ss_tech
-			}
-		}
-	}
-
-	focus = {
-		id = NZL_light_cruiser_effort
-		icon = GFX_goal_generic_navy_cruiser
-		prerequisite = { focus = NZL_destroyer_effort focus = NZL_submarine_effort }
-		x = -2
-		y = 4
-		relative_position_id = NZL_transfer_the_new_zealand_division
-
-		cost = 10
-
-		ai_will_do = {
-			factor = 25
-		}
-
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-		search_filters = { FOCUS_FILTER_RESEARCH }
-
-		completion_reward = {
-			add_tech_bonus = {
-				name = NZL_light_cruiser_effort
-				bonus = 1.0
-				ahead_reduction = 2
-				uses = 1
-				category = cl_tech
-			}
-		}
-	}
-
-	focus = {
-		id = NZL_capital_ship_effort
-		icon = GFX_goal_generic_navy_battleship
-		prerequisite = { focus = NZL_destroyer_effort focus = NZL_submarine_effort }
-		x = 0
-		y = 4
-		relative_position_id = NZL_transfer_the_new_zealand_division
-
-		cost = 10
-
-		ai_will_do = {
-			factor = 25
-		}
-
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-		search_filters = { FOCUS_FILTER_RESEARCH }
-
-		completion_reward = {
-			add_tech_bonus = {
-				name = NZL_capital_ship_effort
-				bonus = 1.0
-				ahead_reduction = 2
-				uses = 1
-				category = bb_tech
-				category = cv_tech
-			}
-		}
-	}
-
+	
 
 	############################
 	####### AIR SECTION ########
 	############################
 
 	focus = {
-		id = NZL_expand_the_nzpaf
+		id = CAS_airforce_focus
 		icon = GFX_goal_generic_air_doctrine
 		x = 21
 		y = 0
@@ -469,22 +315,22 @@ focus_tree = {
 			add_equipment_to_stockpile = {
 				type = nav_bomber_equipment_1
 				amount = 56
-				producer = ENG
-			}
+				producer = CAS
+				}
 			if = {
 				limit = {
-					ENG = { has_tech = tactical_bomber1 }
+					CAS = { has_tech = tactical_bomber1 }
 				}
 				add_equipment_to_stockpile = {
 					type = tac_bomber_equipment_1
 					amount = 30
-					producer = ENG
+					producer = CAS
 				}
 				else = {
 					add_equipment_to_stockpile = {
 						type = tac_bomber_equipment_0
 						amount = 30
-						producer = ENG
+						producer = CAS
 					}	
 				}
 			}
@@ -492,12 +338,12 @@ focus_tree = {
 	}
 
 	focus = {
-		id = NZL_form_the_rnzaf
+		id = CAS_better_airforce_focus
 		icon = GFX_goal_generic_build_airforce
-		prerequisite = { focus = NZL_expand_the_nzpaf }
+		prerequisite = { focus = CAS_airforce_focus }
 		x = 0
 		y = 1
-		relative_position_id = NZL_expand_the_nzpaf
+		relative_position_id = CAS_airforce_focus
 
 		cost = 10
 
@@ -522,7 +368,7 @@ focus_tree = {
 			air_experience = 25
 			random_state = {				
 				limit = {
-					has_state_flag = NZL_expand_the_nzpaf_AB
+					
 				}
 				add_building_construction = {
 					type = air_base
@@ -531,7 +377,7 @@ focus_tree = {
 				}
 			}
 			add_doctrine_cost_reduction = {
-				name = NZL_form_the_rnzaf
+				name = CAS_better_airforce_focus
 				cost_reduction = 0.5
 				uses = 1
 				category = air_doctrine
@@ -552,10 +398,10 @@ focus_tree = {
 					level = 2
 					instant_build = yes
 				}
-				set_state_flag = NZL_expand_the_nzpaf_AB
+				
 			}
 			add_doctrine_cost_reduction = {
-				name = NZL_form_the_rnzaf
+				name = CAS_better_airforce_focus
 				cost_reduction = 0.5
 				uses = 1
 				category = air_doctrine
@@ -564,13 +410,13 @@ focus_tree = {
 	}
 
 	focus = {
-		id = NZL_fighter_focus
+		id = CAS_fighter_focus
 		icon = GFX_goal_generic_air_fighter2
-		prerequisite = { focus = NZL_form_the_rnzaf }
-		mutually_exclusive = { focus = NZL_bomber_focus }
+		prerequisite = { focus = CAS_better_airforce_focus }
+		mutually_exclusive = { focus = CAS_bomber_focus }
 		x = -1
 		y = 2
-		relative_position_id = NZL_expand_the_nzpaf
+		relative_position_id = CAS_better_airforce_focus
 
 		cost = 10
 
@@ -593,7 +439,7 @@ focus_tree = {
 
 		completion_reward = {
 			add_tech_bonus = {
-				name = NZL_fighter_focus
+				name = CAS_fighter_focus
 				bonus = 1.0
 				uses = 1
 				category = light_fighter
@@ -602,13 +448,13 @@ focus_tree = {
 	}
 
 	focus = {
-		id = NZL_bomber_focus
+		id = CAS_bomber_focus
 		icon = GFX_goal_generic_occupy_start_war
-		prerequisite = { focus = NZL_form_the_rnzaf }
-		mutually_exclusive = { focus = NZL_fighter_focus }
+		prerequisite = { focus = CAS_better_airforce_focus }
+		mutually_exclusive = { focus = CAS_fighter_focus }
 		x = 1
 		y = 2
-		relative_position_id = NZL_expand_the_nzpaf
+		relative_position_id = CAS_better_airforce_focus
 
 		cost = 10
 
@@ -631,7 +477,7 @@ focus_tree = {
 
 		completion_reward = {
 			add_tech_bonus = {
-				name = NZL_bomber_focus
+				name = CAS_bomber_focus
 				bonus = 1.00
 				uses = 1
 				category = cat_strategic_bomber
@@ -640,130 +486,14 @@ focus_tree = {
 		}
 	}
 
-	focus = {
-		id = NZL_defend_our_islands
-		icon = GFX_goal_generic_air_naval_bomber
-		prerequisite = { focus = NZL_form_the_rnzaf focus = NZL_coastal_defense }
-		x = -3
-		y = 3
-		relative_position_id = NZL_expand_the_nzpaf
-
-		cost = 10
-
-		ai_will_do = {
-			factor = 25
-		}
-
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = yes
-		search_filters = { FOCUS_FILTER_RESEARCH }
-
-		completion_reward = {
-			add_tech_bonus = {
-				name = NZL_defend_our_islands
-				bonus = 1.00
-				uses = 2
-				category = naval_air
-			}
-		}
-	}
-
-	focus = {
-		id = NZL_modern_fighters
-		icon = GFX_goal_generic_air_fighter
-		prerequisite = { focus = NZL_fighter_focus focus = NZL_bomber_focus }
-		mutually_exclusive = { focus = NZL_heavy_bombers }
-		x = -1
-		y = 3
-		relative_position_id = NZL_expand_the_nzpaf
-
-		cost = 10
-
-		ai_will_do = {
-			factor = 25
-		}
-
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = yes
-		search_filters = { FOCUS_FILTER_RESEARCH }
-
-		completion_reward = {
-			add_tech_bonus = {
-				name = NZL_modern_fighters
-				bonus = 1.0
-				uses = 1
-				technology = early_fighter
-				technology = fighter1
-				technology = fighter2
-				technology = fighter3
-				category = cat_heavy_fighter
-			}
-		}
-	}
-
-	focus = {
-		id = NZL_heavy_bombers
-		icon = GFX_goal_generic_air_bomber
-		prerequisite = { focus = NZL_fighter_focus focus = NZL_bomber_focus }
-		mutually_exclusive = { focus = NZL_modern_fighters }
-		x = 1
-		y = 3
-		relative_position_id = NZL_expand_the_nzpaf
-
-		cost = 10
-
-		ai_will_do = {
-			factor = 2
-		}
-
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = yes
-		search_filters = { FOCUS_FILTER_RESEARCH }
-
-		completion_reward = {
-			add_tech_bonus = {
-				name = NZL_heavy_bombers
-				bonus = 1.0
-				uses = 2
-				category = cat_strategic_bomber
-			}
-		}
-	}
-
+	
 	
 	############################
 	##### INDUSTRY SECTION #####
 	############################
 
 	focus = {
-		id = NZL_national_roads_board
+		id = CAS_rail_project
 		icon = GFX_goal_generic_construct_infrastructure
 		x = 25
 		y = 0
@@ -790,7 +520,7 @@ focus_tree = {
 		complete_tooltip = {
 			random_state = {
 				limit = {
-					has_state_flag = NZL_national_roads_board_Inf1
+					
 				}
 				add_building_construction = {
 					type = infrastructure
@@ -801,7 +531,7 @@ focus_tree = {
 
 			random_state = {
 				limit = {
-					has_state_flag = NZL_national_roads_board_Inf2
+					
 				}
 				add_building_construction = {
 					type = infrastructure
@@ -813,7 +543,7 @@ focus_tree = {
 
 		completion_reward = {
 			random_owned_controlled_state = {
-				prioritize = { 284 }
+				prioritize = {  }
 				limit = {
 					free_building_slots = {
 						building = infrastructure
@@ -825,11 +555,11 @@ focus_tree = {
 					level = 2
 					instant_build = yes
 				}
-				set_state_flag = NZL_national_roads_board_Inf1
+				
 			}
 
 			random_owned_controlled_state = {
-				prioritize = { 723 }
+				prioritize = {  }
 				limit = {
 					free_building_slots = {
 						building = infrastructure
@@ -841,18 +571,18 @@ focus_tree = {
 					level = 2
 					instant_build = yes
 				}
-				set_state_flag = NZL_national_roads_board_Inf2
+				
 			}
 		}
 	}
 
 	focus = {
-		id = NZL_new_zealand_steel
+		id = CAS_steel_industries
 		icon = GFX_goal_generic_production2
-		prerequisite = { focus = NZL_national_roads_board }
+		prerequisite = { focus = CAS_rail_project }
 		x = -2
 		y = 1
-		relative_position_id = NZL_national_roads_board
+		relative_position_id = CAS_rail_project
 
 		cost = 10
 
@@ -861,7 +591,7 @@ focus_tree = {
 		}
 
 		available = {
-			controls_state = 284 
+			controls_state = 175
 		}
 
 		bypass = {
@@ -874,22 +604,22 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 
 		completion_reward = {
-			284 = {
+			175 = {
 				add_resource = {
 					type = steel
-					amount = 10
+					amount = 15
 				}
 			}
 		}
 	}
 
 	focus = {
-		id = NZL_taranaki_oil
+		id = CAS_oil
 		icon = GFX_goal_generic_oil_refinery
-		prerequisite = { focus = NZL_national_roads_board }
+		prerequisite = { focus = CAS_rail_project }
 		x = 0
 		y = 1
-		relative_position_id = NZL_national_roads_board
+		relative_position_id = CAS_rail_project
 
 		cost = 10
 
@@ -898,7 +628,7 @@ focus_tree = {
 		}
 
 		available = {
-			controls_state = 284
+			controls_state = 175
 		}
 
 		bypass = {
@@ -911,7 +641,7 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 
 		completion_reward = {
-			284 = {
+			175 = {
 				add_resource = {
 					type = oil
 					amount = 5
