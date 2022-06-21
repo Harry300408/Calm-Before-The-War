@@ -651,12 +651,12 @@ focus_tree = {
 	}
 
 	focus = {
-		id = NZL_wairarapa_sheep_farms
+		id = CAS_autarky
 		icon = GFX_goal_generic_consumer_goods
-		prerequisite = { focus = NZL_national_roads_board }
+		prerequisite = { focus = CAS_rail_project }
 		x = 2
 		y = 1
-		relative_position_id = NZL_national_roads_board
+		relative_position_id = CAS_rail_project
 
 		cost = 10
 
@@ -664,7 +664,7 @@ focus_tree = {
 			factor = 25
 			modifier = {
 				factor = 2
-				has_completed_focus = NZL_bureau_of_industry
+		
 			}
 		}
 
@@ -682,17 +682,17 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 
 		completion_reward = {
-			add_ideas = NZL_wairarapa_sheep_farms
+			add_political_power = 10
 		}
 	}
 
 	focus = {
-		id = NZL_bureau_of_industry
+		id = CAS_bureau_of_industry
 		icon = GFX_goal_generic_production
-		prerequisite = { focus = NZL_new_zealand_steel focus = NZL_taranaki_oil }
+		prerequisite = { focus = CAS_oil = CAS_rail_project }
 		x = 0
 		y = 2
-		relative_position_id = NZL_national_roads_board
+		relative_position_id = CAS_oil
 
 		cost = 10
 
@@ -720,7 +720,7 @@ focus_tree = {
 		complete_tooltip = {
 			random_state = {
 				limit = {
-					has_state_flag = NZL_bureau_of_industry_IC1
+					
 				}
 				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
@@ -733,7 +733,7 @@ focus_tree = {
 
 		completion_reward = {
 			random_owned_controlled_state = {
-				prioritize = { 284 723 }
+				prioritize = {  }
 				limit = {				
 					free_building_slots = {
 						building = industrial_complex
@@ -747,18 +747,18 @@ focus_tree = {
 					level = 2
 					instant_build = yes
 				}
-				set_state_flag = NZL_bureau_of_industry_IC1
+				
 			}
 		}
 	}
 
 	focus = {
-		id = NZL_department_of_scientific_and_industrial_research
+		id = CAS_research_development
 		icon = GFX_focus_research
-		prerequisite = { focus = NZL_bureau_of_industry }
+		prerequisite = { focus = CAS_bureau_of_industry }
 		x = -1
 		y = 3
-		relative_position_id = NZL_national_roads_board
+		relative_position_id = CAS_rail_project
 
 		cost = 10
 
@@ -766,7 +766,7 @@ focus_tree = {
 			factor = 35
 			modifier = {
 				factor = 2
-				has_completed_focus = NZL_heavy_bombers
+				
 			}
 		}
 
@@ -788,278 +788,14 @@ focus_tree = {
 		}
 	}
 
-	focus = {
-		id = NZL_industrial_conscription
-		icon = GFX_goal_generic_construct_civilian
-		prerequisite = { focus = NZL_wairarapa_sheep_farms }
-		prerequisite = { focus = NZL_bureau_of_industry }
-		x = 1
-		y = 3
-		relative_position_id = NZL_national_roads_board
-
-		cost = 10
-
-		ai_will_do = {
-			factor = 25
-			modifier = {
-				factor = 2
-				has_completed_focus = NZL_domestic_arms_industry
-			}
-		}
-
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no		
-		available_if_capitulated = no
-		search_filters = { FOCUS_FILTER_INDUSTRY }
-
-		complete_tooltip = {
-			random_state = {
-				limit = {
-					has_state_flag = NZL_industrial_conscription_AF
-				}
-				add_extra_state_shared_building_slots = 2
-				add_building_construction = {
-					type = arms_factory
-					level = 2
-					instant_build = yes
-				}
-			}
-		}
-
-		completion_reward = {
-			random_owned_controlled_state = {
-				prioritize = { 284 723 }
-				limit = {
-					free_building_slots = {
-						building = arms_factory
-						size > 1
-						include_locked = yes
-					}
-				}
-				add_extra_state_shared_building_slots = 2
-				add_building_construction = {
-					type = arms_factory
-					level = 2
-					instant_build = yes
-				}
-				set_state_flag = NZL_industrial_conscription_AF
-			}
-		}
-	}
-
-	focus = {
-		id = NZL_think_big
-		icon = GFX_goal_generic_construct_civ_factory
-		prerequisite = { focus = NZL_industrial_conscription }
-		prerequisite = { focus = NZL_domestic_arms_industry }
-		x = 2
-		y = 4
-		relative_position_id = NZL_national_roads_board
-
-		cost = 10
-
-		ai_will_do = {
-			factor = 25
-			modifier = {
-				factor = 2
-				has_completed_focus = NZL_department_of_scientific_and_industrial_research
-			}
-		}
-
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-		search_filters = { FOCUS_FILTER_INDUSTRY }
-
-		complete_tooltip = {
-			random_state = {
-				limit = {
-					has_state_flag = NZL_think_big_IC1
-				}
-				add_extra_state_shared_building_slots = 2
-				add_building_construction = {
-					type = industrial_complex
-					level = 2
-					instant_build = yes
-				}
-			}
-			random_state = {
-				limit = {
-					has_state_flag = NZL_think_big_AF
-				}
-				add_extra_state_shared_building_slots = 1
-				add_building_construction = {
-					type = arms_factory
-					level = 1
-					instant_build = yes
-				}
-			}
-		}
-
-		completion_reward = {
-			random_owned_controlled_state = {
-				prioritize = { 284 723 }
-				limit = {				
-					free_building_slots = {
-						building = industrial_complex
-						size > 1
-						include_locked = yes
-					}
-				}
-				add_extra_state_shared_building_slots = 2
-				add_building_construction = {
-					type = industrial_complex
-					level = 2
-					instant_build = yes
-				}
-				set_state_flag = NZL_think_big_IC1
-			}
-			random_owned_controlled_state = {
-				prioritize = { 284 723 }
-				limit = {
-					free_building_slots = {
-						building = arms_factory
-						size > 1
-						include_locked = yes
-					}
-				}
-				add_extra_state_shared_building_slots = 2
-				add_building_construction = {
-					type = arms_factory
-					level = 2
-					instant_build = yes
-				}
-				set_state_flag = NZL_think_big_AF
-			}
-		}
-	}
-
-	focus = {
-		id = NZL_project_seal
-		icon = GFX_focus_wonderweapons
-		prerequisite = { focus = NZL_heavy_bombers focus = NZL_modern_fighters }
-		prerequisite = { focus = NZL_department_of_scientific_and_industrial_research }
-		x = -2
-		y = 4
-		relative_position_id = NZL_national_roads_board
-
-		cost = 10
-
-		ai_will_do = {
-			factor = 35
-		}
-
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-		search_filters = { FOCUS_FILTER_RESEARCH }
-
-		completion_reward = {
-			add_tech_bonus = {
-				name = NZL_project_seal
-				bonus = 1.0
-				uses = 2
-				category = nuclear
-			}
-		}
-	}
-
-	focus = {
-		id = NZL_national_defense_institute
-		icon = GFX_focus_research
-		prerequisite = { focus = NZL_project_seal }
-		x = -2
-		y = 5
-		relative_position_id = NZL_national_roads_board
-
-		cost = 10
-
-		ai_will_do = {
-			factor = 35
-		}
-
-		available = {
-			is_subject = no
-		}
-
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-		search_filters = { FOCUS_FILTER_RESEARCH }
-
-		completion_reward = {
-			add_research_slot = 1
-		}
-	}
-
-	focus = {
-		id = NZL_expand_the_university_of_auckland
-		icon = GFX_focus_research
-		prerequisite = { focus = NZL_think_big }
-		prerequisite = { focus = NZL_department_of_scientific_and_industrial_research }
-		x = 0
-		y = 5
-		relative_position_id = NZL_national_roads_board
-
-		cost = 10
-
-		ai_will_do = {
-			factor = 35
-		}
-
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-		search_filters = { FOCUS_FILTER_RESEARCH }
-
-		completion_reward = {
-			add_research_slot = 1
-		}
-	}
-
+	
 
 	############################
 	####### ARMY SECTION #######
 	############################
 	
 	focus = {
-		id = NZL_army_reforms
+		id = CAS_army_reforms
 		icon = GFX_goal_generic_army_doctrines
 		x = 30
 		y = 0
@@ -1086,7 +822,7 @@ focus_tree = {
 		completion_reward = {
 			army_experience = 25
 			add_doctrine_cost_reduction = {
-				name = NZL_army_reforms
+				name = CAS_army_reforms
 				cost_reduction = 0.5
 				uses = 1
 				category = land_doctrine
@@ -1095,12 +831,12 @@ focus_tree = {
 	}
 
 	focus = {
-		id = NZL_charlton_automatic_rifle
+		id = CAS_charlton_automatic_rifle
 		icon = GFX_goal_generic_small_arms
-		prerequisite = { focus = NZL_army_reforms }
+		prerequisite = { focus = CAS_army_reforms }
 		x = -1
 		y = 1
-		relative_position_id = NZL_army_reforms
+		relative_position_id = CAS_army_reforms
 
 		cost = 10
 
@@ -1108,7 +844,7 @@ focus_tree = {
 			factor = 25
 			modifier = {
 				factor = 2
-				has_completed_focus = NZL_industrial_conscription
+				
 			}
 		}
 
@@ -1127,7 +863,7 @@ focus_tree = {
 
 		completion_reward = {
 			add_tech_bonus = {
-				name = NZL_charlton_automatic_rifle
+				name = CAS_army_better_cool
 				bonus = 1.0
 				uses = 1
 				category = infantry_weapons
@@ -1136,12 +872,12 @@ focus_tree = {
 	}
 
 	focus = {
-		id = NZL_bob_semple_tank 
+		id = CAS_panzer
 		icon = GFX_focus_NZL_bob_semple_tank		#VEHICLE OF GLORIOUS DESIGN BOB SEMPLE TANK MUST HAVE UNIQUE ICON
-		prerequisite = { focus = NZL_army_reforms }
+		prerequisite = { focus = CAS_army_reforms }
 		x = 1
 		y = 1
-		relative_position_id = NZL_army_reforms
+		relative_position_id = CAS_army_reforms
 
 		cost = 10
 
@@ -1169,7 +905,7 @@ focus_tree = {
 			add_ideas = NZL_bob_semple_tank
 			if = {
 				limit = {
-					NOT = { has_dlc = "No Step Back" }
+					
 				}
 				add_tech_bonus = {
 					name = NZL_bob_semple_tank
@@ -1180,7 +916,7 @@ focus_tree = {
 			}
 			else = {
 				add_tech_bonus = {
-					name = NZL_bob_semple_tank
+					name = CAS_panzer
 					bonus = 1.0
 					uses = 1
 					technology = basic_light_tank_chassis
@@ -1190,12 +926,12 @@ focus_tree = {
 	}
 
 	focus = {
-		id = NZL_domestic_arms_industry
+		id = CAS_domestic_arms_industry
 		icon = GFX_goal_generic_construct_mil_factory
-		prerequisite = { focus = NZL_charlton_automatic_rifle }
+		prerequisite = { focus = CAS_charlton_automatic_rifle }
 		x = -1
 		y = 2
-		relative_position_id = NZL_army_reforms
+		relative_position_id = CAS_army_reforms
 
 		cost = 10
 
@@ -1203,7 +939,7 @@ focus_tree = {
 			factor = 25
 			modifier = {
 				factor = 2
-				has_completed_focus = NZL_industrial_conscription
+				
 			}
 		}
 
@@ -1223,7 +959,7 @@ focus_tree = {
 		complete_tooltip = {
 			random_state = {
 				limit = {
-					has_state_flag = NZL_domestic_arms_industry_AF
+					
 				}
 				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
@@ -1236,7 +972,7 @@ focus_tree = {
 
 		completion_reward = {
 			random_owned_controlled_state = {
-				prioritize = { 284 723 }
+				prioritize = {  }
 				limit = {
 					free_building_slots = {
 						building = arms_factory
@@ -1250,222 +986,19 @@ focus_tree = {
 					level = 2
 					instant_build = yes
 				}
-				set_state_flag = NZL_domestic_arms_industry_AF
+				
 			}
 		}
 	}
 
-	focus = {
-		id = NZL_schofield_tank
-		icon = GFX_goal_generic_army_tanks
-		prerequisite = { focus = NZL_bob_semple_tank }
-		x = 1
-		y = 2
-		relative_position_id = NZL_army_reforms
-
-		cost = 10
-
-		ai_will_do = {
-			factor = 25
-		}
-
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = yes
-		search_filters = { FOCUS_FILTER_RESEARCH }
-
-		completion_reward = {
-			add_tech_bonus = {
-				name = NZL_schofield_tank
-				bonus = 1.0
-				uses = 1
-				category = cat_light_armor
-			}
-		}
-	}
-
-	focus = {
-		id = NZL_long_range_patrol
-		icon = GFX_goal_generic_special_forces
-		prerequisite = { focus = NZL_domestic_arms_industry }
-		x = -1
-		y = 3
-		relative_position_id = NZL_army_reforms
-
-		cost = 10
-
-		ai_will_do = {
-			factor = 25
-		}
-
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = yes
-		search_filters = { FOCUS_FILTER_RESEARCH }
-
-		completion_reward = {
-			add_tech_bonus = {
-				name = NZL_long_range_patrol
-				bonus = 1.00
-				uses = 2
-				category = marine_tech
-			}
-		}
-	}
-
-	focus = {
-		id = NZL_artillery_focus
-		icon = GFX_goal_generic_army_artillery
-		prerequisite = { focus = NZL_schofield_tank }
-		x = 1
-		y = 3
-		relative_position_id = NZL_army_reforms
-
-		cost = 10
-
-		ai_will_do = {
-			factor = 25
-		}
-
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = yes
-		search_filters = { FOCUS_FILTER_RESEARCH }
-
-		completion_reward = {
-			add_tech_bonus = {
-				name = NZL_artillery_focus
-				bonus = 1.00
-				uses = 1
-				category = artillery
-			}
-		}
-	}
-
-	focus = {
-		id = NZL_research_collaboration
-		icon = GFX_goal_generic_scientific_exchange
-		prerequisite = { focus = NZL_big_bob_tank }
-		prerequisite = { focus = NZL_think_big }
-		x = -1
-		y = 5
-		relative_position_id = NZL_army_reforms
-
-		cost = 10
-
-		ai_will_do = {
-			factor = 25
-		}
-
-		available = {
-			is_subject = no
-			has_war = yes
-			is_in_faction = yes
-			OR = {
-				num_of_factories > 50
-				any_other_country = {
-					is_in_faction_with = ROOT
-					num_of_factories > 50
-				}
-			}
-		}
-
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = yes
-		search_filters = { FOCUS_FILTER_RESEARCH }
-
-		completion_reward = {
-			add_research_slot = 1
-		}
-	}
-
-	focus = {
-		id = NZL_big_bob_tank
-		icon = GFX_goal_generic_build_tank
-		prerequisite = { focus = NZL_artillery_focus }
-		x = 1
-		y = 4
-		relative_position_id = NZL_army_reforms
-
-		cost = 10
-
-		ai_will_do = {
-			factor = 25
-		}
-
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = yes
-		search_filters = { FOCUS_FILTER_RESEARCH }
-
-		completion_reward = {
-			if = {
-				limit = {
-					NOT = { has_dlc = "No Step Back" }
-				}
-				add_tech_bonus = {
-					name = NZL_big_bob_tank
-					ahead_reduction = 2
-					bonus = 1.0
-					uses = 1
-					technology = super_heavy_tank
-				}
-			}
-			else = {
-				add_tech_bonus = {
-					name = NZL_big_bob_tank
-					ahead_reduction = 2
-					bonus = 1.0
-					uses = 1
-					technology = super_heavy_tank_chassis
-				}
-			}
-		}
-	}
+	
 
 	############################
 	##### POLITICS SECTION #####
 	############################
 
 	focus = {
-		id = NZL_the_first_labor_government
+		id = CAS_beaten_defeated
 		icon = GFX_goal_generic_improve_relations
 		x = 4
 		y = 0
