@@ -12,12 +12,12 @@ puppet = UKR
 puppet = LAT
 puppet = IND
 puppet = BEL
-puppet = POL	
+puppet = POL
 puppet = BLR
 puppet = LIT
 puppet = ROM
 puppet = IRQ
-puppet = MIT        
+puppet = MIT
 
 create_country_leader = {
 	name = "Kaiser Wilhelm II"
@@ -54,8 +54,8 @@ create_country_leader = {
 	traits = {
 		#
 	}
-}         
-         
+}
+
 starting_train_buffer = 2
 set_fuel_ratio = 0.8
 
@@ -66,7 +66,7 @@ set_technology = {
 	infantry_weapons = 1
 	infantry_weapons1 = 1
 	tech_recon = 1
-	tech_support = 1		
+	tech_support = 1
 	tech_engineers = 1
 	tech_mountaineers = 1
 	motorised_infantry = 1
@@ -88,7 +88,7 @@ set_technology = {
 	fuel_refining = 1
 }
 if = {
-	
+
 	set_technology = {
 		gwtank = 1
 		basic_light_tank = 1
@@ -97,7 +97,7 @@ if = {
 	}
 }
 if = {
-	
+
 	set_technology = {
 		gwtank_chassis = 1
 		basic_light_tank_chassis = 1
@@ -107,7 +107,7 @@ if = {
 	}
 }
 if = {
-	
+
 	set_technology = {
 		early_submarine = 1
 		basic_submarine = 1
@@ -125,7 +125,7 @@ if = {
 	set_naval_oob = "GER_1936_naval"
 }
 if = {
-	
+
 	set_technology = {
 		basic_naval_mines = 1
 		submarine_mine_laying = 1
@@ -155,7 +155,7 @@ if = {
 	set_naval_oob = "GER_1936_naval_mtg"
 }
 if = {
-	
+
 	set_technology = {
 		armored_car1 = 1
 	}
@@ -167,7 +167,7 @@ set_variable = { var = wehrmacht_anger value = 0 }
 set_variable = { var = ss_anger value = 0 }
 set_research_slots = 4
 set_convoys = 200
-set_stability = 0.75 
+set_stability = 0.75
 set_war_support = 0.3
 
 #Trade
@@ -183,17 +183,17 @@ create_import = {
 
 	add_political_power = 1197
 	add_command_power = 100
-	
 
-   
-	
-	
-	
+
+
+
+
+
 	set_autonomy = {
 		target = SLO
 		autonomous_state = autonomy_puppet
 	}
-	
+
 	give_military_access = SLO
 	create_wargoal = {
 		type = take_state_focus
@@ -212,7 +212,7 @@ create_import = {
 	unlock_national_focus = GER_mol_rib_pact
 	every_other_country = {
 		limit = {
-			has_government = fascism 
+			has_government = fascism
 		}
 		add_opinion_modifier = { target = GER modifier = MR_pact_fascists }
 	}
@@ -232,11 +232,11 @@ create_import = {
 		add_opinion_modifier = { target = GER modifier = sov_ger_treaty_trade }
 	}
 	#Soviet treaty end
-	
-	
+
+
 
 	#BUILDINGS
-	
+
 
 	set_technology = {
 		CAS2 = 1
@@ -248,7 +248,7 @@ create_import = {
 		support_weapons = 1
 		support_weapons2 = 1
 		paratroopers = 1
-		
+
 
 		#doctrines
 		delay = 1
@@ -260,7 +260,7 @@ create_import = {
 		unrestricted_submarine_warfare = 1
 		raider_patrols = 1
 		#air
-		formation_flying = 1		
+		formation_flying = 1
 		dive_bombing = 1
 		direct_ground_support = 1
 
@@ -295,18 +295,18 @@ create_import = {
 		limit = {
 		}
 		set_technology = {
-			basic_medium_tank = 1 
+			basic_medium_tank = 1
 		}
 		set_oob = "GER_1939"
 	}
 	if = {
 		set_technology = {
-			basic_medium_tank_chassis = 1 
+			basic_medium_tank_chassis = 1
 		}
 		set_oob = "GER_1939_nsb"
 	}
 	if = {
-		
+
 		set_technology = {
 			basic_heavy_cruiser = 1
 			improved_heavy_cruiser = 1
@@ -318,7 +318,7 @@ create_import = {
 		set_naval_oob = "GER_1939_naval_legacy"
 	}
 	if = {
-		
+
 		set_technology = {
 			improved_ship_hull_cruiser = 1
 			basic_ship_hull_heavy = 1
@@ -823,6 +823,80 @@ create_equipment_variant = {
 	}
 	obsolete = yes
 }
+recruit_character = GER_wilhelm_pieck
+recruit_character = GER_konrad_adenauer
+recruit_character = GER_albert_kesselring
+recruit_character = GER_alfred_jodl
+recruit_character = GER_alfred_saalwachter
+recruit_character = GER_erhard_milch
+recruit_character = GER_erich_bey
+recruit_character = GER_erich_raeder
+recruit_character = GER_erich_von_manstein
+recruit_character = GER_ernst_udet
+recruit_character = GER_ernsteberhard_hell
+recruit_character = GER_erwin_rommel
+recruit_character = GER_erwin_von_witzleben
+recruit_character = GER_ewald_von_kleist
+recruit_character = GER_fedor_von_bock
+recruit_character = GER_felix_steiner
+recruit_character = GER_ferdinand_schorner
+recruit_character = GER_franz_halder
+recruit_character = GER_friedrich_paulus
+recruit_character = GER_friedrich_schulz
+recruit_character = GER_georg_von_kuchler
+recruit_character = GER_georghans_reinhardt
+recruit_character = GER_gerd_von_rundstedt
+recruit_character = GER_hermann_goring
+recruit_character = GER_gotthard_heinrici
+recruit_character = GER_gunther_lutjens
+recruit_character = GER_gunther_von_kluge
+recruit_character = GER_hasso_von_manteuffel
+recruit_character = GER_heinz_guderian
+recruit_character = GER_heisenberg
+recruit_character = GER_hermann_boehm
+recruit_character = GER_hermann_hoth
+recruit_character = GER_hugo_sperrle
+recruit_character = GER_johannes_blaskowitz
+recruit_character = GER_karl_donitz
+recruit_character = GER_kurt_student
+recruit_character = GER_ludwig_beck
+recruit_character = GER_maximilian_von_weichs
+recruit_character = GER_otto_ciliax
+recruit_character = GER_paul_hausser
+recruit_character = GER_ritter_von_greim
+recruit_character = GER_sepp_dietrich
+recruit_character = GER_viktor_schutze
+recruit_character = GER_von_braun
+recruit_character = GER_walter_kruger
+recruit_character = GER_walter_model
+recruit_character = GER_walther_von_brauchitsch
+recruit_character = GER_walther_wever
+recruit_character = GER_werner_von_fritsch
+recruit_character = GER_wilhelm_keitel
+recruit_character = GER_wilhelm_list
+recruit_character = GER_wilhelm_marschall
+
+recruit_character = GER_wilhelm_ritter_von_leeb
+recruit_character = GER_wolfram_von_richthofen
+
+recruit_character = GER_heinrich_himmler
+recruit_character = GER_walther_funk
+recruit_character = GER_hjalmar_schacht
+recruit_character = GER_julius_leber
+recruit_character = GER_albert_speer
+recruit_character = GER_hans_oster
+recruit_character = GER_theodor_heuss
+recruit_character = GER_fritz_todt
+recruit_character = GER_joachim_von_ribbentrop
+recruit_character = GER_ernst_thalmann
+recruit_character = GER_rudolf_hess
+recruit_character = GER_martin_bormann
+recruit_character = GER_wilhelm_canaris
+recruit_character = GER_joseph_goebbels
+recruit_character = GER_konstantin_von_neurath
+recruit_character = GER_alfred_hugenberg
+recruit_character = GER_kurt_schumacher
+recruit_character = GER_august_von_mackensen
 
 ## 1939 Start ##
 1939.1.1 = {
@@ -996,7 +1070,7 @@ create_equipment_variant = {
 				tank_nsb_engine_upgrade = 3
 				tank_nsb_armor_upgrade = 3
 			}
-			
+
 			icon = "GFX_CZE_basic_main_tank"
 		}
 	}
@@ -1005,7 +1079,7 @@ create_equipment_variant = {
 		type = fighter_equipment_1
 		upgrades = {
 			plane_gun_upgrade = 1
-			plane_range_upgrade = 1  
+			plane_range_upgrade = 1
 			plane_engine_upgrade = 0
 			plane_reliability_upgrade = 2
 		}
@@ -1015,7 +1089,7 @@ create_equipment_variant = {
 		type = fighter_equipment_1
 		upgrades = {
 			plane_gun_upgrade = 2
-			plane_range_upgrade = 1  
+			plane_range_upgrade = 1
 			plane_engine_upgrade = 2
 			plane_reliability_upgrade = 4
 		}

@@ -9,5 +9,5 @@ tags={
 	"Graphics"
 	"Ideologies"
 }
-name="Ein Bröckelndes Imperium:Erbe des Kaisers"
+name="A Crumbling Empire: Legacy of The Kaiser"
 supported_version="1.11.*"

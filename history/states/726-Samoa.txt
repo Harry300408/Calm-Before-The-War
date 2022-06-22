@@ -5,7 +5,7 @@ state={
 	state_category = small_island
 
 	history={
-		owner = NZL
+		owner = GRM
 		add_core_of = SAM
 		buildings = {
 			infrastructure = 2
@@ -18,8 +18,8 @@ state={
 		}
 	}
 	provinces={
-		7290 13080 
+		7290 13080
 	}
 
-	local_supplies=0.0 
+	local_supplies=0.0
 }

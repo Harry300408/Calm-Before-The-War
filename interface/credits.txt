@@ -14,14 +14,13 @@ Harry
 #DESIGNERS
 Kamichi
 RadegastV
-SPACEMAN
 
 #ADDITIONAL DESIGNERS
 Harry
 vanuatu
 
 #PROGRAMMERS
-Harry 
+Harry
 janskter
 
 #ART LEAD
@@ -40,7 +39,7 @@ RadegastV
 vanuatu
 
 #CONTENT DESIGN LEAD
-Harry 
+Harry
 CTWarboss
 
 #CONTENT DESIGNERS
@@ -163,7 +162,7 @@ copies of the Software, and to permit persons to whom the Software is
 furnished to do so, subject to the following conditions:
 
 Whomever the person maybe has to credt me, Harry300408, the creator unless you have my permission then you don't have to credit me
-even if you are making a sub-mod you have to make sure you credit either the founder of the mod or the team it self, 
+even if you are making a sub-mod you have to make sure you credit either the founder of the mod or the team it self,
 One Point Studios
 
 The above copyright notice and this permission notice shall be included in all
@@ -178,16 +177,4 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 Thanks,
-- Founder of CBTW and One Point Studios - Harry Adams. 
-
-
-
-
-
-
-
-
-
-
-
-
+- Founder of CBTW and One Point Studios - Harry Adams.

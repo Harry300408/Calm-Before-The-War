@@ -1,0 +1,126 @@
+﻿###########################
+# cg_initialization
+###########################
+
+add_namespace = cg_control
+
+# initialize world consumer supply
+
+country_event = {
+	id = cg_control.1
+	title = cg_control.1.t
+	desc = cg_control.1.d
+	#picture = GFX_report_event_hitler_handshake
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	
+	option = {
+		name = cg_control.1.a
+		set_global_flag = cg_initialization_complete
+		every_country = {	#consumer goods initialization
+			add_ideas = cg_50
+			cg_mod_set_numbers =yes
+		}
+	}
+}
+
+
+country_event = {
+	id = cg_control.2
+	title = cg_control.2.t
+	desc = cg_control.2.d
+	#picture = GFX_report_event_hitler_handshake
+	
+	is_triggered_only = no
+	fire_only_once = no
+	hidden = no
+
+	trigger = {
+		cg_control_enabled = no
+	}
+
+	mean_time_to_happen = { days = 0 }
+
+	option = {
+		name = cg_control.2.a
+		add_ideas = cg_50
+		cg_mod_set_numbers =yes
+
+ 		ai_chance = {
+			factor = 80
+		}
+	}
+}
+country_event = {
+	id = cg_control.3
+	title = cg_control.3.t
+	desc = cg_control.3.d
+	
+	is_triggered_only = no
+	fire_only_once = no
+	hidden = yes
+
+	trigger = {
+		OR = {
+			check_variable = { modifier@consumer_goods_factor < 0 }
+			check_variable = { modifier@consumer_goods_factor > 1 }
+			num_of_civilian_factories_available_for_projects < 1
+		}
+		OR = {
+			cg_stability_increasing = yes
+			cg_stability_decreasing = yes
+		}
+	}
+
+	mean_time_to_happen = { days = 1 }
+
+	immediate = { # Optional : all the following will occur once the event occurs
+#		if = {
+#			limit = { 
+#				cg_stability_increasing = yes
+#				modifier@consumer_goods_factor > 1
+#			}
+#			decrease_consumer_goods_2 = yes
+#			cg_mod_set_numbers  = yes
+#		}
+#		else_if = {
+#			limit = { 
+#				cg_stability_decreasing = yes
+#				modifier@consumer_goods_factor < 0
+#				
+#			}
+#			increase_consumer_goods_2 = yes
+#			cg_mod_set_numbers  = yes
+#		}		
+	}
+
+	option = {
+		name = cg_control.3.a
+		
+		if = {
+			limit = { 
+				cg_stability_increasing = yes
+				OR = {
+				check_variable = { modifier@consumer_goods_factor > 1 }
+				num_of_civilian_factories_available_for_projects < 1
+				}
+			}
+			decrease_consumer_goods_2 = yes
+			cg_mod_set_numbers  = yes
+		}
+		else_if = {
+			limit = { 
+				cg_stability_decreasing = yes
+				check_variable = { modifier@consumer_goods_factor < 0 }
+				
+			}
+			increase_consumer_goods_2 = yes
+			cg_mod_set_numbers  = yes
+		}
+ 		ai_chance = {
+			factor = 80
+		}
+	}
+}

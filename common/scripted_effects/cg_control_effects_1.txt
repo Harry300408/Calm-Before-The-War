@@ -1,0 +1,1730 @@
+cg_mod_set_numbers = {
+	ROOT = {
+		set_temp_variable = { temp_base_cg_needs = modifier@consumer_goods_factor }				
+		subtract_from_temp_variable = { temp_base_cg_needs = cg_supply }
+		set_variable = { base_cg_needs = temp_base_cg_needs }
+		multiply_temp_variable = { temp_base_cg_needs = 100 }
+		set_variable = { base_cg_needs_percent = temp_base_cg_needs }
+		
+		set_temp_variable = { temp_cg_supply = cg_supply }
+		multiply_temp_variable = { temp_cg_supply = 100 }
+		set_variable = { cg_supply_percent = temp_cg_supply }
+			
+		set_temp_variable = { temp_consumer_goods_factor = modifier@consumer_goods_factor }
+		multiply_temp_variable = { temp_consumer_goods_factor = 100 }
+		set_variable = { consumer_goods_factor_display_percent = temp_consumer_goods_factor }
+				
+		set_temp_variable = { temp_stability_weekly = modifier@stability_weekly }
+		multiply_temp_variable = { temp_stability_weekly = 100 }
+		set_variable = { stability_weekly_display_percent = temp_stability_weekly }
+	}
+}
+
+increase_consumer_goods_2 = {
+	if = {
+		limit = { has_idea = cg_95 }
+		swap_ideas = {
+			remove_idea = cg_95
+			add_idea = cg_100
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_90 }
+		swap_ideas = {
+			remove_idea = cg_90
+			add_idea = cg_95
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_85 }
+		swap_ideas = {
+			remove_idea = cg_85
+			add_idea = cg_90
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_80 }
+		swap_ideas = {
+			remove_idea = cg_80
+			add_idea = cg_85
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_75 }
+		swap_ideas = {
+			remove_idea = cg_75
+			add_idea = cg_80
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_70 }
+		swap_ideas = {
+			remove_idea = cg_70
+			add_idea = cg_75
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_65 }
+		swap_ideas = {
+			remove_idea = cg_65
+			add_idea = cg_70
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_60 }
+		swap_ideas = {
+			remove_idea = cg_60
+			add_idea = cg_65
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_55 }
+		swap_ideas = {
+			remove_idea = cg_55
+			add_idea = cg_60
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_50 }
+		swap_ideas = {
+			remove_idea = cg_50
+			add_idea = cg_55
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_45 }
+		swap_ideas = {
+			remove_idea = cg_45
+			add_idea = cg_50
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_40 }
+		swap_ideas = {
+			remove_idea = cg_40
+			add_idea = cg_45
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_35 }
+		swap_ideas = {
+			remove_idea = cg_35
+			add_idea = cg_40
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_30 }
+		swap_ideas = {
+			remove_idea = cg_30
+			add_idea = cg_35
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_25 }
+		swap_ideas = {
+			remove_idea = cg_25
+			add_idea = cg_30
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_20 }
+		swap_ideas = {
+			remove_idea = cg_20
+			add_idea = cg_25
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_15 }
+		swap_ideas = {
+			remove_idea = cg_15
+			add_idea = cg_20
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_10 }
+		swap_ideas = {
+			remove_idea = cg_10
+			add_idea = cg_15
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_5 }
+		swap_ideas = {
+			remove_idea = cg_5
+			add_idea = cg_10
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_0 }
+		swap_ideas = {
+			remove_idea = cg_0
+			add_idea = cg_5
+		}
+	}
+	else_if = {
+		limit = {
+			NOT = { has_global_flag = cg_initialization_complete  }
+		}
+		add_ideas = cg_55
+		set_global_flag = cg_initialization_complete  
+	}
+	
+}
+
+decrease_consumer_goods_2 = {
+	if = {
+		limit = { has_idea = cg_5 }
+		swap_ideas = {
+			remove_idea = cg_5
+			add_idea = cg_0
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_10 }
+		swap_ideas = {
+			remove_idea = cg_10
+			add_idea = cg_5
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_15 }
+		swap_ideas = {
+			remove_idea = cg_15
+			add_idea = cg_10
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_20 }
+		swap_ideas = {
+			remove_idea = cg_20
+			add_idea = cg_15
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_25 }
+		swap_ideas = {
+			remove_idea = cg_25
+			add_idea = cg_20
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_30 }
+		swap_ideas = {
+			remove_idea = cg_30
+			add_idea = cg_25
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_35 }
+		swap_ideas = {
+			remove_idea = cg_35
+			add_idea = cg_30
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_40 }
+		swap_ideas = {
+			remove_idea = cg_40
+			add_idea = cg_35
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_45 }
+		swap_ideas = {
+			remove_idea = cg_45
+			add_idea = cg_40
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_50 }
+		swap_ideas = {
+			remove_idea = cg_50
+			add_idea = cg_45
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_55 }
+		swap_ideas = {
+			remove_idea = cg_55
+			add_idea = cg_50
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_60 }
+		swap_ideas = {
+			remove_idea = cg_60
+			add_idea = cg_55
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_65 }
+		swap_ideas = {
+			remove_idea = cg_65
+			add_idea = cg_60
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_70 }
+		swap_ideas = {
+			remove_idea = cg_70
+			add_idea = cg_65
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_75 }
+		swap_ideas = {
+			remove_idea = cg_75
+			add_idea = cg_70
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_80 }
+		swap_ideas = {
+			remove_idea = cg_80
+			add_idea = cg_75
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_85 }
+		swap_ideas = {
+			remove_idea = cg_85
+			add_idea = cg_80
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_90 }
+		swap_ideas = {
+			remove_idea = cg_90
+			add_idea = cg_85
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_95 }
+		swap_ideas = {
+			remove_idea = cg_95
+			add_idea = cg_90
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_100 }
+		swap_ideas = {
+			remove_idea = cg_100
+			add_idea = cg_95
+		}
+	}
+	else_if = {
+		limit = {
+			NOT = { has_global_flag = cg_initialization_complete  }
+		}
+		add_ideas = cg_45
+		set_global_flag = cg_initialization_complete  
+	}
+
+}
+
+increase_consumer_goods = {
+	if = {
+		limit = { has_idea = cg_99 }
+		swap_ideas = {
+			remove_idea = cg_99
+			add_idea = cg_100
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_98 }
+		swap_ideas = {
+			remove_idea = cg_98
+			add_idea = cg_99
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_97 }
+		swap_ideas = {
+			remove_idea = cg_97
+			add_idea = cg_98
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_96 }
+		swap_ideas = {
+			remove_idea = cg_96
+			add_idea = cg_97
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_95 }
+		swap_ideas = {
+			remove_idea = cg_95
+			add_idea = cg_96
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_94 }
+		swap_ideas = {
+			remove_idea = cg_94
+			add_idea = cg_95
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_93 }
+		swap_ideas = {
+			remove_idea = cg_93
+			add_idea = cg_94
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_92 }
+		swap_ideas = {
+			remove_idea = cg_92
+			add_idea = cg_93
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_91 }
+		swap_ideas = {
+			remove_idea = cg_91
+			add_idea = cg_92
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_90 }
+		swap_ideas = {
+			remove_idea = cg_90
+			add_idea = cg_91
+		}
+	}
+	if = {
+		limit = { has_idea = cg_89 }
+		swap_ideas = {
+			remove_idea = cg_89
+			add_idea = cg_90
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_88 }
+		swap_ideas = {
+			remove_idea = cg_88
+			add_idea = cg_89
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_87 }
+		swap_ideas = {
+			remove_idea = cg_87
+			add_idea = cg_88
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_86 }
+		swap_ideas = {
+			remove_idea = cg_86
+			add_idea = cg_87
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_85 }
+		swap_ideas = {
+			remove_idea = cg_85
+			add_idea = cg_86
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_84 }
+		swap_ideas = {
+			remove_idea = cg_84
+			add_idea = cg_85
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_83 }
+		swap_ideas = {
+			remove_idea = cg_83
+			add_idea = cg_84
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_82 }
+		swap_ideas = {
+			remove_idea = cg_82
+			add_idea = cg_83
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_81 }
+		swap_ideas = {
+			remove_idea = cg_81
+			add_idea = cg_82
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_80 }
+		swap_ideas = {
+			remove_idea = cg_80
+			add_idea = cg_81
+		}
+	}
+	if = {
+		limit = { has_idea = cg_79 }
+		swap_ideas = {
+			remove_idea = cg_79
+			add_idea = cg_80
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_78 }
+		swap_ideas = {
+			remove_idea = cg_78
+			add_idea = cg_79
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_77 }
+		swap_ideas = {
+			remove_idea = cg_77
+			add_idea = cg_78
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_76 }
+		swap_ideas = {
+			remove_idea = cg_76
+			add_idea = cg_77
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_75 }
+		swap_ideas = {
+			remove_idea = cg_75
+			add_idea = cg_76
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_74 }
+		swap_ideas = {
+			remove_idea = cg_74
+			add_idea = cg_75
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_73 }
+		swap_ideas = {
+			remove_idea = cg_73
+			add_idea = cg_74
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_72 }
+		swap_ideas = {
+			remove_idea = cg_72
+			add_idea = cg_73
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_71 }
+		swap_ideas = {
+			remove_idea = cg_71
+			add_idea = cg_72
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_70 }
+		swap_ideas = {
+			remove_idea = cg_70
+			add_idea = cg_71
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_69 }
+		swap_ideas = {
+			remove_idea = cg_69
+			add_idea = cg_70
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_68 }
+		swap_ideas = {
+			remove_idea = cg_68
+			add_idea = cg_69
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_67 }
+		swap_ideas = {
+			remove_idea = cg_67
+			add_idea = cg_68
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_66 }
+		swap_ideas = {
+			remove_idea = cg_66
+			add_idea = cg_67
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_65 }
+		swap_ideas = {
+			remove_idea = cg_65
+			add_idea = cg_66
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_64 }
+		swap_ideas = {
+			remove_idea = cg_64
+			add_idea = cg_65
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_63 }
+		swap_ideas = {
+			remove_idea = cg_63
+			add_idea = cg_64
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_62 }
+		swap_ideas = {
+			remove_idea = cg_62
+			add_idea = cg_63
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_61 }
+		swap_ideas = {
+			remove_idea = cg_61
+			add_idea = cg_62
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_60 }
+		swap_ideas = {
+			remove_idea = cg_60
+			add_idea = cg_61
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_59 }
+		swap_ideas = {
+			remove_idea = cg_59
+			add_idea = cg_60
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_58 }
+		swap_ideas = {
+			remove_idea = cg_58
+			add_idea = cg_59
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_57 }
+		swap_ideas = {
+			remove_idea = cg_57
+			add_idea = cg_58
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_56 }
+		swap_ideas = {
+			remove_idea = cg_56
+			add_idea = cg_57
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_55 }
+		swap_ideas = {
+			remove_idea = cg_55
+			add_idea = cg_56
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_54 }
+		swap_ideas = {
+			remove_idea = cg_54
+			add_idea = cg_55
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_53 }
+		swap_ideas = {
+			remove_idea = cg_53
+			add_idea = cg_54
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_52 }
+		swap_ideas = {
+			remove_idea = cg_52
+			add_idea = cg_53
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_51 }
+		swap_ideas = {
+			remove_idea = cg_51
+			add_idea = cg_52
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_50 }
+		swap_ideas = {
+			remove_idea = cg_50
+			add_idea = cg_51
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_49 }
+		swap_ideas = {
+			remove_idea = cg_49
+			add_idea = cg_50
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_48 }
+		swap_ideas = {
+			remove_idea = cg_48
+			add_idea = cg_49
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_47 }
+		swap_ideas = {
+			remove_idea = cg_47
+			add_idea = cg_48
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_46 }
+		swap_ideas = {
+			remove_idea = cg_46
+			add_idea = cg_47
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_45 }
+		swap_ideas = {
+			remove_idea = cg_45
+			add_idea = cg_46
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_44 }
+		swap_ideas = {
+			remove_idea = cg_44
+			add_idea = cg_45
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_43 }
+		swap_ideas = {
+			remove_idea = cg_43
+			add_idea = cg_44
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_42 }
+		swap_ideas = {
+			remove_idea = cg_42
+			add_idea = cg_43
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_41 }
+		swap_ideas = {
+			remove_idea = cg_41
+			add_idea = cg_42
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_40 }
+		swap_ideas = {
+			remove_idea = cg_40
+			add_idea = cg_41
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_39 }
+		swap_ideas = {
+			remove_idea = cg_39
+			add_idea = cg_40
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_38 }
+		swap_ideas = {
+			remove_idea = cg_38
+			add_idea = cg_39
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_37 }
+		swap_ideas = {
+			remove_idea = cg_37
+			add_idea = cg_38
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_36 }
+		swap_ideas = {
+			remove_idea = cg_36
+			add_idea = cg_37
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_35 }
+		swap_ideas = {
+			remove_idea = cg_35
+			add_idea = cg_36
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_34 }
+		swap_ideas = {
+			remove_idea = cg_34
+			add_idea = cg_35
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_33 }
+		swap_ideas = {
+			remove_idea = cg_33
+			add_idea = cg_34
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_32 }
+		swap_ideas = {
+			remove_idea = cg_32
+			add_idea = cg_33
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_31 }
+		swap_ideas = {
+			remove_idea = cg_31
+			add_idea = cg_32
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_30 }
+		swap_ideas = {
+			remove_idea = cg_30
+			add_idea = cg_31
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_29 }
+		swap_ideas = {
+			remove_idea = cg_29
+			add_idea = cg_30
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_28 }
+		swap_ideas = {
+			remove_idea = cg_28
+			add_idea = cg_29
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_27 }
+		swap_ideas = {
+			remove_idea = cg_27
+			add_idea = cg_28
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_26 }
+		swap_ideas = {
+			remove_idea = cg_26
+			add_idea = cg_27
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_25 }
+		swap_ideas = {
+			remove_idea = cg_25
+			add_idea = cg_26
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_24 }
+		swap_ideas = {
+			remove_idea = cg_24
+			add_idea = cg_25
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_23 }
+		swap_ideas = {
+			remove_idea = cg_23
+			add_idea = cg_24
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_22 }
+		swap_ideas = {
+			remove_idea = cg_22
+			add_idea = cg_23
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_21 }
+		swap_ideas = {
+			remove_idea = cg_21
+			add_idea = cg_22
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_20 }
+		swap_ideas = {
+			remove_idea = cg_20
+			add_idea = cg_21
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_19 }
+		swap_ideas = {
+			remove_idea = cg_19
+			add_idea = cg_20
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_18 }
+		swap_ideas = {
+			remove_idea = cg_18
+			add_idea = cg_19
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_17 }
+		swap_ideas = {
+			remove_idea = cg_17
+			add_idea = cg_18
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_16 }
+		swap_ideas = {
+			remove_idea = cg_16
+			add_idea = cg_17
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_15 }
+		swap_ideas = {
+			remove_idea = cg_15
+			add_idea = cg_16
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_14 }
+		swap_ideas = {
+			remove_idea = cg_14
+			add_idea = cg_15
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_13 }
+		swap_ideas = {
+			remove_idea = cg_13
+			add_idea = cg_14
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_12 }
+		swap_ideas = {
+			remove_idea = cg_12
+			add_idea = cg_13
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_11 }
+		swap_ideas = {
+			remove_idea = cg_11
+			add_idea = cg_12
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_10 }
+		swap_ideas = {
+			remove_idea = cg_10
+			add_idea = cg_11
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_9 }
+		swap_ideas = {
+			remove_idea = cg_9
+			add_idea = cg_10
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_8 }
+		swap_ideas = {
+			remove_idea = cg_8
+			add_idea = cg_9
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_7 }
+		swap_ideas = {
+			remove_idea = cg_7
+			add_idea = cg_8
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_6 }
+		swap_ideas = {
+			remove_idea = cg_6
+			add_idea = cg_7
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_5 }
+		swap_ideas = {
+			remove_idea = cg_5
+			add_idea = cg_6
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_4 }
+		swap_ideas = {
+			remove_idea = cg_4
+			add_idea = cg_5
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_3 }
+		swap_ideas = {
+			remove_idea = cg_3
+			add_idea = cg_4
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_2 }
+		swap_ideas = {
+			remove_idea = cg_2
+			add_idea = cg_3
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_1 }
+		swap_ideas = {
+			remove_idea = cg_1
+			add_idea = cg_2
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_0 }
+		swap_ideas = {
+			remove_idea = cg_0
+			add_idea = cg_1
+		}
+	}
+}
+
+
+decrease_consumer_goods = {
+	if = {
+		limit = { has_idea = cg_1 }
+		swap_ideas = {
+			remove_idea = cg_1
+			add_idea = cg_0
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_2 }
+		swap_ideas = {
+			remove_idea = cg_2
+			add_idea = cg_1
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_3 }
+		swap_ideas = {
+			remove_idea = cg_3
+			add_idea = cg_2
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_4 }
+		swap_ideas = {
+			remove_idea = cg_4
+			add_idea = cg_3
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_5 }
+		swap_ideas = {
+			remove_idea = cg_5
+			add_idea = cg_4
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_6 }
+		swap_ideas = {
+			remove_idea = cg_6
+			add_idea = cg_5
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_7 }
+		swap_ideas = {
+			remove_idea = cg_7
+			add_idea = cg_6
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_8 }
+		swap_ideas = {
+			remove_idea = cg_8
+			add_idea = cg_7
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_9 }
+		swap_ideas = {
+			remove_idea = cg_9
+			add_idea = cg_8
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_10 }
+		swap_ideas = {
+			remove_idea = cg_10
+			add_idea = cg_9
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_11 }
+		swap_ideas = {
+			remove_idea = cg_11
+			add_idea = cg_10
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_12 }
+		swap_ideas = {
+			remove_idea = cg_12
+			add_idea = cg_11
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_13 }
+		swap_ideas = {
+			remove_idea = cg_13
+			add_idea = cg_12
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_14 }
+		swap_ideas = {
+			remove_idea = cg_14
+			add_idea = cg_13
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_15 }
+		swap_ideas = {
+			remove_idea = cg_15
+			add_idea = cg_14
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_16 }
+		swap_ideas = {
+			remove_idea = cg_16
+			add_idea = cg_15
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_17 }
+		swap_ideas = {
+			remove_idea = cg_17
+			add_idea = cg_16
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_18 }
+		swap_ideas = {
+			remove_idea = cg_18
+			add_idea = cg_17
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_19 }
+		swap_ideas = {
+			remove_idea = cg_19
+			add_idea = cg_18
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_20 }
+		swap_ideas = {
+			remove_idea = cg_20
+			add_idea = cg_19
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_21 }
+		swap_ideas = {
+			remove_idea = cg_21
+			add_idea = cg_20
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_22 }
+		swap_ideas = {
+			remove_idea = cg_22
+			add_idea = cg_21
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_23 }
+		swap_ideas = {
+			remove_idea = cg_23
+			add_idea = cg_22
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_24 }
+		swap_ideas = {
+			remove_idea = cg_24
+			add_idea = cg_23
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_25 }
+		swap_ideas = {
+			remove_idea = cg_25
+			add_idea = cg_24
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_26 }
+		swap_ideas = {
+			remove_idea = cg_26
+			add_idea = cg_25
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_27 }
+		swap_ideas = {
+			remove_idea = cg_27
+			add_idea = cg_26
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_28 }
+		swap_ideas = {
+			remove_idea = cg_28
+			add_idea = cg_27
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_29 }
+		swap_ideas = {
+			remove_idea = cg_29
+			add_idea = cg_28
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_30 }
+		swap_ideas = {
+			remove_idea = cg_30
+			add_idea = cg_29
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_31 }
+		swap_ideas = {
+			remove_idea = cg_31
+			add_idea = cg_30
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_32 }
+		swap_ideas = {
+			remove_idea = cg_32
+			add_idea = cg_31
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_33 }
+		swap_ideas = {
+			remove_idea = cg_33
+			add_idea = cg_32
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_34 }
+		swap_ideas = {
+			remove_idea = cg_34
+			add_idea = cg_33
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_35 }
+		swap_ideas = {
+			remove_idea = cg_35
+			add_idea = cg_34
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_36 }
+		swap_ideas = {
+			remove_idea = cg_36
+			add_idea = cg_35
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_37 }
+		swap_ideas = {
+			remove_idea = cg_37
+			add_idea = cg_36
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_38 }
+		swap_ideas = {
+			remove_idea = cg_38
+			add_idea = cg_37
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_39 }
+		swap_ideas = {
+			remove_idea = cg_39
+			add_idea = cg_38
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_40 }
+		swap_ideas = {
+			remove_idea = cg_40
+			add_idea = cg_39
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_41 }
+		swap_ideas = {
+			remove_idea = cg_41
+			add_idea = cg_40
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_42 }
+		swap_ideas = {
+			remove_idea = cg_42
+			add_idea = cg_41
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_43 }
+		swap_ideas = {
+			remove_idea = cg_43
+			add_idea = cg_42
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_44 }
+		swap_ideas = {
+			remove_idea = cg_44
+			add_idea = cg_43
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_45 }
+		swap_ideas = {
+			remove_idea = cg_45
+			add_idea = cg_44
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_46 }
+		swap_ideas = {
+			remove_idea = cg_46
+			add_idea = cg_45
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_47 }
+		swap_ideas = {
+			remove_idea = cg_47
+			add_idea = cg_46
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_48 }
+		swap_ideas = {
+			remove_idea = cg_48
+			add_idea = cg_47
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_49 }
+		swap_ideas = {
+			remove_idea = cg_49
+			add_idea = cg_48
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_50 }
+		swap_ideas = {
+			remove_idea = cg_50
+			add_idea = cg_49
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_51 }
+		swap_ideas = {
+			remove_idea = cg_51
+			add_idea = cg_50
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_52 }
+		swap_ideas = {
+			remove_idea = cg_52
+			add_idea = cg_51
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_53 }
+		swap_ideas = {
+			remove_idea = cg_53
+			add_idea = cg_52
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_54 }
+		swap_ideas = {
+			remove_idea = cg_54
+			add_idea = cg_53
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_55 }
+		swap_ideas = {
+			remove_idea = cg_55
+			add_idea = cg_54
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_56 }
+		swap_ideas = {
+			remove_idea = cg_56
+			add_idea = cg_55
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_57 }
+		swap_ideas = {
+			remove_idea = cg_57
+			add_idea = cg_56
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_58 }
+		swap_ideas = {
+			remove_idea = cg_58
+			add_idea = cg_57
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_59 }
+		swap_ideas = {
+			remove_idea = cg_59
+			add_idea = cg_58
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_60 }
+		swap_ideas = {
+			remove_idea = cg_60
+			add_idea = cg_59
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_61 }
+		swap_ideas = {
+			remove_idea = cg_61
+			add_idea = cg_60
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_62 }
+		swap_ideas = {
+			remove_idea = cg_62
+			add_idea = cg_61
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_63 }
+		swap_ideas = {
+			remove_idea = cg_63
+			add_idea = cg_62
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_64 }
+		swap_ideas = {
+			remove_idea = cg_64
+			add_idea = cg_63
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_65 }
+		swap_ideas = {
+			remove_idea = cg_65
+			add_idea = cg_64
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_66 }
+		swap_ideas = {
+			remove_idea = cg_66
+			add_idea = cg_65
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_67 }
+		swap_ideas = {
+			remove_idea = cg_67
+			add_idea = cg_66
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_68 }
+		swap_ideas = {
+			remove_idea = cg_68
+			add_idea = cg_67
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_69 }
+		swap_ideas = {
+			remove_idea = cg_69
+			add_idea = cg_68
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_70 }
+		swap_ideas = {
+			remove_idea = cg_70
+			add_idea = cg_69
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_71 }
+		swap_ideas = {
+			remove_idea = cg_71
+			add_idea = cg_70
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_72 }
+		swap_ideas = {
+			remove_idea = cg_72
+			add_idea = cg_71
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_73 }
+		swap_ideas = {
+			remove_idea = cg_73
+			add_idea = cg_72
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_74 }
+		swap_ideas = {
+			remove_idea = cg_74
+			add_idea = cg_73
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_75 }
+		swap_ideas = {
+			remove_idea = cg_75
+			add_idea = cg_74
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_76 }
+		swap_ideas = {
+			remove_idea = cg_76
+			add_idea = cg_75
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_77 }
+		swap_ideas = {
+			remove_idea = cg_77
+			add_idea = cg_76
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_78 }
+		swap_ideas = {
+			remove_idea = cg_78
+			add_idea = cg_77
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_79 }
+		swap_ideas = {
+			remove_idea = cg_79
+			add_idea = cg_78
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_80 }
+		swap_ideas = {
+			remove_idea = cg_80
+			add_idea = cg_79
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_81 }
+		swap_ideas = {
+			remove_idea = cg_81
+			add_idea = cg_80
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_82 }
+		swap_ideas = {
+			remove_idea = cg_82
+			add_idea = cg_81
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_83 }
+		swap_ideas = {
+			remove_idea = cg_83
+			add_idea = cg_82
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_84 }
+		swap_ideas = {
+			remove_idea = cg_84
+			add_idea = cg_83
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_85 }
+		swap_ideas = {
+			remove_idea = cg_85
+			add_idea = cg_84
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_86 }
+		swap_ideas = {
+			remove_idea = cg_86
+			add_idea = cg_85
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_87 }
+		swap_ideas = {
+			remove_idea = cg_87
+			add_idea = cg_86
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_88 }
+		swap_ideas = {
+			remove_idea = cg_88
+			add_idea = cg_87
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_89 }
+		swap_ideas = {
+			remove_idea = cg_89
+			add_idea = cg_88
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_90 }
+		swap_ideas = {
+			remove_idea = cg_90
+			add_idea = cg_89
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_91 }
+		swap_ideas = {
+			remove_idea = cg_91
+			add_idea = cg_90
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_92 }
+		swap_ideas = {
+			remove_idea = cg_92
+			add_idea = cg_91
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_93 }
+		swap_ideas = {
+			remove_idea = cg_93
+			add_idea = cg_92
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_94 }
+		swap_ideas = {
+			remove_idea = cg_94
+			add_idea = cg_93
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_95 }
+		swap_ideas = {
+			remove_idea = cg_95
+			add_idea = cg_94
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_96 }
+		swap_ideas = {
+			remove_idea = cg_96
+			add_idea = cg_95
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_97 }
+		swap_ideas = {
+			remove_idea = cg_97
+			add_idea = cg_96
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_98 }
+		swap_ideas = {
+			remove_idea = cg_98
+			add_idea = cg_97
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_99 }
+		swap_ideas = {
+			remove_idea = cg_99
+			add_idea = cg_98
+		}
+	}
+	else_if = {
+		limit = { has_idea = cg_100 }
+		swap_ideas = {
+			remove_idea = cg_100
+			add_idea = cg_99
+		}
+	}
+}

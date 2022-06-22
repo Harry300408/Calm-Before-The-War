@@ -1,13 +1,20 @@
 autonomy_state = {
 	id = autonomy_colony
-	use_overlord_color = yes	
+	use_overlord_color = yes
 	is_puppet = yes
 	
-	min_freedom_level = 0.50
+	min_freedom_level = 0.60
+	
+	manpower_influence = 0.7
 	
 	rule = {
+		desc = "RULE_DESC_IS_A_SUBJECT"
+		
 		can_not_declare_war = yes
 		can_decline_call_to_war = no
+		can_be_spymaster = no
+		contributes_operatives = no
+		can_create_collaboration_government = no
 	}
 	
 	modifier = {
@@ -33,14 +40,25 @@ autonomy_state = {
 	}
 
 	allowed = {
-		always = yes
+		has_dlc = "Together for Victory"
+
+		if = {
+			limit = { has_dlc = "Death or Dishonor" }
+			NOT = { has_government = fascism }
+		}
 	}
 	
 	can_take_level = {
-		always = no
+		if = {
+			limit = {
+				original_tag = RAJ			
+			}
+			has_completed_focus = RAJ_cripps_mission
+		}
+		#trigger here
 	}
 
 	can_lose_level = {
-		always = no
+		#trigger here
 	}
 }

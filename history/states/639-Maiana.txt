@@ -6,7 +6,7 @@ state={
 	state_category = small_island
 
 	history={
-		owner = ENG
+		owner = GRM
 		add_core_of = FIJ
 		buildings = {
 			infrastructure = 2
@@ -24,14 +24,14 @@ state={
 			}
 		}
 		victory_points = {
-			13021 1 
+			13021 1
 		}
 
 	}
 
 	provinces={
-		4387 7393 13020 13021 13022 
+		4387 7393 13020 13021 13022
 	}
 
-	local_supplies=0.0 
+	local_supplies=0.0
 }

@@ -1,5 +1,5 @@
 ﻿l_english:
-                 
+
  MIT_GRM_autonomy_satellite:0 "Mittelafrika"
  MIT_GRM_autonomy_reichsprotectorate:0 "Mittelafrika"
  MIT_GRM_autonomy_reichskommissariat:0 "Mittelafrika"
@@ -52,16 +52,16 @@
  SAU_subject:0 "$OVERLORDADJ$ Central Arabia"
  MAL_UK_democratic:0 "British Malaya"
  MAL_UK_democratic_DEF:0 "British Malaya"
- RAJ_UK_democratic:0 "British Raj"
+ RAJ_UK_democratic:0 "British Lower Raj"
  RAJ_UK_democratic_DEF:0 "the British Raj"
- RAJ_UK_neutrality:0 "British Raj"
+ RAJ_UK_neutrality:0 "British Lower Raj"
  RAJ_UK_neutrality_DEF:0 "the British Raj"
  RAJ_UK_subject:0 "$OVERLORDADJ$ Raj"
- RAJ_UK_autonomy_dominion:0 "Dominion of India"
- RAJ_UK_autonomy_dominion_DEF:0 "the Dominion of India"
+ RAJ_UK_autonomy_dominion:0 "Dominion of Lower India"
+ RAJ_UK_autonomy_dominion_DEF:0 "the Dominion of Lower India"
  SAF_COM_communist:0 "Cape Commune"
  SAF_COM_communist_DEF:0 "the Cape Commune"
- CAN_UK_autonomy_dominion:0 "Dominion of Canada"
+ AN_UK_autonomy_dominion:0 "Dominion of Canada"
  CAN_UK_autonomy_colony:0 "Canadian Confederation"
  CAN_UK_autonomy_puppet:0 "Province of Canada"
  CAN_UK_autonomy_integrated_puppet:0 "British North America"
@@ -1093,7 +1093,7 @@
  BUL_ff_bulgaria:0 "$BUL_communism$"
  BUL_ff_bulgaria_DEF:0 "$BUL_communism_DEF$"
  BUL_ff_bulgaria_ADJ:0 "$BUL_communism_ADJ$"
- 
+
  GRE_dem_monarchy_fascism:0 "National Union of Greece"
  GRE_dem_monarchy_fascism_DEF:0 "the National Union of Greece"
  GRE_dem_monarchy_fascism_ADJ:0 "Greek"
@@ -1287,7 +1287,7 @@
  mountainous_republics_unified:0 "North Caucasia"
  mountainous_republics_unified_DEF:0 "North Caucasia"
  mountainous_republics_unified_ADJ:0 "North Caucasian"
- 
+
  transcaucasia_unified_SOV_communism_subject:0 "Transcaucasian Socialist Federative Soviet Republic"
  transcaucasia_unified_SOV_communism_subject_DEF:0 "the Transcaucasian Socialist Federative Soviet Republic"
  transcaucasia_unified_neutrality:0 "Transcaucasian Federation"
@@ -1301,7 +1301,7 @@
  transcaucasia_unified:0 "Transcaucasia"
  transcaucasia_unified_DEF:0 "Transcaucasia"
  transcaucasia_unified_ADJ:0 "Transcaucasian"
- 
+
  siberia_unified_SOV_communism_subject:0 "Siberian Federative Soviet Socialist Republic"
  siberia_unified_SOV_communism_subject_DEF:0 "the Siberian Socialist Federative Soviet Republic"
  siberia_unified_neutrality:0 "Multinational State of Siberia"
@@ -1315,7 +1315,7 @@
  siberia_unified:0 "Siberia"
  siberia_unified_DEF:0 "Siberia"
  siberia_unified_ADJ:0 "Siberian"
- 
+
  idel_ural_SOV_communism_subject:0 "Idel Ural Federative Soviet Socialist Republic"
  idel_ural_SOV_communism_subject_DEF:0 "the Idel Ural Federative Soviet Socialist Republic"
  idel_ural_neutrality:0 "Idel-Ural State"
@@ -1329,4 +1329,3 @@
  idel_ural:0 "Idel Ural"
  idel_ural_DEF:0 "the Idel Ural State"
  idel_ural_ADJ:0 "Idel Uralic"
- 

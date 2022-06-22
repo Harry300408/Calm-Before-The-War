@@ -1,0 +1,67 @@
+defined_text = {
+	name = DisplayPrerequisites
+	
+	text = {
+		trigger = {
+			always = yes
+		}
+		localization_key = "DECISION_PREREQUISITES_HEADER"
+	}
+}
+
+defined_text = {
+	name = DisplayEffects
+	
+	text = {
+		trigger = {
+			always = yes
+		}
+		localization_key = "DECISION_SELECT_HEADER"
+	}
+}
+
+defined_text = {
+	name = FmtEnd
+	
+	text = {
+		trigger = {
+			always = yes
+		}
+		localization_key = FormatEnd
+	}
+}
+
+defined_text = {
+	name = ColorCGBalance
+	
+
+	text = {
+		trigger = {
+			check_variable = { cg_supply_percent > 0 }
+		}
+		localization_key = FormatColorRed
+	}
+	text = {
+		trigger = {
+			#check_variable = { cg_supply_percent < 0 }
+		}
+		localization_key = FormatColorGreen
+	}
+}
+defined_text = {
+	name = ColorCGStbImpact
+	
+	
+	text = {
+		trigger = {
+			check_variable = { stability_weekly_display_percent < 0 }
+		}
+		localization_key = FormatColorRed
+	}
+	text = {
+		trigger = {
+			#check_variable = { stability_weekly_display_percent > 0 }
+		}
+		localization_key = FormatColorGreen
+	}
+}

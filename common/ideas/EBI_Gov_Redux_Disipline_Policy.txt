@@ -1,0 +1,58 @@
+ideas = {
+
+  wp_discipline_policy = {
+    law = yes
+
+   high_discipline = {
+
+    cost = 100
+    removal_cost = -1
+
+    available = {
+    }
+
+    modifier = {
+      stability_weekly = -0.05
+      war_support_factor = 0.4
+    }
+
+    cancel_if_invalid = no
+    default = no
+  }
+
+  low_discipline = {
+
+   cost = 100
+   removal_cost = -1
+
+   available = {
+   }
+
+   modifier = {
+     stability_weekly = -0.05
+     war_support_factor = 0.4
+   }
+
+   cancel_if_invalid = no
+   default = yes
+ }
+
+ no_discipline = {
+
+  cost = 100
+  removal_cost = -1
+
+  available = {
+  }
+
+  modifier = {
+    stability_weekly = -0.05
+    war_support_factor = 0.4
+  }
+
+  cancel_if_invalid = no
+  default = no
+}
+
+
+}

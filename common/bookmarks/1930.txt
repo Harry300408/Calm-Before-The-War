@@ -2,41 +2,31 @@ bookmarks = {
 	bookmark = {
 		name = "German Victory"
 		desc = ""
-		date = 1930.8.14.12
+		date = 1936.8.14.12
 		picture = "GFX_select_date_1936"
-		default_country = "GRM"
+		default_country = "FRA"
 	    default = yes
 
-		SOV = {
-			history = ""
-			ideology = democratic
-			ideas={
-				
-			}
-			focuses = {
-				
-			}
-		}
+
 		USA = {
 			history = ""
 			ideology = democratic
 			ideas = {
-				
+
 			}
 			focuses = {
-				
+
 			}
 		}
-		ENG = {
+		QIN = {
 			history = ""
 			ideology = democratic
 			ideas = {
-				
+
 			}
 			focuses = {
-				
+
 			}
-			
 		}
 		GRM = {
 			history = ""
@@ -45,56 +35,70 @@ bookmarks = {
 			GRM_triumphant_nation
 			}
 			focuses = {
-				
+
 			}
 		}
 		AUH = {
 			history = ""
 			ideology = neutrality
 			ideas={
-				
+
 			}
 			focuses = {
-				
-			}			
+
+			}
 		}
-		QIN = {
-			history = ""
-			ideology = neutrality
-			ideas={
-				
-			}	
-			focuses = {
-				
-			}		
-		}
+
 		REM = {
 			history = ""
 			ideology = communism
 			ideas = {
-				
+
 			}
 			focuses = {
-				
+
 			}
 		}
-		#SOV = {
-		#	history = ""
-		#	ideology = communism
-		#	ideas = {
-		#		
-		#	}
-		#	focuses = {
-		#		
-		#	}
-		#}
 
-		"---"={
-			history = "OTHER_BLITZKRIEG_DESC"
-		}
+        ##minors##
 
-		# minors from DLC ####
-		
+		   "SOV"={
+		    minor = yes
+		    history = ""
+	   ideology = communism
+	   ideas = {
+
+	   }
+	   focuses = {
+
+	   }
+		    }
+
+				"ENG"={
+ 		    minor = yes
+ 		    history = ""
+ 	   ideology = democratic
+ 	   ideas = {
+
+ 	   }
+ 	   focuses = {
+
+ 	   }
+ 		    }
+
+        "CAS"={
+         minor = yes
+         history = ""
+			ideology = democratic
+			ideas = {
+
+			}
+			focuses = {
+
+			}
+         }
+
+
 		effect = {
 			randomize_weather = 12345 # <- Obligatory in every bookmark !
 			#123 = { rain_light = yes }

@@ -1,0 +1,182 @@
+scripted_gui = {
+	consumer_goods_menu_open_window_1 = {
+		window_name = "consumer_goods_menu_open_window_1"
+		parent_window_token = top_bar
+		context_type = player_context		
+
+		visible = {
+			always = yes
+		}
+
+		effects = {
+		    consumer_goods_menu_open_button_click = {
+				ROOT = {
+					set_temp_variable = { cg_menu_change = 1 }
+					subtract_from_temp_variable = { cg_menu_change = cg_menu }
+					set_variable = { cg_menu = cg_menu_change }
+				}
+				cg_mod_set_numbers  = yes
+			}
+		}
+
+		triggers = {
+			consumer_goods_menu_open_button_visible = { }
+			consumer_goods_menu_open_button_click_enabled = { cg_control_enabled = yes }
+		}
+	}
+	
+	consumer_goods_menu_open_window_2 = {
+		window_name = "consumer_goods_menu_open_window_2"
+		parent_window_token = construction_tab
+		context_type = player_context		
+
+		visible = {
+			always = no
+		}
+
+		effects = {
+		    consumer_goods_menu_open_button_click = {
+				ROOT = {
+					set_temp_variable = { cg_menu_change = 1 }
+					subtract_from_temp_variable = { cg_menu_change = cg_menu }
+					set_variable = { cg_menu = cg_menu_change }
+				}
+			}
+		}
+
+		triggers = {
+			consumer_goods_menu_open_button_visible = { }
+			consumer_goods_menu_open_button_click_enabled = { has_global_flag = cg_initialization_complete }
+		}
+	}
+
+
+	consumer_goods_menu_window = {
+		window_name = "consumer_goods_menu_window"
+		parent_window_token = top_bar
+		context_type = player_context		
+		
+		#ai can always see and control consumer goods
+		visible = {
+			OR = {
+				is_ai = yes
+				ROOT = {
+					check_variable = { cg_menu > 0.5 }
+				}
+			}
+		}
+
+		effects = {
+			increase_consumer_goods_button_click = {
+				add_political_power = -5
+				increase_consumer_goods_2 = yes
+				cg_mod_set_numbers  = yes
+			}
+			decrease_consumer_goods_button_click = {
+				add_political_power = -5
+				decrease_consumer_goods_2 = yes
+				cg_mod_set_numbers  = yes
+			}
+			close_cg_window_button_click = {
+				set_variable = { cg_menu = 0 }
+			}
+		}
+
+		triggers = {
+			increase_consumer_goods_button_click_enabled = {
+				cg_control_enabled = yes
+				check_variable = { modifier@consumer_goods_factor < 0.95 }
+				has_political_power > 5
+				check_variable = { cg_supply < 0.5 }
+				num_of_civilian_factories_available_for_projects > 0
+			}
+			decrease_consumer_goods_button_click_enabled = {
+				cg_control_enabled = yes
+				check_variable = { modifier@consumer_goods_factor > 0.05 }
+				has_political_power > 5
+				check_variable = { cg_supply > -0.5 }
+			}
+		}
+
+		ai_enabled = {
+			always = no
+		}
+		
+		#ai_test_parent
+
+		ai_test_interval = 168
+		ai_test_variance = 24
+
+		ai_check = {
+			OR = {
+				AND = {
+					has_stability > 0.8
+					check_variable = { modifier@consumer_goods_factor > 5 }
+				}
+				AND = {
+					has_stability < 0.3
+					num_of_civilian_factories_available_for_projects > 20
+				}
+			}
+		}
+
+		#ai_test_scopes 
+		#ai_check_scope 
+
+		ai_weights = {
+			increase_consumer_goods_button_click = {
+				weight = 1
+				ai_will_do = {
+					factor = 1
+					
+					#stop decrease stability
+					modifier = {
+						add = 1000
+						
+						has_stability < 0.85
+						check_variable = { cg_supply < 0 }
+					}
+					
+					#increase stability
+					modifier = {
+						add = 50
+						
+						has_stability < 0.3
+						num_of_civilian_factories_available_for_projects > 20
+						check_variable = { cg_supply < 0.05 }
+					}
+					
+				}
+			}
+			decrease_consumer_goods_button_click = {
+				weight = 1
+				ai_will_do = {
+					factor = 1
+					
+					
+					
+					#stop increase stability
+					modifier = {
+						add = 1000
+						
+						has_stability > 0.4
+						check_variable = { cg_supply > 0 }
+						
+					}
+					
+					#decrease stability
+					modifier = {
+						add = 50
+						
+						has_stability > 0.9
+						check_variable = { modifier@consumer_goods_factor > 0.05 }
+						check_variable = { cg_supply > -0.05 }
+					}
+				}
+			}
+			close_cg_window_button_click = {
+				weight = 0
+			}
+		}
+	}
+}

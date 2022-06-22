@@ -751,11 +751,12 @@ focus_tree = {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	prerequisite = { focus = GRM_focus_40 }
-	mutually_exclusive = {  }
+	mutually_exclusive = { GRM_focus_42 }}
 	completion_reward = {
       	
         
 	} 
+
 	}
 	##############################################	
     focus = {
@@ -768,7 +769,7 @@ focus_tree = {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	prerequisite = { focus = GRM_focus_40 }
-	mutually_exclusive = {  }
+	mutually_exclusive = { GRM_focus_41 }}
 	completion_reward = {
       	
         
