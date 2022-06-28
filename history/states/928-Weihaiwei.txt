@@ -1,0 +1,31 @@
+state={
+	id=928
+	name="STATE_928"
+
+	history=
+	{
+		owner = CHI
+		add_core_of = CHI
+		add_core_of = PRC
+		buildings = {
+			infrastructure = 3
+			13279 = {
+				naval_base = 2
+				coastal_bunker = 1
+				bunker = 1
+			}
+		}
+
+		1938.10.25 = {
+			controller = JAP
+		}
+	}
+
+	provinces={
+		13279 
+	}
+	manpower=5200000
+	buildings_max_level_factor=1.000
+	state_category = town
+	local_supplies=0.000
+}

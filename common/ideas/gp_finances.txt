@@ -1,0 +1,112 @@
+ideas = {
+
+	gp_finances = { 
+	
+		law = yes
+		
+		finances_army = {
+			
+			modifier = {
+				consumer_goods_factor = 0.05
+				war_support_weekly = 0.003
+				production_speed_arms_factory_factor = 0.35
+				production_speed_dockyard_factor = 0.35
+			}
+			
+			cost = 75
+			
+			cancel_if_invalid = yes
+			
+			ai_will_do = {
+   				factor = 0.7
+				modifier = {
+					has_government = fascism
+					factor = 1
+				}
+				modifier = {
+					has_government = communism
+					factor = 0.5
+				}
+   			}
+		}
+		
+		finances_civilian = {
+
+		
+			modifier = {
+				consumer_goods_factor = 0.10
+				production_speed_infrastructure_factor = 0.3
+				production_speed_rail_way_factor = 0.3
+				production_speed_supply_node_factor = 0.3
+				production_speed_industrial_complex_factor = 0.25
+				stability_weekly = 0.003
+			}
+			
+			cost = 75
+			
+			cancel_if_invalid = yes
+
+			ai_will_do = {
+   				factor = 0.9
+
+   				modifier = {
+					has_government = democratic
+					factor = 2
+				}
+   			}
+		}
+		
+		finances_foreign = {
+		    available = {
+				NOT = {
+				    OR = {
+					has_government = communism
+					has_government = fascism
+				    }
+				}
+			}
+			
+			modifier = {
+				consumer_goods_factor = 0.05
+				local_resources_factor = 0.10
+				production_speed_buildings_factor = 0.15
+				local_building_slots_factor = 0.3
+			}
+
+			cost = 75
+			
+			cancel_if_invalid = yes
+
+			ai_will_do = {
+   				factor = 0.6
+   			}
+		}
+		
+		finances_science = {
+		
+			available = {
+				NOT = {
+					
+				}
+			}
+			
+			modifier = {
+				research_speed_factor = 0.08
+				consumer_goods_factor = 0.05
+				production_factory_max_efficiency_factor = 0.20
+				production_factory_efficiency_gain_factor = 0.30
+			}
+
+			cost = 75
+			
+			cancel_if_invalid = yes
+
+			ai_will_do = {
+   				factor = 0.4
+				
+   			}
+		}
+		
+
+	}
+}

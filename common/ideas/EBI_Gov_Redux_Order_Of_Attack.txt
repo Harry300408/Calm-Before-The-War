@@ -1,0 +1,61 @@
+ideas = {
+######
+wp_order_of_attack ={
+   law = yes
+
+  blitskrieg = {
+
+ cost = 200
+ removal_cost = -1
+
+ available = {
+ }
+
+ modifier = {
+
+ }
+
+ cancel_if_invalid = no
+ default = no
+
+ }
+###################################
+ great_war = {
+
+cost = 100
+removal_cost = -1
+
+available = {
+}
+
+modifier = {
+
+}
+
+cancel_if_invalid = no
+default = yes
+
+}
+####################################
+ modern_warfare = {
+
+ cost = 100
+ removal_cost = -1
+
+ available = {
+ }
+
+ modifier = {
+
+ }
+
+ cancel_if_invalid = no
+ default = no
+
+ }
+
+
+
+}
+
+}

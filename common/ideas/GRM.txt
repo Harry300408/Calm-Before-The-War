@@ -1,0 +1,69 @@
+ideas = {
+country = {
+        GRM_triumphant_nation = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				drift_defence_factor = 0.5
+				stability_weekly = 0.10
+			}
+			rule = {
+				can_create_factions = yes
+			}
+		}
+}
+country = {
+        GRM_superior_air_force = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+               	air_ace_generation_chance_factor = 0.15
+				air_mission_efficiency = 0.20
+				air_maximum_speed_factor = 0.5
+			}
+			rule = {
+			}
+		}
+}
+country = {
+        GRM_mighty_army = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+               	
+			}
+			rule = {
+			}
+		}
+}	
+
+
+
+}

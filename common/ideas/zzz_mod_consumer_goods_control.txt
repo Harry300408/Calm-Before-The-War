@@ -1,0 +1,903 @@
+ideas = {
+
+	
+	country = {
+		cg_0 = {
+			picture = consumer_goods_factor_spirit
+			allowed = { always = no } allowed_civil_war = { always = yes }
+			removal_cost = -1 
+			on_add = { set_variable ={ cg_supply =  -0.50 } }
+			modifier = { consumer_goods_factor = -0.50  
+				stability_weekly = -0.0300 }
+		}
+
+		cg_5 = {
+			picture = consumer_goods_factor_spirit
+			allowed = { always = no }  allowed_civil_war = { always = yes }
+			removal_cost = -1 
+			on_add = { set_variable ={ cg_supply =  -0.45 } }
+			modifier = { consumer_goods_factor = -0.45  
+				stability_weekly = -0.0270 }
+		}
+		
+		cg_10 = {
+			picture = consumer_goods_factor_spirit
+			allowed = { always = no }  allowed_civil_war = { always = yes }
+			removal_cost = -1
+			on_add = { set_variable ={ cg_supply = -0.40 } }
+			modifier = { consumer_goods_factor = -0.40  
+				stability_weekly = -0.0240 }
+		}
+		
+		cg_15 = {
+			picture = consumer_goods_factor_spirit
+			allowed = { always = no }  allowed_civil_war = { always = yes }
+			removal_cost = -1
+			on_add = { set_variable ={ cg_supply = -0.35 } }
+			modifier = { consumer_goods_factor = -0.35  
+				stability_weekly = -0.0210 }
+		}
+
+		cg_20 = {
+			picture = consumer_goods_factor_spirit
+			allowed = { always = no }  allowed_civil_war = { always = yes }
+			removal_cost = -1
+			on_add = { set_variable ={ cg_supply = -0.30  } }
+			modifier = { consumer_goods_factor = -0.30  
+				stability_weekly = -0.0180 }
+		}
+		
+		cg_25 = {
+			picture = consumer_goods_factor_spirit
+			allowed = { always = no }  allowed_civil_war = { always = yes }
+			removal_cost = -1
+			on_add = { set_variable ={ cg_supply = -0.25  } }
+			modifier = { consumer_goods_factor = -0.25  
+				stability_weekly = -0.0150 }
+		}
+		
+		cg_30 = {
+			picture = consumer_goods_factor_spirit
+			allowed = { always = no }  allowed_civil_war = { always = yes }
+			removal_cost = -1
+			on_add = { set_variable ={ cg_supply = -0.20 } }
+			modifier = { consumer_goods_factor = -0.20  
+				stability_weekly = -0.0120 }
+		}
+		
+		cg_35 = {
+			picture = consumer_goods_factor_spirit
+			allowed = { always = no }  allowed_civil_war = { always = yes }
+			removal_cost = -1
+			on_add = { set_variable ={ cg_supply = -0.15 } }
+			modifier = { consumer_goods_factor = -0.15  
+				stability_weekly = -0.0090 }
+		}
+		
+		cg_40 = {
+			picture = consumer_goods_factor_spirit
+			allowed = { always = no }  allowed_civil_war = { always = yes }
+			removal_cost = -1 
+			on_add = { set_variable ={ cg_supply = -0.10 } }
+			modifier = { consumer_goods_factor = -0.10  
+				stability_weekly = -0.0060 }
+		}
+		
+		cg_45 = {
+			picture = consumer_goods_factor_spirit
+			allowed = { always = no }  allowed_civil_war = { always = yes }
+			removal_cost = -1
+			on_add = { set_variable ={ cg_supply = -0.05 } }
+			modifier = { consumer_goods_factor = -0.05  
+				stability_weekly = -0.0030 }
+		}
+		
+		cg_50 = {
+			picture = consumer_goods_factor_spirit
+			allowed = { always = no }  allowed_civil_war = { always = yes }
+			removal_cost = -1
+			on_add = { set_variable ={ cg_supply = 0.00  } }
+			modifier = { consumer_goods_factor = 0.00 
+				stability_weekly = 0.00 }
+		}
+		
+		cg_55 = {
+			picture = consumer_goods_factor_spirit
+			allowed = { always = no }  allowed_civil_war = { always = yes }
+			removal_cost = -1
+			on_add = { set_variable ={ cg_supply = 0.05  } }
+			modifier = {
+				consumer_goods_factor = 0.05
+				stability_weekly = 0.0020
+			}
+		}
+		
+		cg_60 = {
+			picture = consumer_goods_factor_spirit
+			allowed = { always = no }  allowed_civil_war = { always = yes }
+			removal_cost = -1 
+			on_add = { set_variable ={ cg_supply = 0.10 } }
+			modifier = { consumer_goods_factor = 0.10 
+				stability_weekly = 0.0040 }
+		}
+		
+		cg_65 = {
+			picture = consumer_goods_factor_spirit
+			allowed = { always = no }  allowed_civil_war = { always = yes }
+			removal_cost = -1
+			on_add = { set_variable ={ cg_supply = 0.15  } }
+			modifier = { consumer_goods_factor = 0.15 
+				stability_weekly = 0.0060 }
+		}
+		
+		cg_70 = {
+			picture = consumer_goods_factor_spirit
+			allowed = { always = no }  allowed_civil_war = { always = yes }
+			removal_cost = -1
+			on_add = { set_variable ={ cg_supply = 0.20 } }
+			modifier = { consumer_goods_factor = 0.20 
+				stability_weekly = 0.0080 }
+		}
+		
+		cg_75 = {
+			picture = consumer_goods_factor_spirit
+			allowed = { always = no }  allowed_civil_war = { always = yes }
+			removal_cost = -1 
+			on_add = { set_variable ={ cg_supply = 0.25 } }
+			modifier = { consumer_goods_factor = 0.25 
+				stability_weekly = 0.0100 }
+		}
+		
+		cg_80 = {
+			picture = consumer_goods_factor_spirit
+			allowed = { always = no }  allowed_civil_war = { always = yes }
+			removal_cost = -1 
+			on_add = { set_variable ={ cg_supply = 0.30 } }
+			modifier = { consumer_goods_factor = 0.30 
+				stability_weekly = 0.0120 }
+		}
+		
+		
+		cg_85 = {
+			picture = consumer_goods_factor_spirit
+			allowed = { always = no }  allowed_civil_war = { always = yes }
+			removal_cost = -1 
+			on_add = { set_variable ={ cg_supply = 0.35 } }
+			modifier = { consumer_goods_factor = 0.35 
+				stability_weekly = 0.0140 }
+		}
+		
+		cg_90 = {
+			picture = consumer_goods_factor_spirit
+			allowed = { always = no }  allowed_civil_war = { always = yes }
+			removal_cost = -1 
+			on_add = { set_variable ={ cg_supply = 0.40 } }
+			modifier = { consumer_goods_factor = 0.40 
+				stability_weekly = 0.0160 }
+		}
+		
+		cg_95 = {
+			picture = consumer_goods_factor_spirit
+			allowed = { always = no }  allowed_civil_war = { always = yes }
+			removal_cost = -1 
+			on_add = { set_variable ={ cg_supply = 0.45 } }
+			modifier = { consumer_goods_factor = 0.45 
+				stability_weekly = 0.0180 }
+		}
+		
+		cg_100 = {
+			picture = consumer_goods_factor_spirit
+			allowed = { always = no }  allowed_civil_war = { always = yes }
+			removal_cost = -1
+			on_add = { set_variable ={ cg_supply = 0.50 } }
+			modifier = { consumer_goods_factor = 0.50 
+				stability_weekly = 0.0200 }
+		}
+		
+	}
+	
+	country = {
+	
+
+		cg_1 = {
+			picture = consumer_goods_factor_spirit
+			allowed = { always = no }
+			removal_cost = -1 
+			on_add = { set_variable ={ cg_supply = -0.49 } }
+			modifier = { consumer_goods_factor = -0.49  
+				stability_weekly = -0.0245 }
+		}
+		cg_2 = {
+			picture = consumer_goods_factor_spirit
+			allowed = { always = no }
+			removal_cost = -1
+			on_add = { set_variable ={ cg_supply =  -0.48 } }
+			modifier = { consumer_goods_factor = -0.48  
+				stability_weekly = -0.0240 }
+		}
+		cg_3 = {
+			picture = consumer_goods_factor_spirit
+			allowed = { always = no }
+			removal_cost = -1 
+			on_add = { set_variable ={ cg_supply = -0.47 } }
+			modifier = { consumer_goods_factor = -0.47  
+				stability_weekly = -0.0188 }
+		}
+		cg_4 = {
+			picture = consumer_goods_factor_spirit
+			allowed = { always = no }
+			removal_cost = -1
+			on_add = { set_variable ={ cg_supply = -0.46 } }
+			modifier = { consumer_goods_factor = -0.46  
+				stability_weekly = -0.0184 }
+		}
+
+		
+		
+		
+
+		cg_6 = {
+			picture = consumer_goods_factor_spirit
+			allowed = { always = no }
+			removal_cost = -1
+			on_add = { set_variable ={ cg_supply =  -0.44 } }
+			modifier = { consumer_goods_factor = -0.44  
+				stability_weekly = -0.0176 }
+		}
+		cg_7 = {
+			picture = consumer_goods_factor_spirit
+			allowed = { always = no }
+			removal_cost = -1
+			on_add = { set_variable ={ cg_supply = -0.43 } }
+			modifier = { consumer_goods_factor = -0.43  
+				stability_weekly = -0.0172 }
+		}
+		cg_8 = {
+			picture = consumer_goods_factor_spirit
+			allowed = { always = no }
+			removal_cost = -1 
+			on_add = { set_variable ={ cg_supply = -0.42  } }
+			modifier = { consumer_goods_factor = -0.42  
+				stability_weekly = -0.0168 }
+		}
+		cg_9 = {
+			picture = consumer_goods_factor_spirit
+			allowed = { always = no }
+			removal_cost = -1
+			on_add = { set_variable ={ cg_supply = -0.41 } }
+			modifier = { consumer_goods_factor = -0.41  
+				stability_weekly = -0.0164 }
+		}
+		
+		
+		
+		
+
+		cg_11 = {
+			picture = consumer_goods_factor_spirit
+			allowed = { always = no }
+			removal_cost = -1
+			on_add = { set_variable ={ cg_supply = -0.39 } }
+			modifier = { consumer_goods_factor = -0.39  
+				stability_weekly = -0.0156 }
+		}
+		cg_12 = {
+			picture = consumer_goods_factor_spirit
+			allowed = { always = no }
+			removal_cost = -1
+			on_add = { set_variable ={ cg_supply = -0.38 } }
+			modifier = { consumer_goods_factor = -0.38  
+				stability_weekly = -0.0152 }
+		}
+		cg_13 = {
+			picture = consumer_goods_factor_spirit
+			allowed = { always = no }
+			removal_cost = -1
+			on_add = { set_variable ={ cg_supply = -0.37 } }
+			modifier = { consumer_goods_factor = -0.37  
+				stability_weekly = -0.0148 }
+		}
+		cg_14 = {
+			picture = consumer_goods_factor_spirit
+			allowed = { always = no }
+			removal_cost = -1
+			on_add = { set_variable ={ cg_supply = -0.36  } }
+			modifier = { consumer_goods_factor = -0.36  
+				stability_weekly = -0.0144 }
+		}
+		
+		
+		
+		cg_16 = {
+			picture = consumer_goods_factor_spirit
+			allowed = { always = no }
+			removal_cost = -1
+			on_add = { set_variable ={ cg_supply = -0.34 } }
+			modifier = { consumer_goods_factor = -0.34  
+				stability_weekly = -0.0136 }
+		}
+		cg_17 = {
+			picture = consumer_goods_factor_spirit
+			allowed = { always = no }
+			removal_cost = -1
+			on_add = { set_variable ={ cg_supply = -0.33 } }
+			modifier = { consumer_goods_factor = -0.33  
+				stability_weekly = -0.0132 }
+		}
+		cg_18 = {
+			picture = consumer_goods_factor_spirit
+			allowed = { always = no }
+			removal_cost = -1
+			on_add = { set_variable ={ cg_supply = -0.32  } }
+			modifier = { consumer_goods_factor = -0.32  
+				stability_weekly = -0.0128 }
+		}
+		cg_19 = {
+			picture = consumer_goods_factor_spirit
+			allowed = { always = no }
+			removal_cost = -1
+			on_add = { set_variable ={ cg_supply = -0.31 } }
+			modifier = { consumer_goods_factor = -0.31  
+				stability_weekly = -0.0124 }
+		}
+
+		cg_21 = {
+			picture = consumer_goods_factor_spirit
+			allowed = { always = no }
+			removal_cost = -1
+			on_add = { set_variable ={ cg_supply = -0.29  } }
+			modifier = { consumer_goods_factor = -0.29  
+				stability_weekly = -0.0116 }
+		}
+		cg_22 = {
+			picture = consumer_goods_factor_spirit
+			allowed = { always = no }
+			removal_cost = -1
+			on_add = { set_variable ={ cg_supply = -0.28 } }
+			modifier = { consumer_goods_factor = -0.28  
+				stability_weekly = -0.0112 }
+		}
+		cg_23 = {
+			picture = consumer_goods_factor_spirit
+			allowed = { always = no }
+			removal_cost = -1
+			on_add = { set_variable ={ cg_supply = -0.27 } }
+			modifier = { consumer_goods_factor = -0.27  
+				stability_weekly = -0.0108 }
+		}
+		cg_24 = {
+			picture = consumer_goods_factor_spirit
+			allowed = { always = no }
+			removal_cost = -1 
+			on_add = { set_variable ={ cg_supply = -0.26 } }
+			modifier = { consumer_goods_factor = -0.26  
+				stability_weekly = -0.0104 }
+		}
+		
+		
+
+		cg_26 = {
+			picture = consumer_goods_factor_spirit
+			allowed = { always = no }
+			removal_cost = -1 
+			on_add = { set_variable ={ cg_supply = -0.24 } }
+			modifier = { consumer_goods_factor = -0.24  
+				stability_weekly = -0.0096 }
+		}
+		cg_27 = {
+			picture = consumer_goods_factor_spirit
+			allowed = { always = no }
+			removal_cost = -1
+			on_add = { set_variable ={ cg_supply = -0.23  } }
+			modifier = { consumer_goods_factor = -0.23  
+				stability_weekly = -0.0092 }
+		}
+		cg_28 = {
+			picture = consumer_goods_factor_spirit
+			allowed = { always = no }
+			removal_cost = -1
+			on_add = { set_variable ={ cg_supply = -0.22 } }
+			modifier = { consumer_goods_factor = -0.22  
+				stability_weekly = -0.0088 }
+		}
+		cg_29 = {
+			picture = consumer_goods_factor_spirit
+			allowed = { always = no }
+			removal_cost = -1
+			on_add = { set_variable ={ cg_supply = -0.21 } }
+			modifier = { consumer_goods_factor = -0.21  
+				stability_weekly = -0.0084 }
+		}
+		
+		
+		
+		cg_31 = {
+			picture = consumer_goods_factor_spirit
+			allowed = { always = no }
+			removal_cost = -1 
+			on_add = { set_variable ={ cg_supply = -0.19 } }
+			modifier = { consumer_goods_factor = -0.19  
+				stability_weekly = -0.0095 }
+		}
+		cg_32 = {
+			picture = consumer_goods_factor_spirit
+			allowed = { always = no }
+			removal_cost = -1 
+			on_add = { set_variable ={ cg_supply = -0.18 } }
+			modifier = { consumer_goods_factor = -0.18  
+				stability_weekly = -0.0090 }
+		}
+		cg_33 = {
+			picture = consumer_goods_factor_spirit
+			allowed = { always = no }
+			removal_cost = -1
+			on_add = { set_variable ={ cg_supply = -0.17 } }
+			modifier = { consumer_goods_factor = -0.17  
+				stability_weekly = -0.0085 }
+		}
+		cg_34 = {
+			picture = consumer_goods_factor_spirit
+			allowed = { always = no }
+			removal_cost = -1 
+			on_add = { set_variable ={ cg_supply = -0.16 } }
+			modifier = { consumer_goods_factor = -0.16  
+				stability_weekly = -0.0080 }
+		}
+		
+		
+		
+		cg_36 = {
+			picture = consumer_goods_factor_spirit
+			allowed = { always = no }
+			removal_cost = -1 
+			on_add = { set_variable ={ cg_supply = -0.14 } }
+			modifier = { consumer_goods_factor = -0.14  
+				stability_weekly = -0.0070 }
+		}
+		cg_37 = {
+			picture = consumer_goods_factor_spirit
+			allowed = { always = no }
+			removal_cost = -1 
+			on_add = { set_variable ={ cg_supply = -0.13 } }
+			modifier = { consumer_goods_factor = -0.13  
+				stability_weekly = -0.0065 }
+			}
+		cg_38 = {
+			picture = consumer_goods_factor_spirit
+			allowed = { always = no }
+			removal_cost = -1
+			on_add = { set_variable ={ cg_supply = -0.12 } }
+			modifier = { consumer_goods_factor = -0.12  
+				stability_weekly = -0.0060 }
+		}
+		cg_39 = {
+			picture = consumer_goods_factor_spirit
+			allowed = { always = no }
+			removal_cost = -1 
+			on_add = { set_variable ={ cg_supply = -0.11 } }
+			modifier = { consumer_goods_factor = -0.11  
+				stability_weekly = -0.0055 }
+		}
+		
+		
+		
+
+		cg_41 = {
+			picture = consumer_goods_factor_spirit
+			allowed = { always = no }
+			removal_cost = -1
+			on_add = { set_variable ={ cg_supply = -0.09 } }
+			modifier = { consumer_goods_factor = -0.09  
+				stability_weekly = -0.0072 }
+		}
+		cg_42 = {
+			picture = consumer_goods_factor_spirit
+			allowed = { always = no }
+			removal_cost = -1 
+			on_add = { set_variable ={ cg_supply =  -0.08 } }
+			modifier = { consumer_goods_factor = -0.08  
+				stability_weekly = -0.0064 }
+		}
+		cg_43 = {
+			picture = consumer_goods_factor_spirit
+			allowed = { always = no }
+			removal_cost = -1
+			on_add = { set_variable ={ cg_supply = -0.07  } }
+			modifier = { consumer_goods_factor = -0.07  
+				stability_weekly = -0.0056 }
+		}
+		cg_44 = {
+			picture = consumer_goods_factor_spirit
+			allowed = { always = no }
+			removal_cost = -1
+			on_add = { set_variable ={ cg_supply = -0.06 } }
+			modifier = { consumer_goods_factor = -0.06  
+				stability_weekly = -0.0048 }
+		}
+		
+		
+		cg_46 = {
+			picture = consumer_goods_factor_spirit
+			allowed = { always = no }
+			removal_cost = -1
+			on_add = { set_variable ={ cg_supply = -0.04 } }
+			modifier = { consumer_goods_factor = -0.04  
+				stability_weekly = -0.0032 }
+		}
+		cg_47 = {
+			picture = consumer_goods_factor_spirit
+			allowed = { always = no }
+			removal_cost = -1 
+			on_add = { set_variable ={ cg_supply = -0.03  } }
+			modifier = { consumer_goods_factor = -0.03  
+				stability_weekly = -0.0024 }
+		}
+		cg_48 = {
+			picture = consumer_goods_factor_spirit
+			allowed = { always = no }
+			removal_cost = -1 
+			on_add = { set_variable ={ cg_supply = -0.02   } }
+			modifier = { consumer_goods_factor = -0.02  
+				stability_weekly = -0.0016 }
+		}
+		cg_49 = {
+			picture = consumer_goods_factor_spirit
+			allowed = { always = no }
+			removal_cost = -1
+			on_add = { set_variable ={ cg_supply = -0.01 } }
+			modifier = { consumer_goods_factor = -0.01  
+				stability_weekly = -0.0008 }
+		}
+
+		
+		
+		cg_51 = {
+			picture = consumer_goods_factor_spirit
+			allowed = { always = no }
+			removal_cost = -1
+			on_add = { set_variable ={ cg_supply = 0.01  } }
+			modifier = { consumer_goods_factor = 0.01
+				stability_weekly = 0.0002 }
+		}
+		cg_52 = {
+			picture = consumer_goods_factor_spirit
+			allowed = { always = no }
+			removal_cost = -1
+			on_add = { set_variable ={ cg_supply = 0.02  } }
+			modifier = { consumer_goods_factor = 0.02
+				stability_weekly = 0.0004 }
+		}
+		cg_53 = {
+			picture = consumer_goods_factor_spirit
+			allowed = { always = no }
+			removal_cost = -1 
+			on_add = { set_variable ={ cg_supply = 0.03 } }
+			modifier = { consumer_goods_factor = 0.03
+				stability_weekly = 0.0006 }
+		}
+		cg_54 = {
+			picture = consumer_goods_factor_spirit
+			allowed = { always = no }
+			removal_cost = -1
+			on_add = { set_variable ={ cg_supply = 0.04 } }
+			modifier = { consumer_goods_factor = 0.04
+				stability_weekly = 0.0008 }
+		}
+		
+		cg_56 = {
+			picture = consumer_goods_factor_spirit
+			allowed = { always = no }
+			removal_cost = -1
+			on_add = { set_variable ={ cg_supply = 0.06 } }
+			modifier = { consumer_goods_factor = 0.06 
+				stability_weekly = 0.0012 }
+		}
+		cg_57 = {
+			picture = consumer_goods_factor_spirit
+			allowed = { always = no }
+			removal_cost = -1
+			on_add = { set_variable ={ cg_supply = 0.07 } }
+			modifier = { consumer_goods_factor = 0.07 
+				stability_weekly = 0.0014 }
+		}
+		cg_58 = {
+			picture = consumer_goods_factor_spirit
+			allowed = { always = no }
+			removal_cost = -1
+			on_add = { set_variable ={ cg_supply = 0.08 } }
+			modifier = { consumer_goods_factor = 0.08 
+				stability_weekly = 0.0016 }
+		}
+		cg_59 = {
+			picture = consumer_goods_factor_spirit
+			allowed = { always = no }
+			removal_cost = -1
+			on_add = { set_variable ={ cg_supply = 0.09 } }
+			modifier = { consumer_goods_factor = 0.09 
+				stability_weekly = 0.0018 }
+		}
+		
+		
+		cg_61 = {
+			picture = consumer_goods_factor_spirit
+			allowed = { always = no }
+			removal_cost = -1
+			on_add = { set_variable ={ cg_supply = 0.11 } }
+			modifier = { consumer_goods_factor = 0.11 
+				stability_weekly = 0.0022 }
+		}
+		cg_62 = {
+			picture = consumer_goods_factor_spirit
+			allowed = { always = no }
+			removal_cost = -1
+			on_add = { set_variable ={ cg_supply = 0.12 } }
+			modifier = { consumer_goods_factor = 0.12 
+				stability_weekly = 0.0024 }
+		}
+		cg_63 = {
+			picture = consumer_goods_factor_spirit
+			allowed = { always = no }
+			removal_cost = -1
+			on_add = { set_variable ={ cg_supply = 0.13 } }
+			modifier = { consumer_goods_factor = 0.13 
+				stability_weekly = 0.0026 }
+		}
+		cg_64 = {
+			picture = consumer_goods_factor_spirit
+			allowed = { always = no }
+			removal_cost = -1 
+			on_add = { set_variable ={ cg_supply = 0.14   } }
+			modifier = { consumer_goods_factor = 0.14 
+				stability_weekly = 0.0028 }
+		}
+		
+		
+		
+		cg_66 = {
+			picture = consumer_goods_factor_spirit
+			allowed = { always = no }
+			removal_cost = -1 
+			on_add = { set_variable ={ cg_supply = 0.16 } }
+			modifier = { consumer_goods_factor = 0.16 
+				stability_weekly = 0.0032 }
+		}
+		cg_67 = {
+			picture = consumer_goods_factor_spirit
+			allowed = { always = no }
+			removal_cost = -1
+			on_add = { set_variable ={ cg_supply = 0.17 } }
+			modifier = { consumer_goods_factor = 0.17 
+				stability_weekly = 0.0034 }
+		}
+		cg_68 = {
+			picture = consumer_goods_factor_spirit
+			allowed = { always = no }
+			removal_cost = -1
+			on_add = { set_variable ={ cg_supply = 0.18 } }
+			modifier = { consumer_goods_factor = 0.18 
+				stability_weekly = 0.0036 }
+		}
+		cg_69 = {
+			picture = consumer_goods_factor_spirit
+			allowed = { always = no }
+			removal_cost = -1
+			on_add = { set_variable ={ cg_supply = 0.19 } }
+			modifier = { consumer_goods_factor = 0.19 
+				stability_weekly = 0.0038 }
+		}
+		
+		
+		
+		cg_71 = {
+			picture = consumer_goods_factor_spirit
+			allowed = { always = no }
+			removal_cost = -1
+			on_add = { set_variable ={ cg_supply = 0.21 } }
+			modifier = { consumer_goods_factor = 0.21 
+				stability_weekly = 0.0042 }
+		}
+		cg_72 = {
+			picture = consumer_goods_factor_spirit
+			allowed = { always = no }
+			removal_cost = -1
+			on_add = { set_variable ={ cg_supply = 0.22 } }
+			modifier = { consumer_goods_factor = 0.22 
+				stability_weekly = 0.0044 }
+		}
+		cg_73 = {
+			picture = consumer_goods_factor_spirit
+			allowed = { always = no }
+			removal_cost = -1
+			on_add = { set_variable ={ cg_supply = 0.23 } }
+			modifier = { consumer_goods_factor = 0.23 
+				stability_weekly = 0.0046 }
+		}
+		cg_74 = {
+			picture = consumer_goods_factor_spirit
+			allowed = { always = no }
+			removal_cost = -1 
+			on_add = { set_variable ={ cg_supply = 0.24 } }
+			modifier = { consumer_goods_factor = 0.24 
+				stability_weekly = 0.0048 }
+		}
+		
+		
+		
+		
+		
+		cg_76 = {
+			picture = consumer_goods_factor_spirit
+			allowed = { always = no }
+			removal_cost = -1
+			on_add = { set_variable ={ cg_supply = 0.26 } }
+			modifier = { consumer_goods_factor = 0.26 
+				stability_weekly = 0.052 }
+		}
+		cg_77 = {
+			picture = consumer_goods_factor_spirit
+			allowed = { always = no }
+			removal_cost = -1
+			on_add = { set_variable ={ cg_supply =  0.27 } }
+			modifier = { consumer_goods_factor = 0.27 
+				stability_weekly = 0.0054 }
+		}
+		cg_78 = {
+			picture = consumer_goods_factor_spirit
+			allowed = { always = no }
+			removal_cost = -1
+			on_add = { set_variable ={ cg_supply = 0.28 } }
+			modifier = { consumer_goods_factor = 0.28 
+				stability_weekly = 0.0056 }
+		}
+		cg_79 = {
+			picture = consumer_goods_factor_spirit
+			allowed = { always = no }
+			removal_cost = -1
+			on_add = { set_variable ={ cg_supply = 0.29 } }
+			modifier = { consumer_goods_factor = 0.29 
+				stability_weekly = 0.0058 }
+		}
+		
+		
+		cg_81 = {
+			picture = consumer_goods_factor_spirit
+			allowed = { always = no }
+			removal_cost = -1
+			on_add = { set_variable ={ cg_supply = 0.31 } }
+			modifier = { consumer_goods_factor = 0.31 
+				stability_weekly = 0.0062 }
+		}
+		cg_82 = {
+			picture = consumer_goods_factor_spirit
+			allowed = { always = no }
+			removal_cost = -1
+			on_add = { set_variable ={ cg_supply = 0.32 } }
+			modifier = { consumer_goods_factor = 0.32 
+				stability_weekly = 0.0064 }
+		}
+		cg_83 = {
+			picture = consumer_goods_factor_spirit
+			allowed = { always = no }
+			removal_cost = -1
+			on_add = { set_variable ={ cg_supply = 0.33 } }
+			modifier = { consumer_goods_factor = 0.33 
+				stability_weekly = 0.0066 }
+		}
+		cg_84 = {
+			picture = consumer_goods_factor_spirit
+			allowed = { always = no }
+			removal_cost = -1 
+			on_add = { set_variable ={ cg_supply = 0.34 } }
+			modifier = { consumer_goods_factor = 0.34 
+				stability_weekly = 0.0068 }
+		}
+		
+		
+		
+		cg_86 = {
+			picture = consumer_goods_factor_spirit
+			allowed = { always = no }
+			removal_cost = -1
+			on_add = { set_variable ={ cg_supply = 0.36 } }
+			modifier = { consumer_goods_factor = 0.36 
+				stability_weekly = 0.0072 }
+		}
+		cg_87 = {
+			picture = consumer_goods_factor_spirit
+			allowed = { always = no }
+			removal_cost = -1
+			on_add = { set_variable ={ cg_supply =  0.37 } }
+			modifier = { consumer_goods_factor = 0.37 
+				stability_weekly = 0.0074 }
+		}
+		cg_88 = {
+			picture = consumer_goods_factor_spirit
+			allowed = { always = no }
+			removal_cost = -1
+			on_add = { set_variable ={ cg_supply = 0.38 } }
+			modifier = { consumer_goods_factor = 0.38 
+				stability_weekly = 0.0076 }
+		}
+		cg_89 = {
+			picture = consumer_goods_factor_spirit
+			allowed = { always = no }
+			removal_cost = -1
+			on_add = { set_variable ={ cg_supply = 0.39 } }
+			modifier = { consumer_goods_factor = 0.39 
+				stability_weekly = 0.0078 }
+		}
+		
+		
+		cg_91 = {
+			picture = consumer_goods_factor_spirit
+			allowed = { always = no }
+			removal_cost = -1
+			on_add = { set_variable ={ cg_supply = 0.41 } }
+			modifier = { consumer_goods_factor = 0.41 
+				stability_weekly = 0.0082 }
+		}
+		cg_92 = {
+			picture = consumer_goods_factor_spirit
+			allowed = { always = no }
+			removal_cost = -1
+			on_add = { set_variable ={ cg_supply = 0.42 } }
+			modifier = { consumer_goods_factor = 0.42 
+				stability_weekly = 0.0084 }
+		}
+		cg_93 = {
+			picture = consumer_goods_factor_spirit
+			allowed = { always = no }
+			removal_cost = -1
+			on_add = { set_variable ={ cg_supply = 0.43 } }
+			modifier = { consumer_goods_factor = 0.43 
+				stability_weekly = 0.0086 }
+		}
+		cg_94 = {
+			picture = consumer_goods_factor_spirit
+			allowed = { always = no }
+			removal_cost = -1 
+			on_add = { set_variable ={ cg_supply = 0.44 } }
+			modifier = { consumer_goods_factor = 0.44 
+				stability_weekly = 0.0088 }
+		}
+		
+		
+		
+		cg_96 = {
+			picture = consumer_goods_factor_spirit
+			allowed = { always = no }
+			removal_cost = -1
+			on_add = { set_variable ={ cg_supply = 0.46 } }
+			modifier = { consumer_goods_factor = 0.46 
+				stability_weekly = 0.0092 }
+		}
+		cg_97 = {
+			picture = consumer_goods_factor_spirit
+			allowed = { always = no }
+			removal_cost = -1
+			on_add = { set_variable ={ cg_supply =  0.47 } }
+			modifier = { consumer_goods_factor = 0.47 
+				stability_weekly = 0.0094 }
+		}
+		cg_98 = {
+			picture = consumer_goods_factor_spirit
+			allowed = { always = no }
+			removal_cost = -1
+			on_add = { set_variable ={ cg_supply = 0.48 } }
+			modifier = { consumer_goods_factor = 0.48 
+				stability_weekly = 0.0096 }
+		}
+		cg_99 = {
+			picture = consumer_goods_factor_spirit
+			allowed = { always = no }
+			removal_cost = -1
+			on_add = { set_variable ={ cg_supply = 0.49 } }
+			modifier = { consumer_goods_factor = 0.49 
+				stability_weekly = 0.0098 }
+		}
+		
+	}
+
+}
+
+
