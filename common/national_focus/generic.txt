@@ -19,13 +19,13 @@
 }
 
 focus_tree = {
-	id = legacy_generic_focus
+	id = generic_focus
 	
 	country = {
-		factor = 0
+		factor = 1
 	}
 	
-	default = no
+	default = yes
 	reset_on_civilwar = no
 
 	initial_show_position = {

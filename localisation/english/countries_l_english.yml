@@ -1,11 +1,32 @@
 ﻿l_english:
 
- SHA_tribal:0"UN Sahara Exclusion Zone"
- SHA_tribal_DEF:0 "UN Sahara Exclusion Zone"
+ SHA_tribal:0"Sahara Inhabital Zone"
+ SHA_tribal_DEF:0 "Sahara Inhabital Zone"
  SHA_tribal_ADJ:0 "African"
  SHA:0 "Africa"
  SHA_DEF:0 "African"
  SHA_ADJ:0 "African"
+
+ IGB_tribal:0"Igbo"
+ IGB_tribal_DEF:0 "Igbo"
+ IGB_tribal_ADJ:0 "African"
+ IGB:0 "Africa"
+ IGB_DEF:0 "African"
+ IGB_ADJ:0 "African"
+
+ BEN_tribal:0"Benin"
+ BEN_tribal_DEF:0 "Benin"
+ BEN_tribal_ADJ:0 "African"
+ BEN:0 "Africa"
+ BEN_DEF:0 "African"
+ BEN_ADJ:0 "African"
+
+ OYO_tribal:0"Oyo"
+ OYO_tribal_DEF:0 "Oyo"
+ OYO_tribal_ADJ:0 "African"
+ OYO:0 "Africa"
+ OYO_DEF:0 "African"
+ OYO_ADJ:0 "African"
 
  DOA_tribal:0"Dahomey"
  DOA_tribal_DEF:0 "Dahomey"

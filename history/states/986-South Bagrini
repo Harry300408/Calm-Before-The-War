@@ -1,0 +1,22 @@
+state={
+	id=986
+	name="South Bagirini"
+	manpower = 79243
+
+	state_category = wasteland
+
+	history={
+		owner = BAG
+		add_core_of = BAG
+		buildings = {
+			infrastructure = 0
+		}
+
+	}
+
+	provinces={
+    1993
+	}
+
+	local_supplies=0.0
+}

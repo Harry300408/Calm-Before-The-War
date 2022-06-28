@@ -3,18 +3,18 @@ state={
 	name="STATE_864"
 
 	history={
-		owner = SMR
+		owner = NIT
 		victory_points = {
-			13246 1 
+			13246 1
 		}
 		buildings = {
 			infrastructure = 3
 		}
-		add_core_of = SMR
+		add_core_of = NIT
 	}
 
 	provinces={
-		13246 
+		13246
 	}
 	manpower=21060
 	buildings_max_level_factor=1.000

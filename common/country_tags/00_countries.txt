@@ -45,6 +45,9 @@ EWE = "countries/Uncolonized African Nations.txt"
 ASH = "countries/Uncolonized African Nations.txt"
 KAA = "countries/Uncolonized African Nations.txt"
 DOA = "countries/Uncolonized African Nations.txt"
+OYO = "countries/Uncolonized African Nations.txt"
+BEN = "countries/Uncolonized African Nations.txt"
+IGB = "countries/Uncolonized African Nations.txt"
 
 
 #######################################################################################################################

@@ -1,0 +1,22 @@
+state={
+	id=989
+	name="East Benin"
+	manpower = 79243
+
+	state_category = wasteland
+
+	history={
+		owner = BEN
+		add_core_of = BEN
+		buildings = {
+			infrastructure = 0
+		}
+
+	}
+
+	provinces={
+    1992
+	}
+
+	local_supplies=0.0
+}

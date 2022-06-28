@@ -12,13 +12,25 @@ MAS = {
 	color = rgb { 216 155 43 }
 	color_ui = rgb { 216 155 43 }
 }
+IGB = {
+	color = rgb { 255 220 216 }
+	color_ui = rgb { 255 220 216 }
+}
 MOS = {
 	color = rgb { 105 167 51 }
 	color_ui = rgb { 216 155 43 }
 }
+BEN = {
+	color = rgb { 151 255 155 }
+	color_ui = rgb { 151 255 155 }
+}
 BOR = {
 	color = rgb { 0 186 255 }
 	color_ui = rgb { 0 186 255 }
+}
+OYO = {
+	color = rgb { 208 206 255 }
+	color_ui = rgb { 208 206 255 }
 }
 DOA = {
 	color = rgb { 117 156 255 }

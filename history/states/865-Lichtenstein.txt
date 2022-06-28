@@ -3,18 +3,18 @@ state={
 	name="STATE_865"
 
 	history={
-		owner = LIE
+		owner = AUS
 		victory_points = {
-			13250 1 
+			13250 1
 		}
 		buildings = {
 			infrastructure = 3
 		}
-		add_core_of = LIE
+		add_core_of = AUS
 	}
 
 	provinces={
-		13250 
+		13250
 	}
 	manpower=29812
 	buildings_max_level_factor=1.000
