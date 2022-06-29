@@ -1,0 +1,32 @@
+state={
+	id=929
+	name="STATE_929"
+
+	history={
+		owner = JAP
+		buildings = {
+			infrastructure = 2
+			10110 = {
+				naval_base = 2
+
+			}
+
+		}
+		victory_points = {
+			4126 5 
+		}
+		victory_points = {
+			10110 1 
+		}
+		add_core_of = KOR
+
+	}
+
+	provinces={
+		4126 10110 11948 11977 12085 13276 
+	}
+	manpower=2002000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

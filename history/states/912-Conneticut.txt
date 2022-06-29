@@ -1,0 +1,31 @@
+state={
+	id=912
+	name="STATE_912"
+
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 4
+			dockyard = 4
+			air_base = 10
+			9832 = {
+				naval_base = 3
+
+			}
+
+		}
+		add_core_of = USA
+		victory_points = {
+			9850 1 
+		}
+
+	}
+
+	provinces={
+		6157 6909 9832 9847 9850 
+	}
+	manpower=3200200
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

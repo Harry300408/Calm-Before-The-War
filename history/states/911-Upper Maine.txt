@@ -1,0 +1,26 @@
+state={
+	id=911
+	name="STATE_911"
+
+	history={
+		owner = USA
+		victory_points = {
+			1282 1 
+		}
+
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = USA
+
+	}
+
+	provinces={
+		1282 1338 1619 4287 10247 12221 
+	}
+	manpower=504001
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

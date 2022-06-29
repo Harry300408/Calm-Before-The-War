@@ -1,0 +1,27 @@
+state={
+	id=901
+	name="STATE_901"
+
+	history={
+		add_core_of = OMA
+		owner = OMA
+		victory_points = {
+			13271 1 
+		}
+		buildings = {
+			infrastructure = 1
+			13271 = {
+				naval_base = 1
+			}
+		}
+
+	}
+
+	provinces={
+		13271 
+	}
+	manpower=9000
+	buildings_max_level_factor=1.000
+	state_category = wasteland
+	local_supplies=0.000
+}

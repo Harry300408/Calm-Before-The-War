@@ -1,0 +1,23 @@
+state={
+	id=991
+	name="South Kong"
+	manpower = 901
+
+	state_category = pastoral
+	history={
+		owner = KNG
+		add_core_of = KNG
+		victory_points = {
+			10836 1
+		}
+		buildings = {
+			infrastructure = 2
+		}
+	}
+
+	provinces={
+	  5013
+	}
+
+	local_supplies=1.0
+}

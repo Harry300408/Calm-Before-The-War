@@ -1,0 +1,8 @@
+spriteTypes = {
+    
+	spriteType = {
+		name = "GFX_1930_bookmark"
+		texturefile = "gfx/interface/GFX_1930_Bookmark.dds"
+	}
+	
+}

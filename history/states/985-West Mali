@@ -1,0 +1,24 @@
+state={
+	id=985
+	name="West Mali" # Mali
+	manpower = 23532
+
+	state_category = rural
+
+	history={
+		owner = KAA
+		add_core_of = KAA
+		victory_points = {
+			4927 1
+		}
+		buildings = {
+			infrastructure = 2
+		}
+	}
+
+	provinces={
+		 2012 10915
+	}
+
+	local_supplies=2.0
+}

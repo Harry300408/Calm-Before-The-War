@@ -1,0 +1,26 @@
+state={
+	id=953
+	name="STATE_953"
+
+	history={
+		owner = CUB
+		victory_points = {
+			7546 1 
+		}
+
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = CUB
+
+	}
+
+	provinces={
+		4476 7546 10374 
+	}
+	manpower=802000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}
