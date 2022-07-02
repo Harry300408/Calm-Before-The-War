@@ -1,6 +1,0 @@
-
-
-graphical_culture = west_european_gfx
-graphical_culture_2d = west_european_2d
-
-color = rgb { 255 228 124 }
