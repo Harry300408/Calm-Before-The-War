@@ -1,0 +1,28 @@
+state={
+	id=852
+	name="STATE_852"
+
+	history={
+		owner = AUS
+		buildings = {
+			infrastructure = 4
+
+		}
+		add_core_of = AUS
+		1938.3.12 = {
+			owner = GER
+			controller = GER
+			add_core_of = GER
+
+		}
+
+	}
+
+	provinces={
+		3700 9661 11630 
+	}
+	manpower=430100
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}
