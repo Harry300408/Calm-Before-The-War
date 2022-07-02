@@ -1,0 +1,94 @@
+ideas = {
+ wp_war_focus = {
+
+  homefront_focus = {
+   	law = yes
+
+  cost = 100
+  removal_cost = -1
+  level = 1
+
+  available = {
+  }
+
+  modifier = {
+  }
+
+  ai_will_do = {
+    factor = 1
+  }
+
+  cancel_if_invalid = no
+  default = yes
+
+  }
+ #########################################
+  frontline_focus = {
+    law = yes
+
+  cost = 100
+  removal_cost = -1
+  level = 1
+
+  available = {
+  }
+
+  modifier = {
+  }
+
+  ai_will_do = {
+    factor = 1
+  }
+
+  cancel_if_invalid = no
+  default = no
+
+  }
+#########################################
+  civ_factory_focus = {
+    law = yes
+
+  cost = 100
+  removal_cost = -1
+  level = 1
+
+  available = {
+  }
+
+  modifier = {
+  }
+
+  ai_will_do = {
+    factor = 1
+  }
+
+  cancel_if_invalid = no
+  default = no
+
+  }
+################################
+  mil_factory_focus = {
+    law = yes
+
+  cost = 100
+  removal_cost = -1
+  level = 1
+
+  available = {
+  }
+
+  modifier = {
+  }
+
+  ai_will_do = {
+    factor = 1
+  }
+
+  cancel_if_invalid = no
+  default = no
+
+  }
+
+}
+
+}
