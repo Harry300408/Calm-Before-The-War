@@ -1,0 +1,105 @@
+bookmarks = {
+	bookmark = {
+		name = "German Victory"
+		desc = ""
+		date = 1936.1.1.12
+		picture = "GFX_select_date_1936"
+		default_country = "FRA"
+	    default = yes
+
+			USA = {
+				history = ""
+				ideology = democratic
+				ideas = {
+
+				}
+				focuses = {
+
+				}
+			}
+
+		ENG = {
+			history = ""
+			ideology = democratic
+			ideas = {
+
+			}
+			focuses = {
+
+			}
+		}
+		AUS = {
+			history = ""
+			ideology = democratic
+			ideas = {
+
+			}
+			focuses = {
+
+			}
+		}
+		GRM = {
+			history = ""
+			ideology = neutrality
+			ideas = {
+			GRM_triumphant_nation
+			}
+			focuses = {
+
+			}
+		}
+		QIN = {
+			history = ""
+			ideology = neutrality
+			ideas={
+
+			}
+			focuses = {
+
+			}
+		}
+
+		REM = {
+			history = ""
+			ideology = communism
+			ideas = {
+
+			}
+			focuses = {
+
+			}
+		}
+
+
+        ##minors##
+
+        "CAS"={
+         minor = yes
+         history = ""
+			ideology = democratic
+			ideas = {
+
+			}
+			focuses = {
+
+			}
+         }
+		 "ITA"={
+         minor = yes
+         history = ""
+			ideology = democratic
+			ideas = {
+
+			}
+			focuses = {
+
+			}
+         }
+
+
+		effect = {
+			randomize_weather = 12345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

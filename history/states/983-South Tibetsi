@@ -1,0 +1,26 @@
+state={
+	id=983
+	name="South Tibesti"
+
+	history={
+		owner = TBE
+		add_core_of = TBE
+		victory_points = {
+			2081 1
+		}
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+
+	provinces={
+    10893
+	}
+	manpower=432
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+
+	local_supplies=3.0
+}

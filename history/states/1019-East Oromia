@@ -1,0 +1,21 @@
+state={
+	id=1019
+	name="East Oromia" 
+	manpower = 3850
+
+	state_category = pastoral
+	history={
+		owner = ORO
+		add_core_of = ORO 
+		
+		buildings = {
+			
+		}
+	}
+
+	provinces={
+		8062 10775 8036 5010
+	}
+
+	local_supplies=1.0
+}

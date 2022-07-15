@@ -1,0 +1,21 @@
+state={
+	id=1010
+	name="Naandi" 
+	manpower = 3850
+
+	state_category = pastoral
+	history={
+		owner = DFE
+		add_core_of = DFE
+		
+		buildings = {
+			
+		}
+	}
+
+	provinces={
+		10857 10764
+	}
+
+	local_supplies=1.0
+}

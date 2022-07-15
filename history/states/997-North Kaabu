@@ -1,0 +1,25 @@
+state={
+	id=997
+	name="Northern Kabbu" 
+	manpower = 3850
+
+	state_category = pastoral
+	history={
+		owner = KAB
+		add_core_of = KAB
+		add_core_of = SEN
+		
+		buildings = {
+			infrastructure = 2
+			10803 = {
+				naval_base = 1
+			}
+		}
+	}
+
+	provinces={
+		12834
+	}
+
+	local_supplies=1.0
+}

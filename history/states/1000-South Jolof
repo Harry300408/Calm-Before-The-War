@@ -1,0 +1,25 @@
+state={
+	id=1000
+	name="Mbidi" 
+	manpower = 3850
+
+	state_category = pastoral
+	history={
+		owner = JOL
+		add_core_of = JOL
+		add_core_of = GNA
+		
+		buildings = {
+			infrastructure = 2
+			10803 = {
+				naval_base = 1
+			}
+		}
+	}
+
+	provinces={
+		12710
+	}
+
+	local_supplies=1.0
+}

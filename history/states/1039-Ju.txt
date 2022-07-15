@@ -1,0 +1,21 @@
+
+state={
+	id=1039
+	name="Ju"
+	manpower = 462000
+	
+	state_category = wasteland
+
+	history={
+		owner = JUU
+		buildings = {
+		}
+		add_core_of = JUU
+	}
+
+	provinces={
+		4735 12391 8202 12985 8138 12958 10966 2126 1552
+	}
+
+	local_supplies=0.0 
+}

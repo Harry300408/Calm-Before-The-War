@@ -1,0 +1,23 @@
+state={
+	id=1022
+	name="South Timioun" 
+	manpower = 3850
+
+	state_category = pastoral
+	history={
+		owner = TRG
+		add_core_of = TUA 
+		add_core_of = TRG
+		
+		buildings = {
+			
+		}
+	}
+
+	provinces={
+		7041
+	}
+
+	local_supplies=1.0
+	impassable = yes
+}

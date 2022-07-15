@@ -1,0 +1,24 @@
+state={
+	id=999
+	name="Kouroussa" 
+	manpower = 3850
+
+	state_category = pastoral
+	history={
+		owner = MDK
+		add_core_of = GNA
+		
+		buildings = {
+			infrastructure = 2
+			10803 = {
+				naval_base = 1
+			}
+		}
+	}
+
+	provinces={
+		8008 5039
+	}
+
+	local_supplies=1.0
+}

@@ -1,0 +1,21 @@
+
+state={
+	id=1038
+	name="Tuu"
+	manpower = 462000
+	
+	state_category = wasteland
+
+	history={
+		owner = TUU
+		buildings = {
+		}
+		add_core_of = TUU
+	}
+
+	provinces={
+		8245
+	}
+
+	local_supplies=0.0 
+}

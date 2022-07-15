@@ -1,0 +1,21 @@
+state={
+	id=1016
+	name="South Bahri" 
+	manpower = 3850
+
+	state_category = pastoral
+	history={
+		owner = MED
+		add_core_of = MED 
+		
+		buildings = {
+			
+		}
+	}
+
+	provinces={
+		2072
+	}
+
+	local_supplies=1.0
+}

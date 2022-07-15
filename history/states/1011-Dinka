@@ -1,0 +1,21 @@
+state={
+	id=1011
+	name="Juba" 
+	manpower = 3850
+
+	state_category = pastoral
+	history={
+		owner = DIN
+		add_core_of = DIN
+		
+		buildings = {
+			
+		}
+	}
+
+	provinces={
+		10908 7996 1953 4033
+	}
+
+	local_supplies=1.0
+}

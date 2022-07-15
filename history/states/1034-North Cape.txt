@@ -1,0 +1,39 @@
+state={
+	id=1034
+	name="North Cape" # Natal
+	manpower = 3962157
+	resources={
+		chromium=60 # was: 116
+	}
+	
+	state_category = city
+
+
+	history={
+		owner = KWA
+		buildings = {
+			infrastructure = 3 #was: 5
+			industrial_complex = 2
+			air_base = 1
+			1468 = {
+				naval_base = 2
+			}
+			4696 = {
+				naval_base = 2
+			}
+		}
+		victory_points = {
+			1468 3 
+		}
+		victory_points = {
+			4696 1 
+		}
+		add_core_of = KWA
+	}
+
+	provinces={
+		5203
+	}
+
+	local_supplies=0.0 
+}

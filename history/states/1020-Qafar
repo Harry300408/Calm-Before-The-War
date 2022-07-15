@@ -1,0 +1,21 @@
+state={
+	id=1020
+	name="Qafar" 
+	manpower = 3850
+
+	state_category = pastoral
+	history={
+		owner = QAF
+		add_core_of = QAF 
+		
+		buildings = {
+			
+		}
+	}
+
+	provinces={
+		7980 5041
+	}
+
+	local_supplies=1.0
+}

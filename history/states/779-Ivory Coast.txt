@@ -1,0 +1,27 @@
+state={
+	id=779
+	name="Anyi" # Ivory Coast
+	manpower = 3850
+
+	state_category = pastoral
+	history={
+		owner = ENG
+		add_core_of = IVT
+		add_core_of = ANY
+		victory_points = {
+			10803 1
+		}
+		buildings = {
+			infrastructure = 2
+			10803 = {
+				naval_base = 1
+			}
+		}
+	}
+
+	provinces={
+		 10803
+	}
+
+	local_supplies=1.0
+}

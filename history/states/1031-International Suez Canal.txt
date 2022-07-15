@@ -1,0 +1,24 @@
+state={
+	id=1031
+	name="Suez Cannal"
+
+	state_category = pastoral
+
+	history={
+		owner = SUE
+		add_core_of = SUE
+		buildings = {
+		}
+
+	}
+
+	provinces={
+		12049 4073
+	}
+	manpower=1456356
+	buildings_max_level_factor=1.000
+	
+	
+
+	local_supplies=0.0
+}

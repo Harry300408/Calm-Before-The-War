@@ -1,0 +1,22 @@
+
+state={
+	id=1037
+	name="Rozvi"
+	manpower = 462000
+	
+	state_category = wasteland
+
+	history={
+		owner = ROZ
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = ROZ
+	}
+
+	provinces={
+		5155 2120 12935 5177
+	}
+
+	local_supplies=0.0 
+}

@@ -1,0 +1,43 @@
+﻿
+################################################################
+########    Version 0.1 Beta: Legacy of the Kaiser     #########
+################################################################
+
+##################################
+# Balance                        #
+##################################
+
+
+
+##################################
+# Stability & Performance        #
+##################################
+
+
+
+##################################
+# Modding                        #
+##################################
+We will be supporting Sub-modding in this update as soon as is released (and in the GitHub Version) just pping us in the #SubMod-game-bugs and we will try to fix them as soon as possible
+
+
+##################################
+# Database                       #
+##################################
+
+
+
+##################################
+# Bugfix                         #
+##################################
+1.province & state bug fixed
+2.load up crashes fixed
+
+##################################
+# Countries                      #
+##################################
+German Empire: Focus for expansion almost finished (will be tweaked and will need effects)
+
+##################################
+# GUI                            #
+##################################

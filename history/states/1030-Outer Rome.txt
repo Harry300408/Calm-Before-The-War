@@ -1,0 +1,27 @@
+state={
+	id=1030
+	name="Outer Rome"
+
+	state_category = pastoral
+
+	history={
+		owner = ITA
+		add_core_of = ITA
+		add_core_of = PAP
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+
+	provinces={
+		11882 11846 923 9794 6862
+	}
+	manpower=1456356
+	buildings_max_level_factor=1.000
+	
+	
+
+	local_supplies=0.0
+}

@@ -1,0 +1,26 @@
+state={
+	id=1027
+	name="South AGRMis"
+
+	state_category = pastoral
+
+	history={
+		owner = TRG
+		add_core_of = TRG
+		add_core_of = ADA
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+
+	provinces={
+		5095 10749
+	}
+	manpower=1456356
+	buildings_max_level_factor=1.000
+	impassable = yes
+
+	local_supplies=0.0
+}

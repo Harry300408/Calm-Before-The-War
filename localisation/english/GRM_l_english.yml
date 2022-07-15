@@ -1,0 +1,23 @@
+﻿l_english:
+###########
+##Parties##
+###########
+ 
+###########
+##leaders##
+###########
+
+#############
+##Ministers##
+#############
+ 
+#########
+##Ideas##
+#########
+ GRM_triumphant_nation:0 "Triumphant Nation"
+ GRM_triumphant_nation_desc:0 ""
+ GRM_superior_air_force:0 "Superior Air Force"   
+ GRM_superior_air_force_desc:0 ""
+ GRM_mighty_army:0 "Mighty Army"
+ GRM_mighty_army_desc:0 ""
+ 

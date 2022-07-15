@@ -1,0 +1,21 @@
+state={
+	id=1005
+	name="Tripoli" 
+	manpower = 3850
+
+	state_category = pastoral
+	history={
+		owner = TRP
+		add_core_of = TRP
+		
+		buildings = {
+			
+		}
+	}
+
+	provinces={
+		10884 4962 12866 7985 10785 11951 1140 10754 12082 12022
+	}
+
+	local_supplies=1.0
+}

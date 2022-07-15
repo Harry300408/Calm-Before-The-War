@@ -1,0 +1,21 @@
+
+state={
+	id=1040
+	name="West Zambia"
+	manpower = 462000
+	
+	state_category = wasteland
+
+	history={
+		owner = JUU
+		buildings = {
+		}
+		add_core_of = JUU
+	}
+
+	provinces={
+		10538
+	}
+
+	local_supplies=0.0 
+}

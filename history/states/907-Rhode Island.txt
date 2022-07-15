@@ -1,0 +1,29 @@
+state={
+	id=907
+	name="STATE_907"
+
+	history={
+		owner = USA
+		victory_points = {
+			11830 1 
+		}
+		buildings = {
+			infrastructure = 4
+			11830 = {
+				naval_base = 3
+
+			}
+
+		}
+		add_core_of = USA
+
+	}
+
+	provinces={
+		11830 
+	}
+	manpower=600200
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

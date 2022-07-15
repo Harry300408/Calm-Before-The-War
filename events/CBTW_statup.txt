@@ -1,0 +1,125 @@
+
+## Startup Event ##
+
+add_namespace = startup
+
+country_event = {
+    id = startup.1
+    title = startup.1.t
+    desc = startup.1.desc
+    
+    is_triggered_only = yes 
+     
+    option = {
+        name = startup.1.b
+    }
+
+    option = {
+        name = startup.1.a
+            trigger = {
+                tag = ENG
+            }
+        country_event = { 
+		    id = startup.2
+		}
+    }
+    option = {
+        name = startup.1.c
+            trigger = {
+                tag = GRM
+            }
+        country_event = { 
+		    id = startup.
+		}
+    }
+    option = {
+        name = startup.1.d
+            trigger = {
+                tag = AUS
+            }
+        country_event = { 
+		    id = startup.
+		}
+    }
+    option = {
+        name = startup.1.e
+            trigger = {
+                tag = FRA
+            }
+        country_event = { 
+		    id = startup.
+		}
+    }
+    option = {
+        name = startup.1.f
+            trigger = {
+                tag = REM
+            }
+        country_event = { 
+		    id = startup.
+		}
+    }
+    option = {
+        name = startup.1.g
+            trigger = {
+                tag = JAP
+            }
+        country_event = { 
+		    id = startup.
+		}
+    }
+    option = {
+        name = startup.1.h
+            trigger = {
+                tag = USA
+            }
+        country_event = { 
+		    id = startup.
+		}
+    }
+    option = {
+        name = startup.1.i
+            trigger = {
+                tag = TUR
+            }
+        country_event = { 
+		    id = startup.
+		}
+    }
+}
+
+
+
+country_event = {
+    id = startup.2
+    title = startup.2.t
+    desc = startup.2.desc
+    
+    is_triggered_only = yes 
+
+    option = {
+        name = startup.2.a
+        trigger = {
+            tag = ENG
+        }
+        country_event = { 
+		    id = startup.3
+		}   
+    }
+    option = {
+        name = startup.2.b
+    }
+}
+
+
+country_event = {
+    id = startup.3
+    title = startup.3.t
+    desc = startup.3.desc
+    
+    is_triggered_only = yes 
+
+    option = {
+        name = startup.3.b
+    }
+}

@@ -1,0 +1,21 @@
+state={
+	id=1009
+	name="El Daein" 
+	manpower = 3850
+
+	state_category = pastoral
+	history={
+		owner = DAR
+		add_core_of = DAR
+		
+		buildings = {
+			
+		}
+	}
+
+	provinces={
+		5060 1960 10739 8052 
+	}
+
+	local_supplies=1.0
+}

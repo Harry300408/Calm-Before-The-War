@@ -1,0 +1,21 @@
+state={
+	id=1017
+	name="Coibu" 
+	manpower = 3850
+
+	state_category = pastoral
+	history={
+		owner = KAF
+		add_core_of = KAF 
+		
+		buildings = {
+			
+		}
+	}
+
+	provinces={
+		7912 
+	}
+
+	local_supplies=1.0
+}

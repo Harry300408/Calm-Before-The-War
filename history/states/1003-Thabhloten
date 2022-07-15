@@ -1,0 +1,22 @@
+state={
+	id=1003
+	name="Thabhloten" 
+	manpower = 3850
+
+	state_category = pastoral
+	history={
+		owner = ENG
+		add_core_of = NEJ
+		add_core_of = SAU
+		
+		buildings = {
+			
+		}
+	}
+
+	provinces={
+		12740 4932
+	}
+
+	local_supplies=1.0
+}

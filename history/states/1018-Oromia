@@ -1,0 +1,21 @@
+state={
+	id=1018
+	name="Kumbabe" 
+	manpower = 3850
+
+	state_category = pastoral
+	history={
+		owner = ORO
+		add_core_of = ORO 
+		
+		buildings = {
+			
+		}
+	}
+
+	provinces={
+		8019 10734 12856 2009
+	}
+
+	local_supplies=1.0
+}

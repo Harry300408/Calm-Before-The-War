@@ -1,0 +1,22 @@
+state={
+	id=937
+	name="STATE_937"
+
+	history={
+		owner = CAN
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = CAN
+
+	}
+
+	provinces={
+		13284 
+	}
+	manpower=21000
+	buildings_max_level_factor=1.000
+	state_category=small_island
+	local_supplies=0.000
+}

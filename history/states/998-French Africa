@@ -1,0 +1,24 @@
+state={
+	id=998
+	name="Franch Africa" 
+	manpower = 3850
+
+	state_category = pastoral
+	history={
+		owner = FRA
+		add_core_of = SEN
+		
+		buildings = {
+			infrastructure = 2
+			10803 = {
+				naval_base = 1
+			}
+		}
+	}
+
+	provinces={
+		4948
+	}
+
+	local_supplies=1.0
+}

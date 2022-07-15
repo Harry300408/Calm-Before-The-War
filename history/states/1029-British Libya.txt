@@ -1,0 +1,27 @@
+state={
+	id=1029
+	name="British Tripolina"
+
+	state_category = pastoral
+
+	history={
+		owner = EGY
+		add_core_of = EGY
+		add_core_of = TRP
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+
+	provinces={
+		4191 10104
+	}
+	manpower=1456356
+	buildings_max_level_factor=1.000
+	impassable = yes
+	
+
+	local_supplies=0.0
+}

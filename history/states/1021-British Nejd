@@ -1,0 +1,21 @@
+state={
+	id=1021
+	name="British Nejd" 
+	manpower = 3850
+
+	state_category = pastoral
+	history={
+		owner = ENG
+		add_core_of = ENG 
+		
+		buildings = {
+			
+		}
+	}
+
+	provinces={
+		1955 12702 10791
+	}
+
+	local_supplies=1.0
+}

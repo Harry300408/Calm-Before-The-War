@@ -1,0 +1,24 @@
+
+state={
+	id=782
+	name="STATE_782" # Tombouctou
+	manpower = 79243
+
+	state_category = wasteland
+
+	history={
+		owner = TRG
+		add_core_of = ADA
+		add_core_of = TRG
+		buildings = {
+			infrastructure = 0
+		}
+
+	}
+
+	provinces={
+		10725 10868
+	} 
+
+	local_supplies=0.0
+}

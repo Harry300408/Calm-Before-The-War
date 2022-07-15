@@ -1,0 +1,45 @@
+scripted_gui = {
+
+country_name_gui = {
+context_type = player_context
+parent_window_token = politics_tab
+window_name = "country_name_container"
+visible = {
+}
+effects = {
+
+}
+}
+country_flag_gui = {
+context_type = player_context
+parent_window_token = politics_tab
+window_name = "country_flag_gui"
+visible = {
+}
+effects = {
+
+}
+properties = {
+flag = {
+    image = "[This.GetFlag]"
+}
+
+}
+}
+
+country_flag_gui = {
+context_type = player_context
+parent_window_token = politics_tab
+window_name = "chart_explanation"
+visible = {
+    always = yes
+}
+effects = {
+
+}
+properties = {
+
+
+}
+}
+}

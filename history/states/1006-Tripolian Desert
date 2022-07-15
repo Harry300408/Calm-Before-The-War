@@ -1,0 +1,24 @@
+state={
+	id=1006
+	name="Tripolin Desert" 
+	manpower = 3850
+
+	state_category = pastoral
+	history={
+		owner = TRG
+		add_core_of = AHA
+		add_core_of = TRP
+		add_core_of = TRG
+		
+		buildings = {
+			
+		}
+	}
+
+	provinces={
+		5004
+	}
+
+	local_supplies=1.0
+	impassable = yes
+}

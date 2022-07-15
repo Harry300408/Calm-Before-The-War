@@ -1,0 +1,22 @@
+state={
+	id=982
+	name="South Bornu"
+	manpower = 79243
+
+	state_category = wasteland
+
+	history={
+		owner = BOR
+		add_core_of = BOR
+		buildings = {
+			infrastructure = 0
+		}
+
+	}
+
+	provinces={
+   4997 5028
+	}
+
+	local_supplies=0.0
+}

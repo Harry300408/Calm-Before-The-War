@@ -1,0 +1,25 @@
+
+state={
+	id=1035
+	name="Namibia"
+	manpower = 462000
+	
+	state_category = wasteland
+
+	history={
+		owner = KHO
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			4879 1
+		}
+		add_core_of = KHO
+	}
+
+	provinces={
+		13217
+	}
+
+	local_supplies=0.0 
+}

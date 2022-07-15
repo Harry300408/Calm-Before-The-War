@@ -1,0 +1,22 @@
+
+state={
+	id=1036
+	name="Southern Botswana"
+	manpower = 462000
+	
+	state_category = wasteland
+
+	history={
+		owner = TUU
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = TUU
+	}
+
+	provinces={
+		8214 12940
+	}
+
+	local_supplies=0.0 
+}

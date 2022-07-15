@@ -1,0 +1,21 @@
+state={
+	id=1015
+	name="North Beja" 
+	manpower = 3850
+
+	state_category = pastoral
+	history={
+		owner = BEJ
+		add_core_of = BEJ 
+		
+		buildings = {
+			
+		}
+	}
+
+	provinces={
+		1977 10902
+	}
+
+	local_supplies=1.0
+}

@@ -1,0 +1,22 @@
+state={
+	id=1007
+	name="Lower Tunis" 
+	manpower = 3850
+
+	state_category = pastoral
+	history={
+		owner = TRP
+		add_core_of = TRP
+		add_core_of = TUN
+		
+		buildings = {
+			
+		}
+	}
+
+	provinces={
+		4992
+	}
+
+	local_supplies=1.0
+}

@@ -1,0 +1,26 @@
+state={
+	id=1026
+	name="South Tombouctou"
+
+	state_category = pastoral
+
+	history={
+		owner = TRG
+		add_core_of = TRG
+		add_core_of = ADA
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+
+	provinces={
+		2068
+	}
+	manpower=1456356
+	buildings_max_level_factor=1.000
+	impassable = yes
+
+	local_supplies=0.0
+}

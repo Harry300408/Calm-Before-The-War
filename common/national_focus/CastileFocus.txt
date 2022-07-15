@@ -1,0 +1,1919 @@
+focus_tree = {
+	id = castile_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = CAS
+		}
+
+		#modifier = {
+		#	add = 10
+		#	original_tag = NZL
+		#	has_dlc = "Together for Victory"
+		#}
+	}
+	
+	default = no
+
+#	focus = {
+#		id = CAS_
+#		icon = GFX_
+#		prerequisite = { focus = }
+#		mutually_exclusive = { focus =  }
+#		x = -3
+#		y = 0
+#		relative_position_id =
+#
+#		cost = 10
+#
+#		ai_will_do = {
+#			factor = 1
+#		}
+#
+#		available = {
+#
+#		}
+#		
+#		bypass = {
+#
+#		}
+#
+#		cancel_if_invalid = yes
+#		continue_if_invalid = no
+#		available_if_capitulated = no
+#		complete_tooltip = {
+#
+#		}
+#
+#		completion_reward = {
+#
+#		}
+#	}
+
+
+
+
+
+
+	############################
+	###### NAVY SECTION ########
+	############################
+
+	focus = {
+		id = CAS_begin_the_new_armada
+		icon = GFX_goal_generic_navy_doctrines_tactics
+		x = 16
+		y = 0
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 2
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+			NOT = { is_subject_of = ENG }
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+	CAS = {
+                create_ship = {
+                type = ship_hull_submarine_1
+                equipment_variant = "S Class"
+                creator = CAS
+                name = "Pearl Of the Armada"
+    }
+}
+			    }
+			}
+		}
+	}
+
+	focus = {
+		id = CAS_the_might_armada
+		icon = GFX_goal_generic_build_navy
+		prerequisite = { focus =  CAS_begin_the_new_armada }
+		x = 0
+		y = 1
+		relative_position_id =  CAS_begin_the_new_armada
+
+		cost = 4
+
+		ai_will_do = {
+			factor = 25
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_RESEARCH }
+
+		completion_reward = {
+			navy_experience = 25
+			add_doctrine_cost_reduction = {
+				name = navy_armada
+				cost_reduction = 0.5
+				uses = 2
+				category = naval_doctrine
+			}
+		}
+	}
+
+	focus = {
+		id = CAS_expand_ports
+		icon = GFX_goal_generic_construct_naval_dockyard
+		prerequisite = { focus = CAS_the_might_armada }
+		x = -1
+		y = 2
+		relative_position_id = CAS_begin_the_new_armada
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 25
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+
+		complete_tooltip = {
+			random_state = {
+				limit = {
+					
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = dockyard
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				prioritize = {  }
+				limit = {
+					is_coastal = yes
+					free_building_slots = {
+						building = dockyard
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = dockyard
+					level = 2
+					instant_build = yes
+				}
+				
+			}
+			790 = {
+				add_building_construction = {
+					type = naval_base
+					province = 9703
+					level = 3
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = CAS_expand_south_bases
+		icon = GFX_goal_generic_fortify_city
+		prerequisite = { focus = NZL_form_the_rnzn }
+		x = 1
+		y = 2
+		relative_position_id = NZL_transfer_the_new_zealand_division
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 25
+		}
+
+		available = {
+		}
+
+		bypass = {
+			NOT = {
+				controls_state = 173
+			}
+			NOT = {
+				controls_state = 169
+			}
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			every_owned_state = {
+				limit = {
+					is_controlled_by = ROOT
+					OR = {
+						state = 173
+						state = 169
+					}
+				}
+				add_building_construction = {
+					type = coastal_bunker
+					province = {
+						all_provinces = yes
+						limit_to_coastal = yes
+					}
+					level = 2
+					instant_build = yes
+				}
+
+				#Extra fort on naval bases
+				add_building_construction = {
+					type = bunker
+					province = {
+						all_provinces = yes
+						limit_to_naval_base = yes
+					}
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = coastal_bunker
+					province = {
+						all_provinces = yes
+						limit_to_naval_base = yes
+					}
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	
+
+	############################
+	####### AIR SECTION ########
+	############################
+
+	focus = {
+		id = CAS_airforce_focus
+		icon = GFX_goal_generic_air_doctrine
+		x = 21
+		y = 0
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 2
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_equipment_to_stockpile = {
+				type = nav_bomber_equipment_1
+				amount = 56
+				producer = CAS
+				}
+			if = {
+				limit = {
+					CAS = { has_tech = tactical_bomber1 }
+				}
+				add_equipment_to_stockpile = {
+					type = tac_bomber_equipment_1
+					amount = 30
+					producer = CAS
+				}
+				else = {
+					add_equipment_to_stockpile = {
+						type = tac_bomber_equipment_0
+						amount = 30
+						producer = CAS
+					}	
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = CAS_better_airforce_focus
+		icon = GFX_goal_generic_build_airforce
+		prerequisite = { focus = CAS_airforce_focus }
+		x = 0
+		y = 1
+		relative_position_id = CAS_airforce_focus
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 25
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_RESEARCH }
+
+		complete_tooltip = {
+			air_experience = 25
+			random_state = {				
+				limit = {
+					
+				}
+				add_building_construction = {
+					type = air_base
+					level = 2
+					instant_build = yes
+				}
+			}
+			add_doctrine_cost_reduction = {
+				name = CAS_better_airforce_focus
+				cost_reduction = 0.5
+				uses = 1
+				category = air_doctrine
+			}
+		}
+
+		completion_reward = {
+			air_experience = 25
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = air_base
+						size > 1
+					}
+				}
+				add_building_construction = {
+					type = air_base
+					level = 2
+					instant_build = yes
+				}
+				
+			}
+			add_doctrine_cost_reduction = {
+				name = CAS_better_airforce_focus
+				cost_reduction = 0.5
+				uses = 1
+				category = air_doctrine
+			}
+		}
+	}
+
+	focus = {
+		id = CAS_fighter_focus
+		icon = GFX_goal_generic_air_fighter2
+		prerequisite = { focus = CAS_better_airforce_focus }
+		mutually_exclusive = { focus = CAS_bomber_focus }
+		x = -1
+		y = 2
+		relative_position_id = CAS_better_airforce_focus
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 25
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+		search_filters = { FOCUS_FILTER_RESEARCH }
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = CAS_fighter_focus
+				bonus = 1.0
+				uses = 1
+				category = light_fighter
+			}
+		}
+	}
+
+	focus = {
+		id = CAS_bomber_focus
+		icon = GFX_goal_generic_occupy_start_war
+		prerequisite = { focus = CAS_better_airforce_focus }
+		mutually_exclusive = { focus = CAS_fighter_focus }
+		x = 1
+		y = 2
+		relative_position_id = CAS_better_airforce_focus
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 2
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+		search_filters = { FOCUS_FILTER_RESEARCH }
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = CAS_bomber_focus
+				bonus = 1.00
+				uses = 1
+				category = cat_strategic_bomber
+				category = tactical_bomber
+			}
+		}
+	}
+
+	
+	
+	############################
+	##### INDUSTRY SECTION #####
+	############################
+
+	focus = {
+		id = CAS_rail_project
+		icon = GFX_goal_generic_construct_infrastructure
+		x = 25
+		y = 0
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 8
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+
+		complete_tooltip = {
+			random_state = {
+				limit = {
+					
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+
+			random_state = {
+				limit = {
+					
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				prioritize = {  }
+				limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 1
+					}
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+				
+			}
+
+			random_owned_controlled_state = {
+				prioritize = {  }
+				limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 1
+					}
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+				
+			}
+		}
+	}
+
+	focus = {
+		id = CAS_steel_industries
+		icon = GFX_goal_generic_production2
+		prerequisite = { focus = CAS_rail_project }
+		x = -2
+		y = 1
+		relative_position_id = CAS_rail_project
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 25
+		}
+
+		available = {
+			controls_state = 175
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+
+		completion_reward = {
+			175 = {
+				add_resource = {
+					type = steel
+					amount = 15
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = CAS_oil
+		icon = GFX_goal_generic_oil_refinery
+		prerequisite = { focus = CAS_rail_project }
+		x = 0
+		y = 1
+		relative_position_id = CAS_rail_project
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 25
+		}
+
+		available = {
+			controls_state = 175
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+
+		completion_reward = {
+			175 = {
+				add_resource = {
+					type = oil
+					amount = 5
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = CAS_autarky
+		icon = GFX_goal_generic_consumer_goods
+		prerequisite = { focus = CAS_rail_project }
+		x = 2
+		y = 1
+		relative_position_id = CAS_rail_project
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 25
+			modifier = {
+				factor = 2
+		
+			}
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+
+		completion_reward = {
+			add_political_power = 10
+		}
+	}
+
+	focus = {
+		id = CAS_bureau_of_industry
+		icon = GFX_goal_generic_production
+		prerequisite = { focus = CAS_oil = CAS_rail_project }
+		x = 0
+		y = 2
+		relative_position_id = CAS_oil
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 25
+			modifier = {
+				factor = 2
+				has_completed_focus = NZL_wairarapa_sheep_farms
+			}
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+
+		complete_tooltip = {
+			random_state = {
+				limit = {
+					
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				prioritize = {  }
+				limit = {				
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+				
+			}
+		}
+	}
+
+	focus = {
+		id = CAS_research_development
+		icon = GFX_focus_research
+		prerequisite = { focus = CAS_bureau_of_industry }
+		x = -1
+		y = 3
+		relative_position_id = CAS_rail_project
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 35
+			modifier = {
+				factor = 2
+				
+			}
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+		search_filters = { FOCUS_FILTER_RESEARCH }
+
+		completion_reward = {
+			add_research_slot = 1
+		}
+	}
+
+	
+
+	############################
+	####### ARMY SECTION #######
+	############################
+	
+	focus = {
+		id = CAS_army_reforms
+		icon = GFX_goal_generic_army_doctrines
+		x = 30
+		y = 0
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 2
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+		search_filters = { FOCUS_FILTER_RESEARCH }
+
+		completion_reward = {
+			army_experience = 25
+			add_doctrine_cost_reduction = {
+				name = CAS_army_reforms
+				cost_reduction = 0.5
+				uses = 1
+				category = land_doctrine
+			}
+		}
+	}
+
+	focus = {
+		id = CAS_charlton_automatic_rifle
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { focus = CAS_army_reforms }
+		x = -1
+		y = 1
+		relative_position_id = CAS_army_reforms
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 25
+			modifier = {
+				factor = 2
+				
+			}
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+		search_filters = { FOCUS_FILTER_RESEARCH }
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = CAS_army_better_cool
+				bonus = 1.0
+				uses = 1
+				category = infantry_weapons
+			}
+		}
+	}
+
+	focus = {
+		id = CAS_panzer
+		icon = GFX_focus_NZL_bob_semple_tank		#VEHICLE OF GLORIOUS DESIGN BOB SEMPLE TANK MUST HAVE UNIQUE ICON
+		prerequisite = { focus = CAS_army_reforms }
+		x = 1
+		y = 1
+		relative_position_id = CAS_army_reforms
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 25
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+			OR = {
+				has_tech = basic_light_tank
+				has_tech = basic_light_tank_chassis
+			}
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+		search_filters = { FOCUS_FILTER_RESEARCH }
+
+		completion_reward = {
+			add_ideas = NZL_bob_semple_tank
+			if = {
+				limit = {
+					
+				}
+				add_tech_bonus = {
+					name = NZL_bob_semple_tank
+					bonus = 1.0
+					uses = 1
+					technology = basic_light_tank
+				}
+			}
+			else = {
+				add_tech_bonus = {
+					name = CAS_panzer
+					bonus = 1.0
+					uses = 1
+					technology = basic_light_tank_chassis
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = CAS_domestic_arms_industry
+		icon = GFX_goal_generic_construct_mil_factory
+		prerequisite = { focus = CAS_charlton_automatic_rifle }
+		x = -1
+		y = 2
+		relative_position_id = CAS_army_reforms
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 25
+			modifier = {
+				factor = 2
+				
+			}
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+
+		complete_tooltip = {
+			random_state = {
+				limit = {
+					
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				prioritize = {  }
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+				
+			}
+		}
+	}
+
+	
+
+	############################
+	##### POLITICS SECTION #####
+	############################
+
+	focus = {
+		id = CAS_beaten_defeated
+		icon = GFX_goal_generic_improve_relations
+		x = 4
+		y = 0
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 2
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_STABILITY }
+
+		completion_reward = {
+			add_ideas = NZL_first_labor_government
+		}
+	}
+
+	############################
+	## SHARED POLITICS SECTION #
+	############################
+
+	focus = {
+		id = NZL_ratana_alliance
+		icon = GFX_goal_anschluss
+		prerequisite = { focus = NZL_the_first_labor_government }
+		x = -3
+		y = 1
+		relative_position_id = NZL_the_first_labor_government
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 25
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_WAR_SUPPORT FOCUS_FILTER_STABILITY }
+
+		completion_reward = {
+			add_ideas = NZL_ratana_alliance
+		}
+	}
+
+	focus = {
+		id = NZL_maori_affairs_act
+		icon = GFX_goal_generic_construction2
+		prerequisite = { focus = NZL_ratana_alliance }
+		x = -1
+		y = 1
+		relative_position_id = NZL_ratana_alliance
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 25
+		}
+
+		available = {
+			controls_state = 284
+			controls_state = 723
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			284 = {
+				add_extra_state_shared_building_slots = 1
+			}
+			723 = {
+				add_extra_state_shared_building_slots = 1
+			}
+			add_stability = -0.05
+		}
+	}
+
+	focus = {
+		id = NZL_social_security_act
+		icon = GFX_goal_generic_forceful_treaty
+		prerequisite = { focus = NZL_ratana_alliance }
+		x = 1
+		y = 1
+		relative_position_id = NZL_ratana_alliance
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 25
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_WAR_SUPPORT FOCUS_FILTER_STABILITY FOCUS_FILTER_MANPOWER }
+
+		completion_reward = {
+			add_ideas = NZL_social_security_act
+		}
+	}
+
+	focus = {
+		id = NZL_the_manpower_act
+		icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = { focus = NZL_social_security_act focus = NZL_maori_affairs_act }
+		x = 0
+		y = 2
+		relative_position_id = NZL_ratana_alliance
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 25
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_MANPOWER }
+
+		completion_reward = {
+			add_ideas = NZL_the_manpower_act
+		}
+	}
+
+	focus = {
+		id = NZL_amend_the_maori_affairs_act
+		icon = GFX_goal_generic_construct_civilian
+		prerequisite = { focus = NZL_the_manpower_act }
+		mutually_exclusive = { focus = NZL_waitangi_tribunal }
+		x = -1
+		y = 3
+		relative_position_id = NZL_ratana_alliance
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			284 = {
+				add_extra_state_shared_building_slots = 2
+			}
+			723 = {
+				add_extra_state_shared_building_slots = 2
+			}
+			add_stability = -0.05
+		}
+	}
+
+	focus = {
+		id = NZL_waitangi_tribunal
+		icon = GFX_goal_generic_neutrality_focus
+		prerequisite = { focus = NZL_the_manpower_act }
+		mutually_exclusive = { focus = NZL_amend_the_maori_affairs_act }
+		x = 1
+		y = 3
+		relative_position_id = NZL_ratana_alliance
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 8
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_MANPOWER }
+
+		completion_reward = {
+			add_ideas = NZL_waitangi_tribunal
+		}
+	}
+
+	focus = {
+		id = NZL_maori_conscription
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { focus = NZL_amend_the_maori_affairs_act }
+		x = -1
+		y = 4
+		relative_position_id = NZL_ratana_alliance
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 25
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_MANPOWER }
+
+		completion_reward = {
+			add_ideas = NZL_maori_conscription
+		}
+	}
+
+	focus = {
+		id = NZL_maori_volunteers
+		icon = GFX_goal_generic_propaganda
+		prerequisite = { focus = NZL_waitangi_tribunal }
+		x = 1
+		y = 4
+		relative_position_id = NZL_ratana_alliance
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 25
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			unlock_decision_tooltip = NZL_demand_islands
+			division_template = {
+				is_locked = yes
+				name = "Maori Volunteers"
+				division_names_group = NZL_INF_01
+				regiments = {
+					infantry = { x = 0 y = 0 }
+					infantry = { x = 0 y = 1 }
+					infantry = { x = 0 y = 2 }
+					
+					infantry = { x = 1 y = 0 }
+					infantry = { x = 1 y = 1 }
+					infantry = { x = 1 y = 2 }
+				}
+			}
+			random_owned_controlled_state = {
+				prioritize = { 284 723 }
+				create_unit = {
+					division = " name = \"Maori Volunteers\" division_template = \"Maori Volunteers\" start_experience_factor = 0.0"
+					owner = NZL
+				}
+			}
+		}
+	}
+
+
+	#########################
+	### THE CLASH SECTION ###
+	#########################
+
+	focus = {
+		id = NZL_strengthen_the_commonwealth
+		icon = GFX_goal_tfv_strengthen_commonwealth_ties
+		prerequisite = { focus = NZL_the_first_labor_government }
+		mutually_exclusive = { focus = NZL_statute_of_westminster }
+		x = 0
+		y = 1
+		relative_position_id = NZL_the_first_labor_government
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 30
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_RESEARCH }
+
+		completion_reward = {
+			modify_tech_sharing_bonus = {
+			  	id = commonwealth_research
+			   	bonus = 0.05
+			}
+			add_political_power = 100
+			add_opinion_modifier = { target = ENG modifier = NZL_strengthen_ties } 
+			ENG = { add_opinion_modifier = { target = NZL modifier = NZL_strengthen_ties } }
+		}
+	}
+
+	focus = {
+		id = NZL_statute_of_westminster
+		icon = GFX_goal_generic_forceful_treaty
+		prerequisite = { focus = NZL_the_first_labor_government }
+		mutually_exclusive = { focus = NZL_strengthen_the_commonwealth }
+		x = 5
+		y = 1
+		relative_position_id = NZL_the_first_labor_government
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 3
+		}
+
+		available = {
+			NOT = { has_country_flag = britain_enforced_our_loyalty }
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_TFV_AUTONOMY }
+
+		completion_reward = {
+			add_political_power = 120
+			add_autonomy_ratio = {
+				value = 0.5
+				localization = NZL_statute_of_westminster
+			}
+		}
+	}
+
+	############################
+	# GO COMMONWEALTH SECTION ##
+	############################
+
+	focus = {
+		id = NZL_2nzef
+		icon = GFX_goal_generic_position_armies
+		prerequisite = { focus = NZL_strengthen_the_commonwealth }
+		x = 0
+		y = 1
+		relative_position_id = NZL_strengthen_the_commonwealth
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 25
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_ideas = NZL_2nzef
+		}
+	}
+
+	focus = {
+		id = NZL_arrest_pacifist_leaders
+		icon = GFX_goal_generic_attack_allies
+		prerequisite = { focus = NZL_2nzef }
+		x = 0
+		y = 2
+		relative_position_id = NZL_strengthen_the_commonwealth
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 25
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_WAR_SUPPORT FOCUS_FILTER_MANPOWER }
+
+		completion_reward = {
+			add_ideas = NZL_stomp_out_pacifism
+		}
+	}
+
+	focus = {
+		id = NZL_technology_sharing_with_britain
+		icon = GFX_goal_tfv_generic_tech_sharing
+		prerequisite = { focus = NZL_arrest_pacifist_leaders }
+		x = 0
+		y = 3
+		relative_position_id = NZL_strengthen_the_commonwealth
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 30
+		}
+
+		available = {
+			ENG = { has_government = ROOT }
+			is_in_tech_sharing_group = commonwealth_research
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+		search_filters = { FOCUS_FILTER_RESEARCH }
+
+		completion_reward = {
+			modify_tech_sharing_bonus = {
+ 				id = commonwealth_research
+ 				bonus = 0.05  # we get 20% higher bonus from this group
+			}
+		}
+	}
+
+	############################
+	### GO COMMUNIST SECTION ###
+	############################
+
+	focus = {
+		id = NZL_the_lee_affair
+		icon = GFX_goal_support_communism
+		prerequisite = { focus = NZL_statute_of_westminster }
+		mutually_exclusive = { focus = NZL_in_the_darkness focus = NZL_constitution_amendment_act }
+		x = 1
+		y = 1
+		relative_position_id = NZL_statute_of_westminster
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 25
+		}
+
+		available = {
+			NOT = { has_country_flag = britain_enforced_our_loyalty }
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_TFV_AUTONOMY }
+
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = NZL_first_labor_government
+				add_idea = NZL_the_workers_party_1
+			}
+		}
+	}
+
+	focus = {
+		id = NZL_empower_the_working_class
+		icon = GFX_goal_generic_propaganda
+		prerequisite = { focus = NZL_the_lee_affair }
+		x = 0
+		y = 1
+		relative_position_id = NZL_the_lee_affair
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 25
+		}
+
+		available = {
+			is_subject = no
+			has_government = communism
+			NOT = { has_war_together_with = ENG }
+			NOT = { has_country_flag = britain_enforced_our_loyalty }
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_TFV_AUTONOMY FOCUS_FILTER_POLITICAL FOCUS_FILTER_INDUSTRY }
+
+		completion_reward = {
+			ENG = { remove_from_faction = ROOT }
+			add_political_power = 100
+			OVERLORD = {
+				set_autonomy = {
+					target = NZL
+					autonomy_state = autonomy_free
+				}
+			}
+
+			swap_ideas = {
+				remove_idea = NZL_the_workers_party_1
+				add_idea = NZL_the_workers_party_2
+			}
+		}
+	}
+
+	focus = {
+		id = NZL_join_comintern
+		icon = GFX_goal_generic_alliance
+		prerequisite = { focus = NZL_empower_the_working_class }
+		x = 0
+		y = 2
+		relative_position_id = NZL_the_lee_affair
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 25
+		}
+
+		available = {
+			is_subject = no
+			has_government = communism
+			SOV_comintern_joinable = yes 
+			NOT = { has_country_flag = britain_enforced_our_loyalty }
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			SOV = { country_event = { id = tfv_new_zealand.1 } }
+		}
+	}
+
+	focus = {
+		id = NZL_technology_sharing_with_soviet_union
+		icon = GFX_goal_tfv_generic_tech_sharing
+		prerequisite = { focus = NZL_join_comintern }
+		x = 0
+		y = 3
+		relative_position_id = NZL_the_lee_affair
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 30
+		}
+
+		available = {
+			has_government = communism
+			SOV = { has_government = communism }
+			is_subject = no
+			is_in_faction_with = SOV
+			NOT = { has_country_flag = britain_enforced_our_loyalty }
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_RESEARCH }
+
+		completion_reward = {
+		
+			SOV = { add_to_tech_sharing_group = comintern_research }
+			add_to_tech_sharing_group = comintern_research
+		}
+	}
+
+
+	############################
+	#### GO FASCIST SECTION ####
+	############################
+
+	focus = {
+		id = NZL_in_the_darkness
+		icon = GFX_goal_support_fascism
+		prerequisite = { focus = NZL_statute_of_westminster }
+		mutually_exclusive = { focus = NZL_the_lee_affair focus = NZL_constitution_amendment_act }
+		x = -3
+		y = 1
+		relative_position_id = NZL_statute_of_westminster
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 25
+		}
+
+		available = {
+			NOT = { has_country_flag = britain_enforced_our_loyalty }
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_TFV_AUTONOMY }
+
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = NZL_first_labor_government
+				add_idea = NZL_in_the_darkness
+			}
+		}
+	}
+
+	focus = {
+		id = NZL_befriend_japan
+		icon = GFX_goal_generic_improve_relations
+		prerequisite = { focus = NZL_in_the_darkness }
+		mutually_exclusive = { focus = NZL_rule_them_all }		
+		x = 0
+		y = 1
+		relative_position_id = NZL_in_the_darkness
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 25
+		}
+
+		available = {
+			NOT = { has_war_with = JAP }
+			JAP = { has_government = ROOT }
+			is_subject = no
+			has_government = fascism			
+			NOT = { has_country_flag = britain_enforced_our_loyalty }
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			JAP = { country_event = { id = tfv_new_zealand.4 } }
+		}
+	}
+
+	focus = {
+		id = NZL_rule_them_all
+		icon = GFX_goal_generic_demand_territory
+		prerequisite = { focus = NZL_in_the_darkness }
+		mutually_exclusive = { focus = NZL_befriend_japan }
+		x = 2
+		y = 1
+		relative_position_id = NZL_in_the_darkness
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 25
+		}
+
+		available = {
+			is_subject = no
+			NOT = { has_country_flag = britain_enforced_our_loyalty }
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+			set_rule = { can_create_factions = yes }
+			if = {
+				limit = { AST = { NOT = { has_government = ROOT } } }
+				create_wargoal = {
+					type = annex_EVERYTHING#!!!!!
+					target = AST
+					expire = 0
+				}
+				else = {
+					add_political_power = 50
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = NZL_technology_sharing_with_japan
+		icon = GFX_goal_tfv_generic_tech_sharing
+		prerequisite = { focus = NZL_befriend_japan }
+		x = 0
+		y = 2
+		relative_position_id = NZL_in_the_darkness
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 30
+		}
+
+		available = {
+			has_government = fascism
+			is_in_faction_with = JAP
+			NOT = { has_country_flag = britain_enforced_our_loyalty }
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_RESEARCH }
+
+		completion_reward = {
+			JAP = { add_to_tech_sharing_group = japanese_research }
+			add_to_tech_sharing_group = japanese_research
+		}
+	}
+
+
+	############################
+	##### GO ALONE SECTION #####
+	############################
+
+	focus = {
+		id = NZL_constitution_amendment_act
+		icon = GFX_goal_tfv_sever_ties_with_uk
+		prerequisite = { focus = NZL_statute_of_westminster }
+		mutually_exclusive = { focus = NZL_the_lee_affair focus = NZL_in_the_darkness }
+		x = 3
+		y = 1
+		relative_position_id = NZL_statute_of_westminster
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 25
+		}
+
+		available = {
+			NOT = {
+				any_country = {
+					has_war_together_with = ROOT
+					is_in_faction_with = ROOT
+				}
+			}
+			NOT = { has_country_flag = britain_enforced_our_loyalty }
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_TFV_AUTONOMY }
+
+		completion_reward = {
+			add_political_power = 70
+			add_autonomy_ratio = {
+				value = 1
+				localization = NZL_constitution_amendment_act
+			}
+		}
+	}
+
+	focus = {
+		id = NZL_independent_new_zealand
+		icon = GFX_focus_AST_never_gallipoli
+		prerequisite = { focus = NZL_constitution_amendment_act }
+		x = 0
+		y = 1
+		relative_position_id = NZL_constitution_amendment_act
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 25
+		}
+
+		available = {
+			is_subject = no
+			NOT = {
+				any_country = {
+					has_war_together_with = ROOT
+					is_in_faction_with = ROOT
+				}
+			}
+			NOT = { has_country_flag = britain_enforced_our_loyalty }
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			set_rule = { can_create_factions = yes }
+			random_country = {
+				limit = {
+					NOT = { ROOT = { is_faction_leader = yes } }
+					is_faction_leader = yes
+					is_in_faction_with = ROOT
+				}
+				remove_from_faction = ROOT
+			}
+		}
+	}
+
+
+
+}		

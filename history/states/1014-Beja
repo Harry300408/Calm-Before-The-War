@@ -1,0 +1,21 @@
+state={
+	id=1014
+	name="Suakin" 
+	manpower = 3850
+
+	state_category = pastoral
+	history={
+		owner = BEJ
+		add_core_of = BEJ 
+		
+		buildings = {
+			
+		}
+	}
+
+	provinces={
+		12725 2003 7989
+	}
+
+	local_supplies=1.0
+}

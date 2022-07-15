@@ -1,0 +1,23 @@
+state={
+	id=786
+	name="Néma" # Mauritanian Desert
+	manpower = 124200
+
+	state_category = wasteland
+
+	history={
+		owner = TRG
+		add_core_of = OUA
+		add_core_of = TRG
+		buildings = {
+			infrastructure = 0
+		}
+
+	}
+
+	provinces={
+		1897 1962 8035 10771 10779
+	}
+
+	local_supplies=0.0
+}

@@ -1,0 +1,21 @@
+state={
+	id=1008
+	name="East Darfur" 
+	manpower = 3850
+
+	state_category = pastoral
+	history={
+		owner = NOB
+		add_core_of = NOB
+		
+		buildings = {
+			
+		}
+	}
+
+	provinces={
+		4138 12836
+	}
+
+	local_supplies=1.0
+}
